@@ -1,3 +1,5 @@
 name: Ecosounds
 markdown: redcarpet
-pygments: false
+highlighter:
+gems:
+  - jekyll-sitemap
