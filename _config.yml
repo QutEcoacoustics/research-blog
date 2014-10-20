@@ -1,5 +1,8 @@
 name: Ecosounds
 markdown: redcarpet
-highlighter:
+highlighter: pygments
+safe: true
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, vendor]
 gems:
   - jekyll-sitemap
