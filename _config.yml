@@ -7,3 +7,4 @@ exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, vendor]
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-last-modified-at
