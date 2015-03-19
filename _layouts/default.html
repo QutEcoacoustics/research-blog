@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{ page.title }}</title>
-    <meta http-equiv="last-modified" content="{% last_modified_at '%F'%}" />
+    <meta http-equiv="last-modified" content="{{ {{ page.path | file_date | date_to_string '%F'}}" />
     <meta name="viewport" content="width=device-width">
 
     <!-- syntax highlighting CSS -->
