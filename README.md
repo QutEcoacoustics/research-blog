@@ -16,4 +16,6 @@ We prefer the use of Markdown source files.
 
 Images may be stored in the repo. Videos should be hosted on YouTube.
 
+Large sets of images should be stored on anothe provider (e.g. DropBox, ownCloud, onedrive, etc...)
+
  
