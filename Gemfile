@@ -4,4 +4,3 @@ gem 'github-pages', '>= 28'
 gem 'html-proofer'
 gem 'therubyracer', require: false
 gem 'jekyll-sitemap'
-gem 'jekyll-last-modified-at'
