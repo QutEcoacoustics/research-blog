@@ -8,7 +8,24 @@ redirect_from: "/VIS15/zoom/"
     <!--<link rel="stylesheet" href="css/theme-dark/annotorious-dark.css" />-->
     <link rel="stylesheet" href="css/annotorious.css" />
 
-    <script>
+	<script type="text/javascript" src="panojs/utils.js" ></script>
+	<script type="text/javascript" src="panojs/PanoJS.js" ></script>	
+ 	<script type="text/javascript" src="panojs/pyramid_imgcnv.js" ></script>
+    <script type="text/javascript" src="panojs/pyramid_falsecolor.js" ></script>
+	<!--<script type="text/javascript" src="panojs/pyramid_Zoomify.js" ></script>
+	<script type="text/javascript" src="panojs/pyramid_Bisque.js" ></script> -->
+	<script type="text/javascript" src="panojs/ext-core.js"></script>
+
+	<script type="text/javascript" src="panojs/control_info.js" ></script>
+	<script type="text/javascript" src="panojs/control_svg.js" ></script>
+	<script type="text/javascript" src="panojs/control_thumbnail.js" ></script>
+	<script type="text/javascript" src="panojs/controls.js" ></script>
+
+	
+	
+	<link rel="stylesheet" href="panojs/panojs.css" />
+
+    <script type="text/javascript" >
 		
 		/**
 		 * A utility method that transforms a relative URL to an absolute URL.
@@ -25,14 +42,151 @@ redirect_from: "/VIS15/zoom/"
 			return link.protocol + '//' + link.host + link.pathname;
 		  }
 		}
+
+        var mouseEvent = {};
+
+        document.addEventListener('mousemove', function(e){ 
+            mouseEvent = e;
+        }, false);
+        		
+		//PanoJS.MSG_BEYOND_MIN_ZOOM = null;
+		PanoJS.MSG_BEYOND_MAX_ZOOM = null;
+		var viewer1 = null;
+
+		//\panojstile_00000_14309_00000.png
+        // https://cloudstor.aarnet.edu.au/plus/public.php?service=files&t=0dd97695df456f4a185f8e012d1b65dc&path=%2F&files=panojstile_00000_00000_00000.png&download
+		function createViewer( viewer, dom_id, url, prefix, suffix, w, h, levelSpec ) {
+			if (viewer) return;
+		  
+			var tilesize = 300;
+			var myPyramid = new FalseColorPyramid(levelSpec, tilesize);
+			
+			var myProvider = new PanoJS.TileUrlProvider('','','');
+			myProvider.assembleUrl = function(xIndex, yIndex, zoom) {
+				//console.log(arguments);
+				
+				return url + prefix + myPyramid.tile_filename(zoom, xIndex, yIndex) + suffix;
+			}    
+			
+            PanoJS.prototype.moveViewer = function(coords) {
+              if (coords.x == this.x && coords.y == this.y) return;
+              var newMark = this.resolveCoordinates(mouseEvent);
+              //console.log("tx, cx, mx, delta, new mx", this.x, coords.x, this.mark.x, coords.x - this.mark.x, newMark.x);
+
+              var y = viewer.currentScale() <= 1 ? 0 : coords.y - this.mark.y;
+              this.positionTiles({ 'x' : (coords.x - this.mark.x), 'y' : y }, true);
+              this.mark = newMark;
+              this.notifyViewerMoved(coords);
+            };
+    
+
+			var viewer = new PanoJS(dom_id, {
+				tileUrlProvider : myProvider,
+				tileSize        : myPyramid.tilesize,
+				maxZoom         : myPyramid.getMaxLevel(),
+                initialZoom     : 0, // inverse for some reason!
+				imageWidth      : myPyramid.width,
+				imageHeight     : myPyramid.height,
+				blankTile       : 'images/blank300.gif',
+				loadingTile     : 'images/progress_300.gif',
+                initialPan      : {x: 0, y: -0.0}
+			});
+            window.viewer = viewer;
+            viewer.thumbnailURL = function() {       
+                return "7a667c05-825e-4870-bc4b-9cec98024f5a_101013-0000.ACI-ENT-EVN_tilethumb.png"
+            };
+            function constrainY(event) {
+                if (viewer.currentScale() <= 1) {
+                    var y = -event.y;
+                    //console.log("ex, ey, vx, vy, s, my", event.x, event.y, viewer.x, viewer.y, viewer.currentScale(), viewer.mark.y);
+
+
+                    viewer.y = 0;
+                    //viewer.x = event.x;
+                    viewer.positionTiles();
+                    //viewer.positionTiles({x: 0, y: viewer.y + event.y}, false);
+                    //viewer.positionTiles({x: 0, y: 0}, true);
+                }
+            }
+            var callbacks = {
+                viewerZoomed: constrainY,
+                viewerMoved: constrainY
+            }
+            viewer.addViewerMovedListener(callbacks)
+            viewer.addViewerZoomedListener(callbacks);
+			Ext.EventManager.addListener( window, 'resize', callback(viewer, viewer.resize) );
+			viewer.init();
+		};
+
+
+		function initViewers() {
+            var levelSpec = [
+                {
+                    level: 0,
+                    width: 4320000,
+                    height: 300
+                },
+                                {
+                    level: 1,
+                    width: 2160000,
+                    height: 300
+                },
+                                {
+                    level: 2,
+                    width: 864000,
+                    height: 300
+                },
+                                {
+                    level: 3,
+                    width: 432000,
+                    height: 300
+                },
+                                {
+                    level: 4,
+                    width: 144000,
+                    height: 300
+                },
+                                {
+                    level: 5,
+                    width: 86400,
+                    height: 300
+                },
+                                {
+                    level: 6,
+                    width: 43200,
+                    height: 300
+                },
+                                {
+                    level: 7,
+                    width: 14400,
+                    height: 300
+                },
+                                {
+                    level: 8,
+                    width: 7200,
+                    height: 300
+                },
+                                {
+                    level: 9,
+                    width: 3600,
+                    height: 300
+                },
+                                {
+                    level: 10,
+                    width: 1800,
+                    height: 300
+                },
+            ];
+
+		  createViewer( viewer1, 'viewer1', 'https://cloudstor.aarnet.edu.au/plus/public.php?service=files&t=0dd97695df456f4a185f8e012d1b65dc&path=%2F&files=', 'panojstile_', "&download", 4320000,  300, levelSpec );
+		}
+		  
+		Ext.onReady(initViewers);
+		
+
+
 		
 		window.onload = function() {
-			var image = document.querySelector("#annotatedImage");
-			image.src = toAbsoluteURL( image.src);
-			anno.makeAnnotatable(image);
-		
-			
-			
 		}
 	</script>
     <style>
@@ -50,6 +204,12 @@ redirect_from: "/VIS15/zoom/"
 	    margin: 0 auto;
 		width: 100%;
 	  }
+
+      .viewer {
+        height: 300px;
+        background: darkgray;
+        width: 1440px;
+      }
 
 	  #footer  {
 		left: 0;
@@ -81,11 +241,6 @@ redirect_from: "/VIS15/zoom/"
         font-size: 12px;
         text-align: center;
       }
-	  
-	  /* override unfocused opacity */
-	  .annotorious-item-unfocus {
-		opacity: 0.7;
-	  }
 
 	  footer {
 		text-align: center;
@@ -111,12 +266,9 @@ redirect_from: "/VIS15/zoom/"
 	  </h2>
       <div style="margin: 0 10px;">
         <div>
-			<p>TODO!</p>
-			<p>TODO!</p>
-			<p>TODO!</p>
-			<p>TODO!</p>
-			<p>TODO!</p>
-			<p>TODO!</p>
+			<div id="viewer1" class="viewer">
+
+			</div>
 		</div>
         <p class="image-caption">
           Axes: The x axis time scale varies from small-scale (top) to large scale (bottom). The scales shown are: 60, 24, 12, 6, 2, 1, 0.6, 0.2, 0.1, 0.04, 0.02 seconds/pixel. The horizontal grid-lines are at 1 kHz intervals.
