@@ -582,12 +582,17 @@ PanoJS.prototype.createPrototype = function(src, src_to_load) {
 };
     
 PanoJS.prototype.currentScale = function() {      
-    var scale = 1.0;
+    var NumberOfScales = 11;
+    var scales = [48, 24, 12, 6, 2, 1, 0.6, 0.2, 0.1, 0.04, 0.02];
+	
+	var scale = 1.0;
     if (this.zoomLevel<this.maxZoomLevel)
-      scale = 1.0 / Math.pow(2, Math.abs(this.zoomLevel-this.maxZoomLevel));
+      //scale = 1.0 / Math.pow(2, Math.abs(this.zoomLevel-this.maxZoomLevel));
+	  scale = 1.0 / (scales[this.zoomLevel] / scales[scales.length - 1]);
     else
     if (this.zoomLevel>this.maxZoomLevel)
-      scale = Math.pow(2, Math.abs(this.zoomLevel-this.maxZoomLevel));
+      //scale = Math.pow(2, Math.abs(this.zoomLevel-this.maxZoomLevel));
+	  scale = scales[this.zoomLevel] / scales[scales.length - 1];
     return scale;
 };
   
@@ -677,10 +682,12 @@ PanoJS.prototype.zoom = function(direction) {
       'x' : (coords.x - this.x),
       'y' : (coords.y - this.y)
     };
-        
+    
+	var scales = [48, 24, 12, 6, 2, 1, 0.6, 0.2, 0.1, 0.04, 0.02];
+	var scaleStep = scales[this.zoomLevel] / scales[this.zoomLevel+direction];
     var after = {
-      'x' : Math.floor(before.x * Math.pow(2, direction)),
-      'y' : Math.floor(before.y * Math.pow(2, direction))
+      'x' : Math.floor(before.x * scaleStep),
+      'y' : Math.floor(before.y * scaleStep)
     };
         
     this.x = coords.x - after.x;
