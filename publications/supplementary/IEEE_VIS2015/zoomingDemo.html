@@ -73,7 +73,7 @@ redirect_from: "/VIS15/zoom/"
                 if (this.dom_info) {
                     var l = myPyramid._pyramid[e.level],
                             s = l && l.scale || myPyramid._pyramid[myPyramid.getMaxLevel()].scale;
-                    this.dom_info.innerHTML = '<span>Image size: ' + sz.width + 'x' + sz.height + ' Scale: ' + (e.scale * 100).toFixed(2) + '% - ' + (s == 48 ? 60 : s) + ' px/ms' +
+                    this.dom_info.innerHTML = '<span>Image size: ' + sz.width + 'x' + sz.height + ' Scale: ' + (e.scale * 100).toFixed(2) + '% - ' + (s == 48 ? 60 : s) + ' px/s' +
                     ' - <a href="http://www.dimin.net/software/panojs">PanoJS3</a></span>';
                 }
             };
