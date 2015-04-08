@@ -7,7 +7,7 @@
   top: 0;
   left: 0;
   background-color: #434343;
-  overflow: hidden;     
+  overflow: visible;
  
   /* NOTE: the size and width should be set dynamically when initialized */
   width: 0;
@@ -52,6 +52,7 @@
   top: 0px;
   left: 0px;
   display: block;
+
 }
 
 /*******************************************************************************
@@ -61,7 +62,7 @@
 .viewer .thumbnail {
   position: absolute;
   right: 4px;
-  bottom: 4px;
+  bottom: -35px;
   width: 130px;
   height: 130px;
   margin: 0;
@@ -143,11 +144,20 @@
   text-align: center; 
   left: 0px; 
   padding: 5px; 
-  bottom: 0px; 
+  top: -4px;
   color: #FFFFFF; 
   text-shadow: 1px 1px 1px #000000; 
   font-size: 12px;
   text-overflow: ellipsis;  
+}
+
+.viewer .info span {
+  background-color: #262626;
+  padding: 4px;
+}
+
+.viewer .info a {
+  color: #ffffff;
 }
 
 .viewer .osd {

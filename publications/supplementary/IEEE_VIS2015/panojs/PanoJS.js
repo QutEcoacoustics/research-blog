@@ -195,7 +195,7 @@ PanoJS.prototype.init = function() {
     if (this.zoomLevel < 0 || this.zoomLevel > this.maxZoomLevel) {
             var new_level = 0;
             // here MAX defines partial fit and MIN would use full fit
-            while (this.tileSize * Math.pow(2, new_level) <= Math.max(this.width, this.height) && 
+            while (this.tileSize * this.calculateScale(new_level) <= Math.max(this.width, this.height) &&
                    new_level<=this.maxZoomLevel) {
                 this.zoomLevel = new_level;
                 new_level += 1;   
@@ -203,8 +203,8 @@ PanoJS.prototype.init = function() {
     }
       
     // move top level up and to the left so that the image is centered
-    var fullWidth = this.tileSize * Math.pow(2, this.zoomLevel);
-    var fullHeight = this.tileSize * Math.pow(2, this.zoomLevel);
+    var fullWidth = this.tileSize * this.calculateScale(this.zoomLevel);
+    var fullHeight = this.tileSize * this.calculateScale(this.zoomLevel);
     if (this.image_size) {
       var cur_size = this.currentImageSize();  
       fullWidth = cur_size.width;
@@ -580,19 +580,21 @@ PanoJS.prototype.createPrototype = function(src, src_to_load) {
     //img.style.height = this.tileSize + 'px';
     return img;
 };
+
+PanoJS.prototype.calculateScale = function(zoomLevel, zoomLevelB) {
+    if (zoomLevelB) {
+        zoomLevel = Math.abs(zoomLevel - zoomLevelB);
+    }
+    return Math.pow(2, zoomLevel);
+};
     
 PanoJS.prototype.currentScale = function() {      
-    var NumberOfScales = 11;
-    var scales = [48, 24, 12, 6, 2, 1, 0.6, 0.2, 0.1, 0.04, 0.02];
-	
 	var scale = 1.0;
     if (this.zoomLevel<this.maxZoomLevel)
-      //scale = 1.0 / Math.pow(2, Math.abs(this.zoomLevel-this.maxZoomLevel));
-	  scale = 1.0 / (scales[this.zoomLevel] / scales[scales.length - 1]);
+      scale = 1.0 / this.calculateScale(this.zoomLevel, this.maxZoomLevel);
     else
     if (this.zoomLevel>this.maxZoomLevel)
-      //scale = Math.pow(2, Math.abs(this.zoomLevel-this.maxZoomLevel));
-	  scale = scales[this.zoomLevel] / scales[scales.length - 1];
+      scale = this.calculateScale(this.zoomLevel, this.maxZoomLevel);
     return scale;
 };
   
@@ -683,8 +685,7 @@ PanoJS.prototype.zoom = function(direction) {
       'y' : (coords.y - this.y)
     };
     
-	var scales = [48, 24, 12, 6, 2, 1, 0.6, 0.2, 0.1, 0.04, 0.02];
-	var scaleStep = scales[this.zoomLevel] / scales[this.zoomLevel+direction];
+	var scaleStep = this.calculateScale(this.zoomLevel, this.zoomLevel+direction);
     var after = {
       'x' : Math.floor(before.x * scaleStep),
       'y' : Math.floor(before.y * scaleStep)
@@ -938,8 +939,8 @@ PanoJS.prototype.activate = function(pressed) {
 PanoJS.prototype.pointExceedsBoundaries = function(coords) {     
   return (coords.x < this.x ||
           coords.y < this.y ||
-          coords.x > (this.tileSize * Math.pow(2, this.zoomLevel) + this.x) ||
-          coords.y > (this.tileSize * Math.pow(2, this.zoomLevel) + this.y));
+          coords.x > (this.tileSize * this.calculateScale(this.zoomLevel) + this.x) ||
+          coords.y > (this.tileSize * this.calculateScale(this.zoomLevel) + this.y));
 };
   
 // QUESTION: where is the best place for this method to be invoked?

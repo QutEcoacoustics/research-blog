@@ -16,32 +16,33 @@ function formatInt(n, pad) {
 };   
 
 
-function FalseColorLevel( width, height, tilesize, level ) {
+function FalseColorLevel( width, height, tilesize, level, scale ) {
     this.width = width;
     this.height = height;
     this.xtiles = Math.ceil( width / tilesize );
     this.ytiles = Math.ceil( height / tilesize );
     this.level = level;
+    this.scale = scale;
 }
 
 FalseColorLevel.prototype.tiles = function() {
     return this.xtiles * this.ytiles;
-}
+};
 
 function FalseColorPyramid( levelSpec, tilesize ) {
     var levels = levelSpec.sort(function(a, b) {
         return a.level - b.level;
-    })
+    });
 
     this.width = levelSpec[0].width;
     this.height = levelSpec[0].height;
     this.tilesize = tilesize;
-    this._pyramid = Array();
+    this._pyramid = [];
     
     var min_size = (tilesize / 2) + 1;
     for (var i = 0; i < levels.length; i++) {
-        var levelSpec = levels[i];
-        var level = new FalseColorLevel(levelSpec.width, levelSpec.height, tilesize, i);
+        var currentLevelSpec = levels[i];
+        var level = new FalseColorLevel(currentLevelSpec.width, currentLevelSpec.height, tilesize, i, currentLevelSpec.scale);
         this._pyramid.push(level);
 
     }
@@ -54,14 +55,14 @@ function FalseColorPyramid( levelSpec, tilesize ) {
 
 FalseColorPyramid.prototype.getMaxLevel = function() {
     return this.levels - 1;    
-}
+};
 
 FalseColorPyramid.prototype.getLevel = function( level ) {
     if (level<this._pyramid.length)
         return this._pyramid[ level ];    
     else
         return this._pyramid[ this._pyramid.length-1 ];          
-}
+};
 
 FalseColorPyramid.prototype.tiles_upto_level = function( level ) {
     var tiles = 0;
@@ -69,20 +70,20 @@ FalseColorPyramid.prototype.tiles_upto_level = function( level ) {
         tiles = tiles + this._pyramid[i].tiles();
     }
     return tiles;
-}
+};
 
 FalseColorPyramid.prototype.tiles = function() {
     return this.tiles_upto_level( this.levels );
-}
+};
 
 FalseColorPyramid.prototype.tile_index = function( level, x_coordinate, y_coordinate ) {
     return x_coordinate + y_coordinate * this._pyramid[ level ].xtiles + this.tiles_upto_level( level );
-}
+};
 
 FalseColorPyramid.prototype.tile_filename = function( level, x_coordinate, y_coordinate ) {
     var l = formatInt( this.getLevel(level).level , 5);
     var x = formatInt(x_coordinate, 5);
     var y = formatInt(y_coordinate, 5);    
     return "" + l + "_" + x + "_" + y + ".png";//?"+level;    
-}
+};
 
