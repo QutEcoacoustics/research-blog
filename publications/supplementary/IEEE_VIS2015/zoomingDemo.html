@@ -95,9 +95,10 @@ redirect_from: "/VIS15/zoom/"
                 var maxLevel = myPyramid.getMaxLevel();
                 var maxScale = myPyramid._pyramid[maxLevel].scale;
                 var b;
-                if (zoomLevelB) {
+                if (zoomLevelB !== undefined) {
                     if (zoomLevelB > maxLevel) {
-                        b = Math.pow(maxScale) / Math.pow(2, zoomLevelB - maxLevel);
+                        //b = Math.pow(maxScale) / Math.pow(2, zoomLevelB - maxLevel);
+                        b = maxScale / Math.pow(2, zoomLevelB - maxLevel);
                     }
                     else {
                         b = myPyramid._pyramid[zoomLevelB].scale;
@@ -109,12 +110,14 @@ redirect_from: "/VIS15/zoom/"
 
                 var a;
                 if (zoomLevel > maxLevel) {
-                    a = Math.pow(maxScale) / Math.pow(2, zoomLevel - maxLevel);
+                    //a = Math.pow(maxScale) / Math.pow(2, zoomLevel - maxLevel);
+                    a = maxScale / Math.pow(2, zoomLevel - maxLevel);
                 }
                 else {
                     a = myPyramid._pyramid[zoomLevel].scale;
                 }
 
+                //console.log("factor:", a, b, a/b, zoomLevel, zoomLevelB);
                 return a /  b;
             };
 
@@ -138,12 +141,13 @@ redirect_from: "/VIS15/zoom/"
                     var y = -event.y;
                     //console.log("ex, ey, vx, vy, s, my", event.x, event.y, viewer.x, viewer.y, viewer.currentScale(), viewer.mark.y);
 
-
-                    viewer.y = 0;
-                    //viewer.x = event.x;
-                    viewer.positionTiles();
-                    //viewer.positionTiles({x: 0, y: viewer.y + event.y}, false);
-                    //viewer.positionTiles({x: 0, y: 0}, true);
+                    //if (viewer.y !== 0)  {
+                        viewer.y = 0;
+                        //viewer.x = event.x;
+                        viewer.positionTiles();
+                        //viewer.positionTiles({x: 0, y: viewer.y + event.y}, false);
+                        //viewer.positionTiles({x: 0, y: 0}, true);
+                    //}
                 }
             }
             var callbacks = {

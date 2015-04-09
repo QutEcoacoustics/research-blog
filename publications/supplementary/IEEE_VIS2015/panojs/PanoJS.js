@@ -590,11 +590,14 @@ PanoJS.prototype.calculateScale = function(zoomLevel, zoomLevelB) {
     
 PanoJS.prototype.currentScale = function() {      
 	var scale = 1.0;
-    if (this.zoomLevel<this.maxZoomLevel)
+    if (this.zoomLevel<this.maxZoomLevel) {
       scale = 1.0 / this.calculateScale(this.zoomLevel, this.maxZoomLevel);
-    else
-    if (this.zoomLevel>this.maxZoomLevel)
-      scale = this.calculateScale(this.zoomLevel, this.maxZoomLevel);
+    }
+    else if (this.zoomLevel>this.maxZoomLevel) {
+      //scale = this.calculateScale(this.zoomLevel, this.maxZoomLevel);
+      scale = this.calculateScale(this.maxZoomLevel, this.zoomLevel);
+    }
+    
     return scale;
 };
   
