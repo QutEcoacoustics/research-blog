@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<style type="text/css">
+    .MatchRow
+    {
+        border: 0 solid #CCDDFF;
+        border-width: 1px 0;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+        width: 984px;
+    }
+    .MatchRow span img, .MatchRow span audio
+    {
+        max-width: 150px;
+        max-height: 150px;
+    }
+    .MatchRow span
+    {
+        width: 150px;
+        padding: 4px;
+        margin: 0;
+        border: 0 solid #CCDDFF;
+        border-width: 0 3px;
+        display: block;
+        float: left;
+        cursor: move;
+        position: relative;
+        text-align: center;
+    }
+    #AnimalName span, #AnimalScName span, #AnaimlSound span
+    {
+        height: 40px;
+    }
+    #AnimalPhoto span, #AnimalSpectrogram span
+    {
+        height: 150px;
+    }
+</style>
+
+<div id="AnimalName" class="MatchRow"></div>
+<div id="AnimalScName" class="MatchRow"></div>
+<div id="AnimalPhoto" class="MatchRow"></div>
+<div id="AnimalSpectrogram" class="MatchRow"></div>
+<div id="AnimalSound" class="MatchRow"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="quiz.js"></script>
