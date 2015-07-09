@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Ecosounds | Publications | IEEE VIS 2015 - Towsey et al - Figure 1
-redirect_from: "/VIS15/1/"
+title: Ecosounds | Publications | IEEE VIS 2015 - Towsey et al - Figure 3
+redirect_from: "/Zoom/3/"
 ---
-
     <link rel="stylesheet" href="highlight.js/zenburn.css">
     <!--<link rel="stylesheet" href="css/theme-dark/annotorious-dark.css" />-->
     <link rel="stylesheet" href="css/annotorious.css" />
@@ -43,7 +42,7 @@ redirect_from: "/VIS15/1/"
 				},
 				{
 					text: "Crickets",
-					dimensions: [1075, 130, 200, 40] // left, top, width, height
+					dimensions: [1105, 155, 210, 100] // left, top, width, height
 				},
 				{
 					text: "Crow",
@@ -75,7 +74,7 @@ redirect_from: "/VIS15/1/"
 				},
 				{
 					text: "Cicada chorus",
-					dimensions: [1090, 260, 40, 20] // left, top, width, height
+					dimensions: [1085, 260, 45, 20] // left, top, width, height
 				}
 			
 			];
@@ -192,22 +191,22 @@ redirect_from: "/VIS15/1/"
 		left:0;
 		background:#cfcfcf;
 	}
-
     </style>    
+
     <div class="column">
-      <h1>IEEE VIS 2015 - Towsey et al - Figure 1</h1>
+      <h1>IEEE VIS 2015 - Towsey et al - Figure 3</h1>
       <p>
-          Fig. 1. An acoustic day in the life of the Australian bush as revealed in a false-color 24-hour spectrogram. 
+          Fig. 3. An acoustic day in the life of the Australian bush as revealed in a false-color 24-hour spectrogram. 
 		  This image was constructed by combining the spectrograms of three different acoustic indices in RGB colour. 	
           For more detail see: Towsey et al., <i>Visualization of long-duration acoustic recordings of the environment</i>, 
 		  presented at the The International Conference on Computational Science (ICCS 2014), Cairns, Australia, 2014.		  
       </p>
 
-      <h2>A 24-hour false-colour spectrogram produced by mapping the indices ACI-ENT-EVN to red-green-blue respectively.
+      <h2>A 24-hour false-colour spectrogram produced by mapping the indices BGN-POW-CVR to red-green-blue respectively.
 		<button id="toggleAnnotations" class="btn btn-default btn-sm" style="float:right">Hide</button>
 	  </h2>
       <div style="margin: 0 10px;">
-        <img id="annotatedImage" src="7a667c05-825e-4870-bc4b-9cec98024f5a_101013-0000.ACI-ENT-EVN.png" class="">
+        <img id="annotatedImage" src="7a667c05-825e-4870-bc4b-9cec98024f5a_101013-0000.BGN-POW-CVR.png" class="">
         <p class="image-caption">
           Axes: Vertical grid-lines are at one hour intervals, starting and ending on midnight. The horizontal grid-lines are at 1 kHz intervals.          
         </p>
@@ -219,19 +218,18 @@ redirect_from: "/VIS15/1/"
       </p>
 	  <ol>
 		<li>Morning Chorus</li>
-		<li>Crickets - Orthoptera - some tracks decline in frequency because the species is temperature sensitive.</li>
-		<li>Crows - <i>Corvus orru</i> -  note stacked harmonics</li>
-		<li>Grey Fantail - <i>Rhipidura albiscapa</i> -  the same pattern of harmonics can be seen repeated later in the day e.g. at 9am</li>
-		<li>Yellow-faced Honeyeater - <i>Lichenostomus chrysops</i></li>
+		<li>Crickets - Orthoptera - four frequency tracks of four species, flat because not temperature sensitive.</li>
+		<li>Crows - <i>Corvus orru</i> -  note that the stacked harmonics are not as clear as in the ACI-ENT-EVN spectrogram.</li>
+		<li>Grey Fantail - <i>Rhipidura albiscapa</i></li>
+		<li>Yellow-faced Honeyeater - <i>Lichenostomus chrysops</i> - poorly distinguished compared to ACI-ENT-EVN spectrogram.</li>
 		<li>Olive-backed Oriole - <i>Oriolus sagittatus</i></li>
-		<li>Striated Pardalote - <i>Pardalotus striatus</i></li>
+		<li>Striated Pardalote - <i>Pardalotus striatus</i> - poorly distinguished compared to ACI-ENT-EVN spectrogram.</li>
 		<li>Wind gusts, mild</li>
-		<li>Dog barking intermittently - green vertical lines indicate brief concentrations of acoustic energy</li>
-		<li>Cicada chorus - invisible with this combination of indices but clearly visible when indices BGN, POW and CVR are combined.</li>
+		<li>Dog barking intermittently - poorly visible compared to ACI-ENT-EVN spectrogram.</li>
+		<li>Cicada chorus - visible with this combination of indices but not visible when indices ACI, ENT and EVN are combined.</li>
 	  </ol>
 
 
 	  <footer>
-	  Last modified:  31 March 2015. This interactive figure was made with the use of the open source <a href="http://annotorious.github.io/index.html">Annotorious</a> library.
+	  Last modified: 31 March 2015. This interactive figure was made with the use of the open source <a href="http://annotorious.github.io/index.html">Annotorious</a> library.
 	  </footer>
-
