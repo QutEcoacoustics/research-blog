@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Ecosounds | Publications | Zoom - Interactive Zooming Spectrograms Demo
-redirect_from: "/Zoom/zoom/"
+title: Ecosounds | Publications | Zoom - OLD Interactive Zooming Spectrograms Demo
 ---
 
     <link rel="stylesheet" href="highlight.js/zenburn.css">
@@ -54,7 +53,7 @@ redirect_from: "/Zoom/zoom/"
 		var viewer1 = null;
 
 		//\panojstile_00000_14309_00000.png
-        // https://cloudstor.aarnet.edu.au/plus/public.php?service=files&t=0a08e1c35549739c36003a85762f19b5&path=%2F&files=panojstile_00000_00044_00000.png&download
+        // https://cloudstor.aarnet.edu.au/plus/public.php?service=files&t=0dd97695df456f4a185f8e012d1b65dc&path=%2F&files=panojstile_00000_00000_00000.png&download
 		function createViewer( viewer, dom_id, url, prefix, suffix, w, h, levelSpec ) {
 			if (viewer) return;
 		  
@@ -177,79 +176,61 @@ redirect_from: "/Zoom/zoom/"
                 },
                 {
                     level: 2,
-                    width: 1080000,
+                    width: 864000,
                     height: 300,
-                    scale: 0.08
+                    scale: 0.1
                 },
                 {
                     level: 3,
-                    width: 540000,
-                    height: 300,
-                    scale: 0.16
-                },
-                {
-                    level: 4,
                     width: 432000,
                     height: 300,
                     scale: 0.2
                 },
                 {
-                    level: 5,
-                    width: 216000,
-                    height: 300,
-                    scale: 0.4
-                },
-                {
-                    level: 6,
+                    level: 4,
                     width: 144000,
                     height: 300,
                     scale: 0.6
                 },
                 {
-                    level: 7,
+                    level: 5,
                     width: 86400,
                     height: 300,
                     scale: 1.0
                 },
                 {
-                    level: 8,
+                    level: 6,
                     width: 43200,
                     height: 300,
                     scale: 2.0
                 },
                 {
-                    level: 9,
-                    width: 21600,
-                    height: 300,
-                    scale: 4.0
-                },
-                {
-                    level: 10,
+                    level: 7,
                     width: 14400,
                     height: 300,
                     scale: 6.0
                 },
                 {
-                    level: 11,
+                    level: 8,
                     width: 7200,
                     height: 300,
                     scale: 12.0
                 },
                 {
-                    level: 12,
+                    level: 9,
                     width: 3600,
                     height: 300,
                     scale: 24.0
                 },
                 {
-                    level: 13,
+                    level: 10,
                     width: 1800,
                     height: 300,
                     scale: 48.0
                 }
             ];
-            // // https://cloudstor.aarnet.edu.au/plus/public.php?service=files&t=0a08e1c35549739c36003a85762f19b5&path=%2F&files=panojstile_00000_00044_00000.png&download
-		  createViewer( viewer1, 'viewer1', 'https://cloudstor.aarnet.edu.au/plus/public.php?service=files&t=0a08e1c35549739c36003a85762f19b5&path=%2F&files=', 'panojstile_', "&download", 4320000,  300, levelSpec );
+
+		  createViewer( viewer1, 'viewer1', 'https://cloudstor.aarnet.edu.au/plus/public.php?service=files&t=0dd97695df456f4a185f8e012d1b65dc&path=%2F&files=', 'panojstile_', "&download", 4320000,  300, levelSpec );
 		}
 		  
 		Ext.onReady(initViewers);
@@ -327,7 +308,7 @@ redirect_from: "/Zoom/zoom/"
 
     </style>    
     <div class="column">
-      <h1>Interactive Zooming Spectrograms Demo - The Navigation and Visualisation of Environmental Audio using Zooming Spectrograms</h1>
+      <h1>OLD Interactive Zooming Spectrograms Demo - The Navigation and Visualisation of Environmental Audio using Zooming Spectrograms</h1>
       {% include_relative other_figures.html %}
       <p>
           An acoustic day in the life of the Australian bush as revealed in a series of zoomable false-color spectrograms. 
@@ -335,7 +316,7 @@ redirect_from: "/Zoom/zoom/"
 		  An non-interactive, cropped, version of this image is at <a href="http://www.ecosounds.org/Zoom/4">http://www.ecosounds.org/Zoom/4</a>. 	  
       </p>
 
-      <h2>Interactive Zooming Spectrograms for a Recording from the 13th of October 2010
+      <h2>OLD Interactive Zooming Spectrograms for a Recording from the 13th of October 2010
 	  </h2>
       <div style="margin: 0 10px;">
         <div>
