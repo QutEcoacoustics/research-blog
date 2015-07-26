@@ -54,6 +54,7 @@ redirect_from: "/Zoom/zoom/"
 		var viewer1 = null;
 
 		//\panojstile_00000_14309_00000.png
+        // https://cloudstor.aarnet.edu.au/plus/index.php/s/ps7i203KgDh7Nu2/download?path=%2F&files=panojstile_00000_00000_00000.png
         // https://cloudstor.aarnet.edu.au/plus/public.php?service=files&t=0a08e1c35549739c36003a85762f19b5&path=%2F&files=panojstile_00000_00044_00000.png&download
 		function createViewer( viewer, dom_id, url, prefix, suffix, w, h, levelSpec ) {
 			if (viewer) return;
@@ -248,8 +249,9 @@ redirect_from: "/Zoom/zoom/"
                     scale: 48.0
                 }
             ];
-            // // https://cloudstor.aarnet.edu.au/plus/public.php?service=files&t=0a08e1c35549739c36003a85762f19b5&path=%2F&files=panojstile_00000_00044_00000.png&download
-		  createViewer( viewer1, 'viewer1', 'https://cloudstor.aarnet.edu.au/plus/public.php?service=files&t=0a08e1c35549739c36003a85762f19b5&path=%2F&files=', 'panojstile_', "&download", 4320000,  300, levelSpec );
+          // https://cloudstor.aarnet.edu.au/plus/public.php?service=files&t=0a08e1c35549739c36003a85762f19b5&path=%2F&files=panojstile_00000_00044_00000.png&download
+          // https://cloudstor.aarnet.edu.au/plus/index.php/s/ps7i203KgDh7Nu2/download?path=%2F&files=panojstile_00000_00000_00000.png
+		  createViewer( viewer1, 'viewer1', 'https://cloudstor.aarnet.edu.au/plus/index.php/s/ps7i203KgDh7Nu2/download?path=%2F&files=', 'panojstile_', "", 4320000,  300, levelSpec );
 		}
 		  
 		Ext.onReady(initViewers);
@@ -334,6 +336,10 @@ redirect_from: "/Zoom/zoom/"
 		  The transition from layer 8 (0.2s/px) to layer 9 (0.1s/px) is the transition from false-color BGN-POW-CVR spectrograms to the pseudo-color cubehelix representation. 
 		  An non-interactive, cropped, version of this image is at <a href="http://www.ecosounds.org/Zoom/4">http://www.ecosounds.org/Zoom/4</a>. 	  
       </p>
+      
+      <p>
+        A note to the reviewers: The host for the tiles changed their public API on the 24th of July 2015. This resulted in the demo being broken for two days until the 26th of July 2015 when it was updated and repaired.
+      </p>
 
       <h2>Interactive Zooming Spectrograms for a Recording from the 13th of October 2010
 	  </h2>
@@ -346,7 +352,7 @@ redirect_from: "/Zoom/zoom/"
         <p class="image-caption">
           Axes: The x axis time scale varies from small-scale (top) to large scale (bottom).
             <br />
-            The scales shown are: 60, 24, 12, 6, 2, 1, 0.6, 0.2, 0.1, 0.04, 0.02 seconds/pixel. The horizontal grid-lines are at 1 kHz intervals.
+            The scales shown are: 60, 24, 12, 6, 4, 2, 1, 0.6, 0.4, 0.2, 0.16, 0.08, 0.04, 0.02 seconds/pixel. The horizontal grid-lines are at 1 kHz intervals.
 			<br />
 			Zoom functionality can be controlled with the scroll wheel on a mouse. <strong>Please note zoom is focused on center of control (not mouse)</strong>.
             <br/>
@@ -358,6 +364,6 @@ redirect_from: "/Zoom/zoom/"
 
 
 	  <footer>
-	  Last modified: 20 July 2015. This interactive figure was made with the use of the open source <a href="http://www.dimin.net/software/panojs/">PanoJS</a> library.
+	  Last modified: 26 July 2015. This interactive figure was made with the use of the open source <a href="http://www.dimin.net/software/panojs/">PanoJS</a> library.
 	  </footer>
 
