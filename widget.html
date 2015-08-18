@@ -1,0 +1,123 @@
+<html>
+<head >
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style type="text/css" >
+.loginWidgetImage {
+  background-color: white;
+  margin: -10px 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.navbar-right {
+	float: right;
+}
+.navbar-right > li {
+	float: left !important;
+	margin-top: -5px;
+}
+</style>
+<script type="application/javascript">
+    /**
+     * Get any logged in information that may be available.
+     */
+    function checkLogin() {
+        var uri = "http://baw.ecosounds.org/my_account",
+                urls = {
+                    admin: "http://baw.ecosounds.org/admin",
+                    logout: "http://baw.ecosounds.org/my_account/sign_out",
+                    login: "http://baw.ecosounds.org/my_account/sign_in",
+                    register: "http://baw.ecosounds.org/my_account/sign_up"
+                },
+                adminWidget = $(".navbar-right .adminWidget"),
+                adminLink = $(".navbar-right .adminLink"),
+                profileLink = $(".navbar-right .profileLink"),
+                profileSpan = $(".navbar-right .profileSpan"),
+                profileImage = $(".navbar-right .profileImage"),
+                loginLink = $(".navbar-right .loginLink");
+
+        // attempt to use cookies to login
+        jQuery.ajax(uri, {dataType: "json"})
+            .done(loginSuccess)
+            .fail(loginFailure);
+
+        function loginSuccess(data, status) {
+            console.info("Login success");
+
+            modifyState(data.data);
+        }
+
+        function loginFailure(jqXhr, status) {
+            console.error("Login failure");
+
+            modifyState(null);
+        }
+
+        function modifyState(profile) {
+            var show = profile != null;
+
+            adminWidget.toggle(show && (profile.roles_mask === 1 || /^admin/i.test(profile.user_name)));
+            profileImage.toggle(show);
+
+            adminLink.attr("href", show ? urls.admin : undefined);
+            profileLink.attr("href", show ? uri : urls.register);
+            loginLink.attr("href", show ? urls.logout : urls.login);
+
+            var tiny;
+            if (profile) {
+                jQuery.each(profile.image_urls, function (index, item) {
+                    if (item.size === "tiny") {
+                        tiny = item;
+                    }
+                });
+            }
+            profileImage.attr("src", show ? tiny.url : undefined);
+
+            profileSpan.text(show ? profile.user_name : "Register");
+            loginLink.text(show ? "Log out" : "Log in");
+
+            if (profile) {
+
+            }
+        }
+    }
+
+    jQuery(document).ready(checkLogin);
+</script>
+</head>
+<body role="document">
+<!-- Fixed navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="navbar-collapse" >
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="adminWidget" >
+                    <a href="" target="_parent"
+                       class="loginWidgetLink adminLink">
+                        <span class="glyphicon glyphicon-cog"></span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="" target="_parent"
+                       class="loginWidgetLink profileLink"
+                       target="_self">
+                        <span class="profileSpan">{{profile.userName}}</span>
+                        <img src=""
+                             class="loginWidgetImage profileImage">
+                    </a>
+                </li>
+                <li>
+                    <a class="loginLink" target="_parent" href="">
+                        Log in
+                    </a>
+                </li>
+            </ul>
+	</div>
+</nav>
+</body>
+</html>
