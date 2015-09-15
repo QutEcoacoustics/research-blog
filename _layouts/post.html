@@ -1,9 +1,24 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<!-- Author -->
+{% if page.author %}
+	{% assign author = site.data.authors[page.author] %}
+{% endif %}
+
+<div class="page-header">
+  <h2>{{ page.title }}</h2>
+</div>
+  <p class="meta">{{ page.date | date_to_string }}</p>
+
+
 
 <div class="post">
+  	<div class="meta">
+      <img src="{{ author.image_url }}">
+      <span class="author">{{ site.authors[page.author].display_name }}</span>
+    </div>
+  {{ site.data }}
+  
 {{ content }}
 </div>
