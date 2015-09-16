@@ -6,19 +6,125 @@ layout: default
 	{% assign author = site.data.authors[page.author] %}
 {% endif %}
 
-<div class="page-header">
-  <h2>{{ page.title }}</h2>
+<style>
+	.hero_img {	
+		background-image: url({{ BASE_PATH }}{{ page.post_image }});
+		background-repeat:no-repeat;
+		background-position: center center;
+		background-size: cover;
+		
+		width:100%;
+		
+		margin-top: -4px;
+	}
+	
+	.profile {
+		margin-top: 40px;
+		
+	}
+	
+	.profile-pic {
+		width: 128px;
+		height: 128px;
+	}
+
+	.githubButton {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+	}
+
+	
+	.post {
+		font-size: 150%;
+	}
+	
+	.socialMedia {
+		line-height: 0.7em;
+		margin-top: -1.6em;
+	}
+	
+	.socialMedia>div {
+		display: inline-block;
+	}
+	
+</style>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fb_LT/sdk.js#xfbml=1&version=v2.4&appId=376766849048992";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+{% if page.post_image %}
+
+<div class="hero_img">
+
+	<div style="height: 24em;" class="">
+	</div>
+
 </div>
-  <p class="meta">{{ page.date | date_to_string }}</p>
+{% endif %}
 
+<div class="row post">
+	<div class="col-md-9">
+		<div class="page-header">
+		  <h1>{{ page.title }}
+			<br/>
+			<small>{{ page.date | date_to_string }}</small>
+		  </h1>
+		  <div class="socialMedia text-right">
+			<div class="fb-share-button" 
+				data-href="{{ BASE_PATH }}{{ page.url }}" 
+				data-layout="button_count">
+			</div>
+			
+			<div>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-via="atruskie">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="">
+			{{ content }}
+		</div>
+		
+		<p>
+			&nbsp;
+		</p>
+	</div>
 
-
-<div class="post">
-  	<div class="meta">
-      <img src="{{ author.image_url }}">
-      <span class="author">{{ site.authors[page.author].display_name }}</span>
+  	<div class="meta col-md-3">
+	  <div class="pull-right text-center profile">
+		  <img class="img-circle profile-pic" src="{{ author.image_url }}">
+		  <div class="caption">
+			<h3 class="author">{{ author.display_name }}</h3>
+			{% if author.twitter %}
+			<p>
+				<a href="https://twitter.com/{{ author.twitter }}" 
+				   class="twitter-follow-button"
+				   data-show-count="false"
+				   data-size="large">Follow @{{ author.twitter }}</a>
+				<script >!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</p>
+			{% endif %}
+			{% if author.twitter %}
+			<p>
+				<div>
+				
+				<iframe 
+					src="https://ghbtns.com/github-btn.html?user={{ author.github }}&type=follow&count=false&size=large"
+					frameborder="0" scrolling="0" width="180px" height="30px"></iframe>
+				</div>
+			</p>
+			{% endif %}
+		  </div>
+	  </div>
     </div>
-  {{ site.data }}
-  
-{{ content }}
-</div>
+</div>	
+
+

@@ -8,7 +8,6 @@
 #  short_name:
 #    display_name: Your Name
 #    image_url: /images/my_picture.jpg
-#    email: my.email@hdr.qut.edu.au 
 #    github: https://github.com/myGithubUserName
 #    twitter: https://twitter.com/myTwitterUserName
    
@@ -16,10 +15,8 @@
 yvonne:    
   display_name: Yvonne Phillips
   image_url: /images/Yvonne.jpg
-  email: y.phillips@hdr.qut.edu.au 
 anthony:
   display_name: Anthony Truskinger   
   image_url: "http://www.gravatar.com/avatar/e8ec96b6a744113f329773cb201adf4a.jpg?s=200"
-  email: a.truskinger@qut.edu.au
-  github: https://github.com/atruskie
-  twitter: https://twitter.com/atruskie
+  github: atruskie
+  twitter: atruskie
