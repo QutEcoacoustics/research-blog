@@ -18,7 +18,7 @@ title: Ecosounds | Research
 <div class="row">
 		<div class="col-md-12">
 			<div class="posts">  
-			{% for post in site.posts limit:20 %}  
+			{% for post in site.posts %}  
 				<ul class="media-list">
 					<div class="media-left">
 						<a href="{{ BASE_PATH }}{{ post.url }}">
@@ -35,7 +35,7 @@ title: Ecosounds | Research
 							<h3 class="media-heading">{{ post.title }}</h3>
 							<small class="text-muted">{{ site.data.authors[post.author].display_name }} | {{ post.date | date_to_string }}</small>
 							<p>
-								{{ post.content | strip_html | truncatewords:40 }}
+								{{ post.excerpt | strip_html | truncatewords:60 }}
 							</p>
 						</a>
 					</div>

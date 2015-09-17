@@ -3,6 +3,7 @@ layout: post
 title: Our Website
 author: anthony
 post_image: /images/IMG_20130312_172944.jpg 
+published: false
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu tincidunt ex, et vehicula purus. Maecenas commodo dictum eleifend. Vivamus eget lectus orci. Proin non dolor risus. Aliquam mollis dapibus odio, ut venenatis tellus accumsan a. Integer lobortis pretium dolor sed aliquam. Maecenas sit amet sem nunc. In feugiat risus non ipsum luctus, ut sollicitudin nunc faucibus. Sed vestibulum lorem turpis, ut sagittis augue lacinia vel. Pellentesque fermentum, dui nec placerat accumsan, lacus elit tristique leo, eget suscipit eros tellus ac massa. Vivamus porttitor sodales arcu at iaculis. Morbi ex justo, vulputate a sem ac, consequat lobortis ante. Donec pharetra sapien vitae pharetra accumsan. Vivamus lacinia imperdiet mauris sed pretium. Nunc eget vestibulum tellus, at ultricies nunc. Cras nec urna elit.
