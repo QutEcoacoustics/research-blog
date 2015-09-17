@@ -5,8 +5,6 @@ author: anthony
 post_image: /images/IMG_20130312_172944.jpg 
 ---
 
-#Hello Yuting!
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu tincidunt ex, et vehicula purus. Maecenas commodo dictum eleifend. Vivamus eget lectus orci. Proin non dolor risus. Aliquam mollis dapibus odio, ut venenatis tellus accumsan a. Integer lobortis pretium dolor sed aliquam. Maecenas sit amet sem nunc. In feugiat risus non ipsum luctus, ut sollicitudin nunc faucibus. Sed vestibulum lorem turpis, ut sagittis augue lacinia vel. Pellentesque fermentum, dui nec placerat accumsan, lacus elit tristique leo, eget suscipit eros tellus ac massa. Vivamus porttitor sodales arcu at iaculis. Morbi ex justo, vulputate a sem ac, consequat lobortis ante. Donec pharetra sapien vitae pharetra accumsan. Vivamus lacinia imperdiet mauris sed pretium. Nunc eget vestibulum tellus, at ultricies nunc. Cras nec urna elit.
 
 Nunc mauris ante, venenatis a varius ac, vestibulum vitae nulla. Etiam nec tempus odio, et elementum elit. Nullam lacus nisi, auctor sit amet congue et, imperdiet eget sapien. Vestibulum et tristique dui, nec elementum turpis. Duis viverra velit quis tortor venenatis, ac mollis ex mattis. Cras eleifend ante vitae cursus rutrum. Morbi id placerat elit, non sagittis diam. Praesent vel commodo ante, sed vulputate justo. In lacinia elementum lorem non hendrerit. Sed varius rutrum fermentum. Pellentesque molestie sem sem.
