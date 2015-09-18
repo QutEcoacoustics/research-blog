@@ -6,14 +6,19 @@
     <title>{{ site.name }} | {{ page.title }}</title>
     <meta name="viewport" content="width=device-width">
 
-    <meta property="og:url"           content="http://{{ site.host }}{{ page.url }}" />
+    <meta property="og:url"           content="{{ site.url }}{{ page.url }}" />
     <meta property="og:type"          content="website" />
     <meta property="og:title"         content="{{ site.name }} | {{ page.title }}" />
     <meta property="og:description"   content="{{ page.content | strip_html | truncatewords:50 }}" />
-    {% if page.post_image %}
-    <meta property="og:image"         content="{{ page.post_image }}" />
+    {% if page.post_image                                   %}
+    {% assign img_url = page.post_image                     %}
+    {%  if img_url contains '://'                           %}
+    {%  else                                                %}
+    {%    assign img_url = img_url | prepend: site.url      %}
+    {%  endif                                               %}
+    <meta property="og:image"         content="{{ img_url }}" />
     {% else %}
-    <meta property="og:image"         content="http://{{ site.host }}/images/2843130589_c2ac5cba39_500x320.png" />
+    <meta property="og:image"         content="{{ site.url }}/images/2843130589_c2ac5cba39_500x320.png" />
     {% endif %}
     
     
