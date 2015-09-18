@@ -9,7 +9,10 @@
     <meta property="og:url"           content="{{ site.url }}{{ page.url }}" />
     <meta property="og:type"          content="website" />
     <meta property="og:title"         content="{{ site.name }} | {{ page.title }}" />
-    <meta property="og:description"   content="{{ page.content | strip_html | truncatewords:50 }}" />
+    {% assign page_content = page.content | strip_html | truncatewords:50    %}
+    {% assign template_pos = page_content | split: '{%'                      %}
+    {% assign page_content = template_pos[0] | strip_newlines                %}
+    <meta property="og:description"   content="{{ page_content }}" />
     {% if page.post_image                                   %}
     {% assign img_url = page.post_image                     %}
     {%  if img_url contains '://'                           %}
@@ -21,6 +24,10 @@
     <meta property="og:image"         content="{{ site.url }}/images/2843130589_c2ac5cba39_500x320.png" />
     {% endif %}
     
+    <script>
+      {{ page }}
+    
+    </script>
     
     <!-- syntax highlighting CSS -->
     <link rel="stylesheet" href="/css/syntax.css">
