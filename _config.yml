@@ -3,6 +3,13 @@ markdown: redcarpet
 highlighter: pygments
 safe: true
 lsi: false
+timezone: Australia/Brisbane
+defaults:
+  scope:
+    path: ""
+    types: posts
+  values:
+    permalink: pretty
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, vendor]
 gems:
   - jekyll-sitemap

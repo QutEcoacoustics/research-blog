@@ -1,0 +1,46 @@
+---
+layout: default
+title: Ecosounds | Research
+---
+
+<style>	
+	.posts {
+		font-size: 130%;
+	}
+	
+</style>
+
+
+<div class="page-header">
+  <h1>Articles from the Research Group</h1>
+</div>
+
+<div class="row">
+		<div class="col-md-12">
+			<div class="posts">  
+			{% for post in site.posts %}  
+				<ul class="media-list">
+					<div class="media-left">
+						<a href="{{ BASE_PATH }}{{ post.url }}">
+							<div class="media-object img-thumbnail"> 
+								<div class="post-thumbnail"> 
+									<img class=""
+									src="{{ BASE_PATH }}{% if post.post_image %}{{ post.post_image }}{% else %}/images/IMG_20130312_164234_128x128.jpg{% endif %}" alt="{{ post.title }}">
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="media-body">
+						<a class="unlink" href="{{ BASE_PATH }}{{ post.url }}">
+							<h3 class="media-heading">{{ post.title }}</h3>
+							<small class="text-muted">{{ site.data.authors[post.author].display_name }} | {{ post.date | date_to_string }}</small>
+							<p>
+								{{ post.excerpt | strip_html | truncatewords:60 }}
+							</p>
+						</a>
+					</div>
+				</ul>
+			{% endfor %}  
+			</div>
+    </div>
+</div>

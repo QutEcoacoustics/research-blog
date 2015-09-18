@@ -1,16 +1,15 @@
 ---
 layout: default
-title: Ecosounds | Home
+title: Home
 ---
 
 <div id="home">
-    <div class="row">
-
-
+    <div class="page-header">
+      <h1>Welcome!</h1>
     </div>
     <div class="row">
-        <div class="col-md-6">
-            <h1>Welcome!</h1>
+		<div class="col-md-7">
+            
 
             <p>Welcome to Ecosounds, home of the QUT acoustic biodiversity monitoring lab. Led by Professor Paul Roe,
                 the lab investigates the use of acoustic sensing technology to monitoring the environment. Key areas of
@@ -22,21 +21,53 @@ title: Ecosounds | Home
                 <li>Rare and endangered species monitoring</li>
                 <li>Navigation and visualisation of long duration acoustic recordings</li>
             </ul>
-
-            <br />
-            <br />
-            <br />
-
-            <img src="images/2843130589_c2ac5cba39_500x320.png" alt="Kookaburra2" width="500" height="320" class="img-rounded">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-5 text-right">			
+			    <img src="images/2843130589_c2ac5cba39_500x320.png" alt="Kookaburra2" width="460"  class="img-rounded">
+		</div>
+    </div>
+    <div class="row">
+        <h2 class="col-md-12">Recent News</h2>
+    </div>
+    <div class="row">
+		<div class="col-md-7">
+			<div class="posts">  
+			{% for post in site.posts limit:20 %}  
+				<ul class="media-list">
+					<div class="media-left">
+						<a href="{{ BASE_PATH }}{{ post.url }}">
+							<div class="media-object img-thumbnail"> 
+								<div class="post-thumbnail"> 
+									<img class=""
+									src="{{ BASE_PATH }}{% if post.post_image %}{{ post.post_image }}{% else %}/images/IMG_20130312_164234_128x128.jpg{% endif %}" alt="{{ post.title }}">
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="media-body">
+						<a class="unlink" href="{{ BASE_PATH }}{{ post.url }}">
+							<h3 class="media-heading">{{ post.title }}</h3>
+							<small class="text-muted">{{ post.date | date_to_string }}</small>
+							<p>
+								{{ post.content | strip_html | truncatewords:40 }}
+							</p>
+						</a>
+					</div>
+				</ul>
+			{% endfor %}  
+			</div>
+		</div>
 
-
-            <h2>Recent News</h2>
+		<div  class="col-md-5">
             <a class="twitter-timeline" href="https://twitter.com/QUTEcosounds" data-widget-id="581778325187764224" height="600">Tweets by @QUTEcosounds</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
         </div>
     </div>
+    <div class="row">
+     
+
+
+    </div>    
 
 </div>

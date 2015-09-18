@@ -3,9 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ page.title }}</title>
+    <title>{{ site.name }} | {{ page.title }}</title>
     <meta name="viewport" content="width=device-width">
 
+    <meta property="og:url"           content="http://{{ site.host }}{{ page.url }}" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="{{ site.name }} | {{ page.title }}" />
+    <meta property="og:description"   content="{{ page.content | strip_html | truncatewords:50 }}" />
+    {% if page.post_image %}
+    <meta property="og:image"         content="{{ page.post_image }}" />
+    {% else %}
+    <meta property="og:image"         content="http://{{ site.host }}/images/2843130589_c2ac5cba39_500x320.png" />
+    {% endif %}
+    
+    
     <!-- syntax highlighting CSS -->
     <link rel="stylesheet" href="/css/syntax.css">
     <link rel="stylesheet" href="/css/modifications.css">
@@ -14,7 +25,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
     <style type="text/css" >
-        iframe {
+        .iframeUl iframe {
             border: none;
             outline: none;
             width: 100%;
@@ -59,6 +70,31 @@
             bottom: 0;
             width: 100%;
         }
+		
+		.unlink {
+			text-decoration: inherit;
+			color: inherit;
+		}
+		
+		.unlink:hover {
+			text-decoration: inherit;
+			color: inherit;
+		}
+		
+		.post-thumbnail	 {
+			height: 128px;
+			width: 128px;
+			overflow: hidden;
+			text-align: center;
+		}
+		
+		.post-thumbnail>img {
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+		
     </style>
 
     <!-- Javascript at end of document -->
@@ -96,16 +132,16 @@
                         <span class='caret'></span>
                         <ul class='dropdown-menu' role='menu'>
                             <li>
-                                <a href='http://research.ecosounds.org/'>About</a>
+                                <a href="{{ site.url }}/">About</a>
                             </li>
                             <li>
-                                <a href='http://research.ecosounds.org/research/research.html'>Our Work</a>
+                                <a href="{{ site.url }}/articles.html">Articles</a>
                             </li>
                             <li>
-                                <a href='http://research.ecosounds.org/people/people.html'>People</a>
+                                <a href="{{ site.url }}/people/people.html">People</a>
                             </li>
                             <li>
-                                <a href='http://research.ecosounds.org/publications/publications.html'>Publications</a>
+                                <a href="{{ site.url }}/publications/publications.html">Publications</a>
                             </li>
                         </ul>
                     </a>
@@ -122,8 +158,8 @@
 
 <div class="container" role="main" id="body-container">
     {{ content }}
+    
 </div>
-
 <footer class="clearfix">
     <div class="container">
         <div class="row-fluid">

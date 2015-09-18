@@ -1,0 +1,22 @@
+---
+  
+# Author template
+# Copy and edit the following template
+# Simply omit fields you do not want to include
+# order is not important. Do not remove old entries.
+#
+#  short_name:
+#    display_name: Your Name
+#    image_url: /images/my_picture.jpg
+#    github: https://github.com/myGithubUserName
+#    twitter: https://twitter.com/myTwitterUserName
+   
+
+yvonne:    
+  display_name: Yvonne Phillips
+  image_url: /images/Yvonne.jpg
+anthony:
+  display_name: Anthony Truskinger   
+  image_url: "http://www.gravatar.com/avatar/e8ec96b6a744113f329773cb201adf4a.jpg?s=200"
+  github: atruskie
+  twitter: atruskie
