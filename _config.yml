@@ -1,5 +1,6 @@
 name: Ecosounds
 url: http://research.ecosounds.org
+main_url: https://www.ecosounds.org
 markdown: redcarpet
 highlighter: pygments
 safe: true

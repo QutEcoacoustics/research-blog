@@ -118,7 +118,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="http://baw.ecosounds.org" class="navbar-brand">{{ site.name }}</a>
+            <a href="{{ site.main_url }}" class="navbar-brand">{{ site.name }}</a>
         </div>
 
 
@@ -127,12 +127,12 @@
         <div class="collapse navbar-collapse" id="ecosounds-navbar-collapse">
 
             <ul class="nav navbar-nav navbar-right iframeUl">
-                <iframe src="http://baw.ecosounds.org/system/listen_to/widget.html" ></iframe>
+                <iframe src="{{ site.main_url }}/system/listen_to/widget.html" ></iframe>
             </ul>
             <ul class="nav navbar-nav normalUl">
-                <li><a href="http://baw.ecosounds.org/projects">Projects</a></li>
-                <li><a href="http://baw.ecosounds.org/listen">Listen</a></li>
-                <li><a href="http://baw.ecosounds.org/library">Library</a></li>
+                <li><a href="{{ site.main_url }}/projects">Projects</a></li>
+                <li><a href="{{ site.main_url }}/listen">Listen</a></li>
+                <li><a href="{{ site.main_url }}/library">Library</a></li>
                 <li class='dropdown'>
                     <a aria-expanded='false' class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
                         Research
@@ -154,7 +154,7 @@
                     </a>
                 </li>
                 <li>
-                <li><a href="http://baw.ecosounds.org/contact_us">Contact Us</a></li>
+                <li><a href="{{ site.main_url }}/contact_us">Contact Us</a></li>
             </ul>
 
         </div>
@@ -180,11 +180,11 @@
                         Research CMS
                     </p>
                 </li>
-                <li><a href="http://www.ecosounds.org/website_status" trget="_self">Statistics</a></li>
-                <li><a href="http://research.ecosounds.org/disclaimers" target="_self">Disclaimers</a></li>
-                <li><a href="http://research.ecosounds.org/credits" target="_self">Credits</a></li>
-                <li><a href="http://research.ecosounds.org/ethics_statement" target="_self">Ethics</a></li>
-                <li><a href="http://research.ecosounds.org/contact_us" target="_self">Contact Us</a></li>
+                <li><a href="{{ site.main_url }}/website_status" trget="_self">Statistics</a></li>
+                <li><a href="{{ site.main_url }}/disclaimers" target="_self">Disclaimers</a></li>
+                <li><a href="{{ site.main_url }}/credits" target="_self">Credits</a></li>
+                <li><a href="{{ site.main_url }}/ethics_statement" target="_self">Ethics</a></li>
+                <li><a href="{{ site.main_url }}/contact_us" target="_self">Contact Us</a></li>
             </ul>
         </div>
     </div>
@@ -198,12 +198,12 @@
      * Get any logged in information that may be available.
      */
     function checkLogin() {
-        var uri = "http://baw.ecosounds.org/my_account",
+        var uri = "{{ site.main_url }}/my_account",
                 urls = {
-                    admin: "http://baw.ecosounds.org/admin",
-                    logout: "http://baw.ecosounds.org/my_account/sign_out",
-                    login: "http://baw.ecosounds.org/my_account/sign_in",
-                    register: "http://baw.ecosounds.org/my_account/sign_up"
+                    admin: "{{ site.main_url }}/admin",
+                    logout: "{{ site.main_url }}/my_account/sign_out",
+                    login: "{{ site.main_url }}/my_account/sign_in",
+                    register: "{{ site.main_url }}/my_account/sign_up"
                 },
                 adminWidget = $(".navbar-right .adminWidget"),
                 adminLink = $(".navbar-right .adminLink"),
