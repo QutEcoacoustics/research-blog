@@ -32,6 +32,21 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
     <style type="text/css" >
+        /* https://github.com/bkuhn/copyleft-guide/commit/476a42bf0d737e13a561dbaf6f4e1e91a333e80d */
+        h1[id], 
+        h2[id], 
+        h3[id], 
+        h4[id], 
+        h5[id], 
+        h6[id],
+        a[href^="#"] {
+            border-top: 55px solid transparent;
+            margin-top: -55px;
+            -webkit-background-clip: padding-box;
+            -moz-background-clip: padding;
+            background-clip: padding-box;
+        }
+              
         .iframeUl iframe {
             border: none;
             outline: none;
@@ -101,9 +116,18 @@
 			object-fit: cover;
 			object-position: center;
 		}
+    
+    .anchorjs-link {
+      color: inherit;
+      text-decoration: none;
+    }
+    
+    .anchorjs-link:hover {
+      color: inherit;
+      text-decoration: none;
+    }
 		
     </style>
-
     <!-- Javascript at end of document -->
 </head>
 <body role="document">
@@ -126,9 +150,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="ecosounds-navbar-collapse">
 
-            <ul class="nav navbar-nav navbar-right iframeUl">
+            <!--<ul class="nav navbar-nav navbar-right iframeUl">
                 <iframe src="{{ site.main_url }}/system/listen_to/widget.html" ></iframe>
-            </ul>
+            </ul>-->
             <ul class="nav navbar-nav normalUl">
                 <li><a href="{{ site.main_url }}/projects">Projects</a></li>
                 <li><a href="{{ site.main_url }}/listen">Listen</a></li>
@@ -192,11 +216,54 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="/js/anchor.min.js"></script>
+<script>
+  // only add anchors to headings with ids
+  var selector = 'h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]';
+  
+  anchors.options = {
+    //icon: '#',
+    visible: 'hover',
+    placement: 'left',
+    //class: 'bb-anchor'
+  }
+  
+  anchors.add(selector);
+</script>
+  
+<script>
+  // add bootstrap classes to tables in posts (markdown doesn't allow adding classes)
+  $(window).load(function() {
+    $(".post table").addClass("table table-bordered table-hover");
+  });
+</script>
+<script>
+  // add bootstrap tooltips to abbr elements
+  $(window).load(function() {
+    $("abbr")
+    .attr({
+      "data-toggle": "tooltip"
+    })
+    .tooltip({
+      trigger: "click hover",
+      delay: 0
+    })
+    .on("shown.bs.tooltip", function(e) {
+        // this is needed because tooltips aren't supported properly on mobile devices
+        // https://github.com/twbs/bootstrap/issues/6232
+        var trg = e.target
+        setTimeout(function() {
+          $(trg).tooltip('hide');
+        }, 3000);
+    });
+  });
+
+</script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script type="application/javascript">
     /**
      * Get any logged in information that may be available.
-     */
+     *//*
     function checkLogin() {
         var uri = "{{ site.main_url }}/my_account",
                 urls = {
@@ -259,6 +326,8 @@
     }
 
     jQuery(document).ready(checkLogin);
+    */
+
 </script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

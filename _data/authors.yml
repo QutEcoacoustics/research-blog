@@ -20,11 +20,17 @@ anthony:
   image_url: "http://www.gravatar.com/avatar/e8ec96b6a744113f329773cb201adf4a.jpg?s=200"
   github: atruskie
   twitter: atruskie
+  research_gate: Anthony_Truskinger
+  google_scholar: qu2ommMAAAAJ
+  linked_in: anthonytruskinger
 mark:
   display_name: Mark Cottman-Fields
   image_url: "http://www.gravatar.com/avatar/d0ec93026798d004ab494af4246aba7b.jpg?s=200"
   github: cofiem
   twitter: cofiem
+  research_gate: Mark_Cottman-Fields
+  google_scholar: tFOY2dQAAAAJ
+  linked_in: markcf
 jessie:
   display_name: Jessie Cappadonna
   image_url: "/images/Jess_bio_QUT.jpg"
