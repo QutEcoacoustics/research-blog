@@ -28,13 +28,53 @@ layout: default
 		width: 128px;
 		height: 128px;
 	}
+  
+  .profile p {
+    height: 38px;
+  }
 
 	.githubButton {
 		display: inline-block;
 		width: 100%;
 		text-align: center;
 	}
+  
+  .profile_badge {
+    background-color:#eee;
+    background-image:linear-gradient(#fcfcfc 0px,#eee 100%);
+    background-repeat:no-repeat;
+    border-radius:4px;
+    border-image-outset:0;
+    border-image-repeat:stretch;
+    border-image-slice:100%;
+    border-image-source:none;
+    border-image-width:1;
+    color:#333;
+    cursor:pointer;
+    display:inline-block;
+    text-decoration:none;
+    text-shadow:#fff 0 1px 0;
+    white-space:nowrap;
+    border-color:#d5d5d5;
+    border-style:solid;
+    border-width:1px;
+    padding:4px 8px 4px 8px;
+    font:700 13px/16px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    height: 28px;
+    width: 160px;
+  }
+  
+  .profile_badge img {
+    height: 100%;
+  }
 
+  .profile_badge:hover {
+    background-color:#ddd;
+    background-image:linear-gradient(#eee 0px,#ddd 100%);
+    color:#333;
+    border-color:#ccc;
+    text-decoration:none;
+  }
 	
 	.post {
 		font-size: 150%;
@@ -87,9 +127,60 @@ layout: default
 {% endif %}
 
 <div class="row post">
-	<div class="col-md-9">
+  <div class="meta col-md-3 col-md-push-9 text-center ">
+    <div class="profile">
+      <img class="img-circle profile-pic" src="{{ author.image_url }}">
+      <div class="caption">
+      <h3 class="author">{{ author.display_name }}</h3>
+      {% if author.twitter %}
+      <p>
+        <a href="https://twitter.com/{{ author.twitter }}" 
+           class="twitter-follow-button"
+           data-show-count="false"
+           data-size="large">Follow @{{ author.twitter }}</a>
+        <script >!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </p>
+      {% endif %}
+      {% if author.github %}
+      <p>
+        <iframe 
+          src="https://ghbtns.com/github-btn.html?user={{ author.github }}&type=follow&count=false&size=large"
+          frameborder="0" scrolling="0" width="180px" height="30px"></iframe>
+      </p>
+      {% endif %}
+      {% if author.google_scholar %}
+      <p>
+        <a class="profile_badge" href="https://scholar.google.com/citations?user={{ author.google_scholar }}">
+          <img src="/images/scholar_logo_30dp.png" style="margin-top: 1px;" border="0" alt="View {{ author.display_name }}'s profile on Google Scholar">
+        </a>
+      </p> 
+      {% endif %}
+      {% if author.research_gate %}
+      <p>
+        <a class="profile_badge" href="http://www.researchgate.net/profile/{{ author.research_gate }}">
+          <img src="/images/ResearchGate_Logo.png"   border="0" alt="View {{ author.display_name }}'s profile on Research Gate">
+        </a>
+      </p>
+      {% endif %}          
+      {% if author.linked_in %}
+      <p>
+        <a href="https://au.linkedin.com/in/{{ author.linked_in }}" style="display: inline-block;margin-top: 3px"  >
+          <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View {{ author.display_name }}'s profile on LinkedIn">
+        </a>
+      </p>
+      {% endif %}
+      </div>
+    </div>
+    <hr />
+    <small>
+      <a href="{{ BASE_PATH }}/articles.html">← All articles</a>
+    </small>
+  </div>
+
+
+	<div class="col-md-9 col-md-pull-3">
 		<div class="page-header">
-		  <h1>{{ page.title }}
+		  <h1 id="{{ page.title | slugify }}">{{ page.title }}
 			<br/>
 			<small>{{ page.date | date_to_string }}</small>
 		  </h1>
@@ -123,37 +214,6 @@ layout: default
     
 	</div>
 
-  	<div class="meta col-md-3 text-center ">
-      <div class="profile">
-        <img class="img-circle profile-pic" src="{{ author.image_url }}">
-        <div class="caption">
-        <h3 class="author">{{ author.display_name }}</h3>
-        {% if author.twitter %}
-        <p>
-          <a href="https://twitter.com/{{ author.twitter }}" 
-             class="twitter-follow-button"
-             data-show-count="false"
-             data-size="large">Follow @{{ author.twitter }}</a>
-          <script >!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </p>
-        {% endif %}
-        {% if author.github %}
-        <p>
-          <div>
-          
-          <iframe 
-            src="https://ghbtns.com/github-btn.html?user={{ author.github }}&type=follow&count=false&size=large"
-            frameborder="0" scrolling="0" width="180px" height="30px"></iframe>
-          </div>
-        </p>
-        {% endif %}
-        </div>
-      </div>
-      <hr />
-      <small>
-        <a href="{{ BASE_PATH }}/articles.html">← All articles</a>
-      </small>
-    </div>
 </div>	
 
 

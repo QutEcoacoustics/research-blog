@@ -6,7 +6,65 @@ post_image: /images/IMG_20130312_172944.jpg
 published: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu tincidunt ex, et vehicula purus. Maecenas commodo dictum eleifend. Vivamus eget lectus orci. Proin non dolor risus. Aliquam mollis dapibus odio, ut venenatis tellus accumsan a. Integer lobortis pretium dolor sed aliquam. Maecenas sit amet sem nunc. In feugiat risus non ipsum luctus, ut sollicitudin nunc faucibus. Sed vestibulum lorem turpis, ut sagittis augue lacinia vel. Pellentesque fermentum, dui nec placerat accumsan, lacus elit tristique leo, eget suscipit eros tellus ac massa. Vivamus porttitor sodales arcu at iaculis. Morbi ex justo, vulputate a sem ac, consequat lobortis ante. Donec pharetra sapien vitae pharetra accumsan. Vivamus lacinia imperdiet mauris sed pretium. Nunc eget vestibulum tellus, at ultricies nunc. Cras nec urna elit.
+Lorem[^1] ipsum dolor sit amet, consectetur adipiscing elit. Cras eu tincidunt ex, et vehicula purus. Maecenas commodo dictum eleifend. Vivamus eget lectus orci. Proin non dolor risus. Aliquam mollis dapibus odio, ut venenatis tellus accumsan a. Integer lobortis pretium dolor sed aliquam. Maecenas sit amet sem nunc. In feugiat risus non ipsum luctus, ut sollicitudin nunc faucibus. Sed vestibulum lorem turpis, ut sagittis augue lacinia vel. Pellentesque fermentum, dui nec placerat accumsan, lacus elit tristique leo, eget suscipit eros tellus ac massa. Vivamus porttitor sodales arcu at iaculis. Morbi ex justo, vulputate a sem ac, consequat lobortis ante. Donec pharetra sapien vitae pharetra accumsan. Vivamus lacinia imperdiet mauris sed pretium. Nunc eget vestibulum tellus, at ultricies nunc. Cras nec urna elit.
+
+
+
+## GFM Tests
+
+This do_this_and_do_that_and_another_thing text should not be emphasised. Also URL autolinking like www.google.com should occur!
+
+### Strike through
+~~This text has been crossed out~~
+
+### Fenced Code Blocks
+
+```yaml
+- hello
+- I am
+- YML
+```
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+### Tables
+
+
+| A Table | With Headings |
+| ------- | ------------- |
+| A value | another value |
+| the pipes | dont have to line up |
+
+### Smart options
+
+Double and triple dashes should be turned into -- (en) and --- (em) hyphens respectively. Quotes in text should be "fancy quotes". Hopefully ellipsis should be inserted as well...
+
+### Highlight Text
+
+==This should be wrapped in a mark==
+
+### Definition Lists
+
+<dl>
+  <dt>Lower cost</dt>
+  <dd>The new version of this product costs significantly less than the previous one!</dd>
+  <dt>Easier to use</dt>
+  <dd>We've changed the product so that it's much easier to use!</dd>
+</dl>
+
+
+### Abbreviation
+The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+
+The <abbr title="Another One For Some Reason">AOFSR</abbr> was founded in 2015.
+
+
+## Rest of the text
+
 
 Nunc mauris ante, venenatis a varius ac, vestibulum vitae nulla. Etiam nec tempus odio, et elementum elit. Nullam lacus nisi, auctor sit amet congue et, imperdiet eget sapien. Vestibulum et tristique dui, nec elementum turpis. Duis viverra velit quis tortor venenatis, ac mollis ex mattis. Cras eleifend ante vitae cursus rutrum. Morbi id placerat elit, non sagittis diam. Praesent vel commodo ante, sed vulputate justo. In lacinia elementum lorem non hendrerit. Sed varius rutrum fermentum. Pellentesque molestie sem sem.
 
@@ -25,3 +83,6 @@ Curabitur et velit sapien. Nulla aliquam sollicitudin arcu, ut porta sem gravida
 Nunc sapien nisl, fringilla sit amet sagittis at, ullamcorper non massa. Aenean placerat, enim et fermentum convallis, nunc felis elementum ex, sit amet pellentesque dolor odio a lorem. Etiam sagittis erat lorem, quis vulputate eros ullamcorper maximus. Mauris sit amet molestie libero. Ut semper, enim a consequat porta, elit purus pulvinar tortor, quis ultrices sem lorem eget est. Fusce faucibus dui eget rutrum pharetra. Aliquam id pellentesque metus. Proin placerat elit malesuada elit aliquam, consectetur luctus nulla congue. Maecenas lacinia metus vitae posuere malesuada. Quisque vel placerat risus. Quisque sed maximus magna, vel egestas libero. Quisque venenatis sagittis ornare. Donec scelerisque eros et aliquet fermentum. Vivamus efficitur ante vel justo varius, eu mollis nunc luctus. Nullam euismod commodo diam, sed placerat arcu egestas quis.
 
 Nam rhoncus aliquet turpis a fringilla. Proin eget finibus risus. Nullam dignissim nibh vitae velit sollicitudin aliquam. Cras vulputate turpis quis neque sagittis varius. Duis id dui dui. Sed in nulla pulvinar, mollis nisi in, mattis tortor. Duis rhoncus tellus eu libero pretium, feugiat tempor tellus pellentesque.
+
+
+[^1]: Unfortunately footnotes do not work in all versions of markdown.
