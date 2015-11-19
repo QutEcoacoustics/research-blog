@@ -119,10 +119,13 @@ layout: default
 {% if page.post_image %}
 
 <div class="hero_img">
-
+{% if page.post_image_height %}
+	<div style="height: {{ page.post_image_height }};" class="">
+	</div>
+{% else %}
 	<div style="height: 24em;" class="">
 	</div>
-
+{% endif %}
 </div>
 {% endif %}
 
@@ -157,7 +160,11 @@ layout: default
       {% endif %}
       {% if author.research_gate %}
       <p>
-        <a class="profile_badge" href="http://www.researchgate.net/profile/{{ author.research_gate }}">
+		{% assign rg_url = author.research_gate %}
+        {% unless rg_url contains '://' %}
+        {% assign rg_url =  rg_url | prepend: "http://www.researchgate.net/profile/" %}
+        {% endunless %}
+        <a class="profile_badge" href="{{ rg_url }}">
           <img src="/images/ResearchGate_Logo.png"   border="0" alt="View {{ author.display_name }}'s profile on Research Gate">
         </a>
       </p>

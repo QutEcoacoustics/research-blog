@@ -29,3 +29,4 @@ exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, vendor]
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jemoji
