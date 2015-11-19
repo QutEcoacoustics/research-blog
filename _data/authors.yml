@@ -50,13 +50,13 @@ jason:
   google_scholar: 2OLIbawAAAAJ
 xueyan:
   display_name: Xueyan Dong
-  image_url: "/images/xueyan.jpg"
-  research_gate: 2046671376_Xueyan_Dong
+  image_url: "/images/xueyan-small.png"
+  research_gate: https://www.researchgate.net/researcher/2046671376_Xueyan_Dong
 liang:
   display_name: Liang Zhang
   image_url: "/images/Liang.jpg"
   research_gate: Liang_Zhang76
 jinglan:
   display_name: Jinglan Zhang
-  image_url: "/images/Dr-Jinglan-Zhang.jpg"
+  image_url: "/images/Dr-Jinglan-Zhang.png"
   research_gate: Jinglan_Zhang
