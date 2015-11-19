@@ -10,12 +10,13 @@
 #    image_url: /images/my_picture.jpg
 #    github: https://github.com/myGithubUserName
 #    twitter: https://twitter.com/myTwitterUserName
-   
+#    research_gate: Anthony_Truskinger
+#    google_scholar: qu2ommMAAAAJ
+#    linked_in: anthonytruskinger
 
 yvonne:    
   display_name: Yvonne Phillips
   image_url: /images/Yvonne.jpg
-
 anthony:
   display_name: Anthony Truskinger   
   image_url: "http://www.gravatar.com/avatar/e8ec96b6a744113f329773cb201adf4a.jpg?s=200"
@@ -46,4 +47,16 @@ mangalam:
 jason:
   display_name: Jason Wimmer
   image_url: "/images/jason.jpg"
-  google_scholar:2OLIbawAAAAJ  
+  google_scholar: 2OLIbawAAAAJ
+xueyan:
+  display_name: Xueyan Dong
+  image_url: "/images/xueyan.jpg"
+  research_gate: 2046671376_Xueyan_Dong
+liang:
+  display_name: Liang Zhang
+  image_url: "/images/Liang.jpg"
+  research_gate: Liang_Zhang76
+jinglan:
+  display_name: Jinglan Zhang
+  image_url: "/images/Dr-Jinglan-Zhang.jpg"
+  research_gate: Jinglan_Zhang
