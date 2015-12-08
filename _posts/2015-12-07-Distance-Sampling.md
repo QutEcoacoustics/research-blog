@@ -2,7 +2,7 @@
 layout: post
 title: Distance Sampling
 author: michael
-post_image: /images/posts/michaeltowsey/distance-sampling-logo-long.png
+post_image: /images/posts/MichaelTowsey/distance-sampling-logo-long.png
 post_image_height: 320px
 ---
 
