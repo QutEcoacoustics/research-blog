@@ -60,3 +60,11 @@ jinglan:
   display_name: Jinglan Zhang
   image_url: "/images/Dr-Jinglan-Zhang.png"
   research_gate: Jinglan_Zhang
+michael:
+  display_name: Michael Towsey
+  image_url: "/images/mike_towsey.jpg"
+  #twitter: ~
+  research_gate: Michael_Towsey
+  #google_scholar: ~
+  linked_in: michael-towsey-2371177
+  github: towsey
