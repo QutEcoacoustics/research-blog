@@ -2,7 +2,7 @@
 layout: post
 title: What do hydrophones look like?
 author: michael
-post_image: /images/posts/michaeltowsey/Hydrophone_20151114.png
+post_image: /images/posts/MichaelTowsey/Hydrophone_20151114.png
 ---
 
 A marine microphone is shown in the above image. It is made of a hard ceramic material. 
@@ -20,11 +20,11 @@ anchored or free-floating. Cabled hydrophones are usually supplied with power th
 Uncabled hydrophones depend on batteries. For example, the hydrophones used by the Cornell Lab (see images below) 
 depend on 40 defence-grade D-cells. These along with the electronics are stored in a water-proof "float".
 
-{% include figure.html src="/images/posts/michaeltowsey/MarineHydrophoneBatteries_20151104.jpg" caption="A marine hydrophone showing one of two cradles containing 20 D-cells." %}
+{% include figure.html src="/images/posts/MichaelTowsey/MarineHydrophoneBatteries_20151104.jpg" caption="A marine hydrophone showing one of two cradles containing 20 D-cells." %}
 
-{% include figure.html src="/images/posts/michaeltowsey/MarineHydrophoneCutAway_20151104.jpg" caption="The ceramic hydrophone is stored in a white cradle to front side of the float. The float has been cut away to show the internal electronics and some of the battery storage." %}
+{% include figure.html src="/images/posts/MichaelTowsey/MarineHydrophoneCutAway_20151104.jpg" caption="The ceramic hydrophone is stored in a white cradle to front side of the float. The float has been cut away to show the internal electronics and some of the battery storage." %}
 
-{% include figure.html src="/images/posts/michaeltowsey/MarineHydrophonesDeployment_20151106.jpg" caption="Eighteen hydrophones in process of being synchronised prior to deployment at sea." %}
+{% include figure.html src="/images/posts/MichaelTowsey/MarineHydrophonesDeployment_20151106.jpg" caption="Eighteen hydrophones in process of being synchronised prior to deployment at sea." %}
 
 Ernest Rutherford, the famous new Zealand scientist who first split the atom, led pioneer research in 
 piezoelectric hydrophones. They were already in use in World War I, by British convoys as protection against 
