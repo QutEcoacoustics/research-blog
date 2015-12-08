@@ -118,7 +118,7 @@ layout: default
 
 {% if page.post_image %}
 
-<div class="hero_img">
+<div class="hero_img" style="{{ page.post_hero_style }}">
 {% if page.post_image_height %}
 	<div style="height: {{ page.post_image_height }};" class="">
 	</div>
@@ -198,11 +198,11 @@ layout: default
 		  <div class="socialMedia text-right">
 			<div class="fb-share-button" 
 				data-href="{{ BASE_PATH }}{{ page.url }}" 
-				data-layout="button_count">
+				data-layout="button">
 			</div>
 			
 			<div>
-			<a href="https://twitter.com/share" class="twitter-share-button" data-via="atruskie">Tweet</a>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-via="">Tweet</a>
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 			</div>
 		  </div>

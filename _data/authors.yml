@@ -63,7 +63,8 @@ jinglan:
 michael:
   display_name: Michael Towsey
   image_url: "/images/mike_towsey.jpg"
-  research_gate: https://www.researchgate.net/profile/Michael_Towsey
-  #google_scholar: NA
-  linked_in: michaeltowsey
-  github: https://github.com/michaeltowsey
+  #twitter: ~
+  research_gate: Michael_Towsey
+  #google_scholar: ~
+  linked_in: michael-towsey-2371177
+  github: towsey
