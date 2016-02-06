@@ -12,10 +12,16 @@ Lorem[^1] ipsum dolor sit amet, consectetur adipiscing elit. Cras eu tincidunt e
 
 ## GFM Tests
 
-This do_this_and_do_that_and_another_thing text should not be emphasised. Also URL autolinking like www.google.com should occur!
+This do_this_and_do_that_and_another_thing text should not be emphasised. Also URL autolinking like http://www.google.com
+should not occur anymore :disappointed: ! An easy way to a simple link is to use angle brackets, like this
+<http://www.google.com>.
+
+:+1: - emoji should work but currently do not seem to.
 
 ### Strike through
-~~This text has been crossed out~~
+
+I wonder if this works like this: ~~This text has been crossed out~~ hello.
+This <del>should also work</del>.
 
 ### Fenced Code Blocks
 
@@ -45,7 +51,7 @@ Double and triple dashes should be turned into -- (en) and --- (em) hyphens resp
 
 ### Highlight Text
 
-==This should be wrapped in a mark==
+<mark>This should be wrapped in a mark</mark>
 
 ### Definition Lists
 
@@ -53,7 +59,7 @@ Double and triple dashes should be turned into -- (en) and --- (em) hyphens resp
   <dt>Lower cost</dt>
   <dd>The new version of this product costs significantly less than the previous one!</dd>
   <dt>Easier to use</dt>
-  <dd>We've changed the product so that it's much easier to use!</dd>
+  <dd markdown="1">We've **changed** the product so that it's much easier to use!</dd>
 </dl>
 
 

@@ -1,20 +1,10 @@
 name: Ecosounds
 url: http://research.ecosounds.org
 main_url: https://www.ecosounds.org
-markdown: redcarpet
-redcarpet:
-  extensions: 
-    - tables
-    - smart
-    - autolink
-    - strikethrough
-    - superscript
-    - space_after_headers
-    - with_toc_data
-    - fenced_code_blocks
-    - no_intra_emphasis
-    - footnotes
-    - highlight
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
 highlighter: pygments
 safe: true
 lsi: false

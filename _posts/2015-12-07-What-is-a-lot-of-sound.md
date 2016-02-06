@@ -6,8 +6,8 @@ post_image: /images/posts/MichaelTowsey/CornellLab-audioCollection_20151106.jpg
 post_hero_style: "background-position-y: 39%;"
 ---
 
-The [ecosounds](https://www.ecosounds.org/) lab is hosting more than 21 years of audio 
-recordings of the environment. This is equivalent to about 186&thinsp;000 hours 
+The [ecosounds](https://www.ecosounds.org/) lab is hosting more than 21 years of audio
+recordings of the environment. This is equivalent to about 186&thinsp;000 hours
 of continuous audio. Total file count (at the time of writing, 
 07/Dec/2015) is 334&thinsp;302. This seems like a lot of data. Who could ever 
 possibly listen to that much sound? However, these figures should be put in 
