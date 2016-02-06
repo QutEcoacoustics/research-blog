@@ -5,7 +5,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-highlighter: rogue
+highlighter: rouge
 safe: true
 lsi: false
 timezone: Australia/Brisbane
