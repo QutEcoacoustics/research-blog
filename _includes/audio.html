@@ -1,0 +1,19 @@
+<figure class="thumbnail">
+    {% if include.soundCloudTrack %}
+    <iframe 
+        width="100%" 
+        height="166" 
+        scrolling="no" 
+        frameborder="no" 
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ include.soundCloudTrack }}%3Fsecret_token%3D{{ include.soundCloudToken }}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false">
+    </iframe>
+    {% else %}
+    <audio style="width:100%" src="{{ include.src }}" alt="{{ include.caption }}" controls="controls">
+        Your browser does not support the <code>audio</code> element.
+	</audio>
+    {% endif %}
+    
+  <figcaption style="margin-top: 0.3em" class="text-muted small">
+    <em>{{ include.caption | markdownify }}</em>
+  </figcaption>
+</figure>
