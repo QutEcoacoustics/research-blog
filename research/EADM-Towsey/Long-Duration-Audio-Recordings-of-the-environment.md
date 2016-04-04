@@ -12,7 +12,7 @@ __by Michael Towsey, Anthony Truskinger, and Paul Roe__
 ## Preface
 {:.no_toc}
 
-This page is an adaptation of presentation produced by Michael Towsey that was given to various external research groups in February and March 2016. We thought the presentation was a great summary of our current research and worthy of being republished on the Internet for everyone to see.
+This page is an adaptation of a presentation produced by Michael Towsey that was given to various external research groups in February and March 2016. We thought the presentation was a great summary of our current research and worthy of being republished on the Internet for everyone to see.
 
 You can contact [Michael](http://staff.qut.edu.au/details?id=towsey) or our research group by going to the [contact us page](https://www.ecosounds.org/contact_us).
 
