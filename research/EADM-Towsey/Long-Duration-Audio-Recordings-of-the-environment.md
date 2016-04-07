@@ -148,8 +148,9 @@ The audio shown here was provided by [Dr. Simon Linke](https://www.griffith.edu.
 
 {% include figure.html src="Slides/Slide20.png" caption="Slide 16. Audio courtesy of courtesy of Aaron Rice, Cornell Lab of Ornithology." %}
 
-
 This spectrogram is derived from a 24-hour hydrophone recording taken 15 km off the coast of Georgia, USA. The water is only 15 m deep and the hydrophone was positioned 2m off the ocean floor. Note in this case, that the horizontal gridlines are 200 Hz apart with 1 kHz full scale. The red events in the bottom spectrogram are due to passing ships. Sound can travel long distances underwater and the passage of a ship can be acoustically evident for two or more hours. Note the tendency to "pyramid shape events" because low frequencies travel further than high. In the second ship from the left, you can observe interesting interference effects due to a phenomenon called [Lloyd’s Mirror](https://en.wikipedia.org/wiki/Lloyd%27s_mirror). Sound arriving at the microphone comes directly from the ship but also comes indirectly after reflection at the ocean surface. Interference effects result because the two sound paths have slightly different lengths. Each ship has a different acoustic signature that depends on its depth in the water, propulsion mechanism and noises from inside the ship due to generators and winches.
+
+{% include audio.html soundCloudTrack="257702038" soundCloudToken="s-vfJDI" caption="A short recording demonstrating dominant acoustic activity in a marine recording off the Georgia Coast, USA. Note the low-frequency noises of the Drum fish (Pogonias cromis). Extract courtesy of Cornell Lab of Ornithology" %}
 
 The dominant bio-acoustic activity in this recording is due to fish clicks at around 100 Hz. However, in many marine recordings of the deep oceans many of the sounds have yet to be identified. Earthquakes and sonar activity (due to military and to oil exploration) also contribute to the marine sound-scape. *Marine noise pollution* is now recognised as a major problem and a contributing factor to whale and dolphin strandings.
 
@@ -251,6 +252,8 @@ The figure is provided by [Prof. Hervé Glotin](http://glotin.univ-tln.fr/). Mor
 
 {% include figure.html src="Slides/Slide31.png" caption="Slide 27." %}
 
+{% include audio.html soundCloudTrack="257705352" soundCloudToken="s-GFJdk" caption="This recording (courtesy of Hervé Glotin) demonstrates sonar beeps and the clicks produced by a sperm whale (Physeter macrocephalus)." %}
+
 The generic index which proves to be most useful to detect sperm whale clicks is the *temporal entropy index*. _Slide 27_ (top image) shows a spectrogram derived from the *H*(t) index calculated at 0.1s resolution. The "green" events in the spectrogram are those picked up by *H*(t). Note that the recording also contains many other "click" sounds, in particular, dominant sonar clicks used to monitor shipping. The sonar clicks must be removed prior to analysis and their harmonics can be easily identified using an averaged spectrum (as shown in top-right image).
 
 The sperm whale clicks are then revealed (centre-left image) and the dominant period between clicks can be shown to be 0.9 seconds (lower-right image). The important idea being demonstrated here is that generic acoustic indices can be used to solve a very specific problem. this makes generic acoustic indices extremely useful.
@@ -279,7 +282,7 @@ We are currently integrating the zooming false colour spectrograms technology in
 
 And finally a picture of our lab in the Garden Point campus of the Queensland University of Technology. This picture is taken from across the Brisbane River. Imagine the sounds in this scene. And then consider the submerged sound-scape within Brisbane River.
 
-We are at an exciting stage in our research. Ecoacoustics is a rapidly developing field with lots of potential and diverse applications. We tremendously enjoy working with our collaborators. If you see other possible applications for the visualisation and use of acoustic recordings, go to our contact page (https://www.ecosounds.org/contact_us).  
+We are at an exciting stage in our research. Ecoacoustics is a rapidly developing field with lots of potential and diverse applications. We tremendously enjoy working with our collaborators. If you see other possible applications for the visualisation and use of acoustic recordings, go to our [contact page ](https://www.ecosounds.org/contact_us).  
 
 
 ## References
