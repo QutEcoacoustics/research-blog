@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Ecosounds | Website Instructions
+layout: content
+title: Make Discoveries from Acoustic Recordings
 ---
 
 <style>
@@ -8,11 +8,6 @@ title: Ecosounds | Website Instructions
     padding-top: 1em;
   }
 </style>
-
-# Make Discoveries from Acoustic Recordings
-{:.no_toc}
-
----
 
 By Jessie Cappadonna
 

@@ -38,13 +38,19 @@
         h3[id], 
         h4[id], 
         h5[id], 
-        h6[id],
-        a[href^="#"] {
-            border-top: 55px solid transparent;
-            margin-top: -55px;
+        h6[id] {
+            border-top: 60px solid transparent;
+            margin-top: -60px;
             -webkit-background-clip: padding-box;
             -moz-background-clip: padding;
             background-clip: padding-box;
+        }
+
+        a[href^="#"]:before {
+          display: inline-block;
+          content: "";
+          height: 70px;
+          margin: -70px 0 0;
         }
               
         .iframeUl iframe {
