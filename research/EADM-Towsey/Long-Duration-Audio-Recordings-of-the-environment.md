@@ -138,7 +138,7 @@ This slide compares spectrograms from four Adelbert Range locations that are qui
 
 {% include figure.html src="Slides/Slide19.png" caption="Slide 15. Audio courtesy of courtesy of Simon Linke and Toby Gifford." %}
 
-Not many people know that fish make a lot of sound as do underwater insects and crustaceans. This slide shows the false-colour spectrogram of a 24-hour recording taken with a hydrophone in a pond in northern Queensland. Note the change in sound during the day compared to the night. All the acoustic activity in this recording is due to insects and is dominant in the 1-2 kHz band.
+Not many people know that fish make a lot of sound as do underwater insects and crustaceans. This slide shows the false-colour spectrogram of a 24-hour recording taken with a hydrophone in a pond in northern Queensland. Note the change in sound during the day compared to the night. All the acoustic activity in this recording is due to insects and is dominant in the 1-2 kHz band. You can listen to 21 seconds of underwater recording here [INSERT LINK TO RECORDING] - all the sound is due to insects.
 
 The audio shown here was provided by [Dr. Simon Linke](https://www.griffith.edu.au/environment-planning-architecture/australian-rivers-institute/members/dr-simon-linke) and [Dr. Toby Gifford](http://app.griffith.edu.au/phonebook/phone-details.php?type=B&id=1665920), of Griffith University, Brisbane, Australia. If you'd like more information on their project please contact them. 
 
@@ -158,7 +158,7 @@ The audio provided is courtesy of [Aaron Rice](http://www.birds.cornell.edu/page
 
 So far the longest false-colour spectrogram we have viewed is 24-hours long and this takes up the full width of the typical computer screen. In order to view recordings several months long a different approach must be adopted. This image (_Slide 17_) represents 44 days of continuous marine recording from the same site as the previous slide. The 24-hour spectrograms have been reduced to height of 32 pixels but retaining the full 24-hour width. Concatenating the daily spectrograms nicely reveals long-term seasonal acoustic patterns.
 
-The noise from passing ships is clearly apparent. The direction, speed and proximity of each ship can be determined by the shape and extension of its pyramid shape. The second dominating component of this sound-scape is the cyan-blue acoustic events at night from day 33 onwards. These are due to the chorusing of the black-drum fish.
+The noise from passing ships is clearly apparent. The direction, speed and proximity of each ship can be determined by the shape and extension of its pyramid shape. The second dominating component of this sound-scape is the cyan-blue acoustic events at night from day 33 onwards. These are due to the chorusing of the black-drum fish. Because of their low frequency, the calls of the Black Drum fish carry a great distance, even 15 kilometres towards the coast.
 
 {% include audio.html soundCloudTrack="257702038" soundCloudToken="s-vfJDI" caption="A short recording demonstrating dominant acoustic activity in a marine recording off the Georgia Coast, USA. Note the low-frequency noises of the Drum fish (Pogonias cromis). Extract courtesy of Cornell Lab of Ornithology" %}
 
@@ -242,15 +242,15 @@ This work in this slide forms part of the research for Liang Zhang, QUT Ecoacous
 
 {% include figure.html src="Slides/Slide30.png" caption="Slide 26. Figure courtesy of Hervé Glotin" %}
 
-_Slide 26_ shows the Mediterranean Sea and the south coast of France. The city of Toulon is on the left. A few kilometres off the coast, the sea level suddenly drops from 200m to 2000m. The submarine cliff face is carved out by canyons in which sperm whales like to hunt. A hydrophone rig (known as BOMBYX) is placed at the top of one of these canyons. Sperm whales hunt for their prey by emitting sonar clicks and their presence can be detected by identifying clicks at a characteristic periodicity of about one second.
+_Slide 26_ shows the Mediterranean Sea and the south coast of France. The city of Toulon is on the left. A few kilometres off the coast, the sea level suddenly drops from 200m to 2000m. The submarine cliff face is carved out by canyons in which sperm whales like to hunt. A hydrophone rig (known as BOMBYX) is placed at the top of one of these canyons. Sperm whales hunt for their prey by emitting sonar clicks and their presence can be detected by identifying clicks at a characteristic periodicity of about one second. You can listen to a short recording of sperm whale clicks here. The first four seconds of the recording are dominated by sonar clicks. When they cease, you can more easily hear the sperm whale clicks.
+
+{% include audio.html soundCloudTrack="257705352" soundCloudToken="s-GFJdk" caption="This recording (courtesy of Hervé Glotin) demonstrates sonar beeps and the clicks produced by a sperm whale (Physeter macrocephalus)." %}
 
 This is typically a problem where code would be written to automate the recognition of sperm whale clicks. Another approach is to calculate *generic acoustic indices* but this time calculated at 0.1 second resolution rather than one-minute resolution.
 
 The figure is provided by [Prof. Hervé Glotin](http://glotin.univ-tln.fr/). More information on the BOMBYX project can be found [here](http://glotin.univ-tln.fr/BOMBYX/).
 
 {% include figure.html src="Slides/Slide31.png" caption="Slide 27." %}
-
-{% include audio.html soundCloudTrack="257705352" soundCloudToken="s-GFJdk" caption="This recording (courtesy of Hervé Glotin) demonstrates sonar beeps and the clicks produced by a sperm whale (Physeter macrocephalus)." %}
 
 The generic index which proves to be most useful to detect sperm whale clicks is the *temporal entropy index*. _Slide 27_ (top image) shows a spectrogram derived from the *H*(t) index calculated at 0.1s resolution. The "green" events in the spectrogram are those picked up by *H*(t). Note that the recording also contains many other "click" sounds, in particular, dominant sonar clicks used to monitor shipping. The sonar clicks must be removed prior to analysis and their harmonics can be easily identified using an averaged spectrum (as shown in top-right image).
 
