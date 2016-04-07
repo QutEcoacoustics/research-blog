@@ -1,18 +1,16 @@
 ---
-layout: default
-title: "Long-duration Audio-recordings of the Environment: Visualisation & Analysis"
-author: michael
-post_image: /images/IMG_20130312_172944.jpg
+layout: content
+title: "Long-duration Audio-recordings of the Environment"
+subtitle: "Visualisation & Analysis"
+redirect_from: "/LDARE/"
 ---
-
-# Long-duration Audio-recordings of the Environment <br/><small>Visualisation & Analysis</small>
 
 __by Michael Towsey, Anthony Truskinger, and Paul Roe__
 
 ## Preface
 {:.no_toc}
 
-This page is an adaptation of a presentation produced by Michael Towsey that was given to various external research groups in February and March 2016. We thought the presentation was a great summary of our current research and worthy of being republished on the Internet for everyone to see.
+This page is an adaptation of a presentation produced by Michael Towsey that was given to various external research groups in February and March 2016. It is a good summary of our current research.
 
 You can contact [Michael](http://staff.qut.edu.au/details?id=towsey) or our research group by going to the [contact us page](https://www.ecosounds.org/contact_us).
 
@@ -36,7 +34,7 @@ Many of our recordings have been obtained at the Samford Ecological Research Fac
 
 {% include audio.html soundCloudTrack="257026322" soundCloudToken="s-yoOf8" caption="A short snippet of the Lewins Rail on the edges of Brisbane City" %}
 
-Ecologists have long worked with [spectrograms](https://en.wikipedia.org/wiki/Spectrogram), two dimensional representations of sound, with *time* as the x-axis and *frequency* (Hertz or kilohertz) as the y-axis. Sound amplitude is coded by the grey-scale intensity. The typical spectrogram will be a few seconds long, or as long as required to demonstrate the animal call of interest. We have used acoustic recordings to monitor the cryptic Lewins Rail on the edges of Brisbane City. The sounds at 8 kHz and above in the spectrogram are due to crickets. There are at least four other birds also calling. However, if we want to prepare a spectrogram of a 24-hour recording at similar scale to that shown in __Slide 2__., it would require a computer screen **1.2 kilometres wide**!
+Ecologists have long worked with [spectrograms](https://en.wikipedia.org/wiki/Spectrogram), two dimensional representations of sound, with *time* as the x-axis and *frequency* (Hertz or kilohertz) as the y-axis. Sound amplitude is coded by the grey-scale intensity. The typical spectrogram will be a few seconds long, or as long as required to demonstrate the animal call of interest. We have used acoustic recordings to monitor the cryptic Lewins Rail on the edges of Brisbane City. The sounds at 8 kHz and above in the spectrogram are due to crickets. There are at least four other birds also calling. However, if we want to prepare a spectrogram of a 24-hour recording at similar scale to that shown in _Slide 2_, it would require a computer screen **1.2 kilometres wide**!
 
 An additional problem with acoustic recordings is that technological advances now make it possible to record days, months, or even years of audio--far in excess of what can ever be listened to. Clearly some kind of audio reduction is required. Visualisation of sound is a promising approach because, of all the human senses, the visual sense has the greatest capacity to synthesise and integrate large amounts of information.
 
@@ -150,8 +148,6 @@ The audio shown here was provided by [Dr. Simon Linke](https://www.griffith.edu.
 
 This spectrogram is derived from a 24-hour hydrophone recording taken 15 km off the coast of Georgia, USA. The water is only 15 m deep and the hydrophone was positioned 2m off the ocean floor. Note in this case, that the horizontal gridlines are 200 Hz apart with 1 kHz full scale. The red events in the bottom spectrogram are due to passing ships. Sound can travel long distances underwater and the passage of a ship can be acoustically evident for two or more hours. Note the tendency to "pyramid shape events" because low frequencies travel further than high. In the second ship from the left, you can observe interesting interference effects due to a phenomenon called [Lloyd’s Mirror](https://en.wikipedia.org/wiki/Lloyd%27s_mirror). Sound arriving at the microphone comes directly from the ship but also comes indirectly after reflection at the ocean surface. Interference effects result because the two sound paths have slightly different lengths. Each ship has a different acoustic signature that depends on its depth in the water, propulsion mechanism and noises from inside the ship due to generators and winches.
 
-{% include audio.html soundCloudTrack="257702038" soundCloudToken="s-vfJDI" caption="A short recording demonstrating dominant acoustic activity in a marine recording off the Georgia Coast, USA. Note the low-frequency noises of the Drum fish (Pogonias cromis). Extract courtesy of Cornell Lab of Ornithology" %}
-
 The dominant bio-acoustic activity in this recording is due to fish clicks at around 100 Hz. However, in many marine recordings of the deep oceans many of the sounds have yet to be identified. Earthquakes and sonar activity (due to military and to oil exploration) also contribute to the marine sound-scape. *Marine noise pollution* is now recognised as a major problem and a contributing factor to whale and dolphin strandings.
 
 The audio provided is courtesy of [Aaron Rice](http://www.birds.cornell.edu/page.aspx?pid=1735&id=205), Cornell Lab of Ornithology, Cornell University, NYS, USA.
@@ -162,7 +158,9 @@ The audio provided is courtesy of [Aaron Rice](http://www.birds.cornell.edu/page
 
 So far the longest false-colour spectrogram we have viewed is 24-hours long and this takes up the full width of the typical computer screen. In order to view recordings several months long a different approach must be adopted. This image (_Slide 17_) represents 44 days of continuous marine recording from the same site as the previous slide. The 24-hour spectrograms have been reduced to height of 32 pixels but retaining the full 24-hour width. Concatenating the daily spectrograms nicely reveals long-term seasonal acoustic patterns.
 
-The noise from passing ships is clearly apparent. The direction, speed and proximity of each ship can be determined by the shape and extension of its pyramid shape. The second dominating component of this sound-scape is the cyan-blue acoustic events at night from day 33 onwards. These are due to the chorusing of the black-drum fish. [LINK TO RECORDING]
+The noise from passing ships is clearly apparent. The direction, speed and proximity of each ship can be determined by the shape and extension of its pyramid shape. The second dominating component of this sound-scape is the cyan-blue acoustic events at night from day 33 onwards. These are due to the chorusing of the black-drum fish.
+
+{% include audio.html soundCloudTrack="257702038" soundCloudToken="s-vfJDI" caption="A short recording demonstrating dominant acoustic activity in a marine recording off the Georgia Coast, USA. Note the low-frequency noises of the Drum fish (Pogonias cromis). Extract courtesy of Cornell Lab of Ornithology" %}
 
 The third dominating component of this sound-scape occurs during days 9-13. The green lines are due to unidentified “knocking” sounds, something hitting or biting the hydrophone. There were no hurricanes or other meteorological events before or during days 9-13 that might explain these acoustic events. Fishing net strikes are a major problem for marine mammals in the area and may be a possible explanation. In order to get a better understanding of these events, we can add other annotations to the spectrograms as in the next slide.
 
