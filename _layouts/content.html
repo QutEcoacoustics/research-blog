@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<style>
+  h2,h3,h4,h5,h6 {
+    padding-top: 2em;
+  }
+
+</style>
+<div class="col-md-10 col-md-offset-1">
+    <div class="content">
+      <div class="page-header">
+        <h1 id="{{ page.title | slugify }}">{{ page.title }}
+        {% if page.subtitle %}
+        <br/>
+        <small>{{ page.subtitle }}</small>
+        {% endif %}
+        </h1>
+
+        {% include social_media.html %}
+      </div>
+      
+ 
+      {{ content }}
+    </div>
+    
+    <p>
+      &nbsp;
+      
+    </p>
+</div>

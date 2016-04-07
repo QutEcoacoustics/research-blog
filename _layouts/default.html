@@ -38,13 +38,19 @@
         h3[id], 
         h4[id], 
         h5[id], 
-        h6[id],
-        a[href^="#"] {
-            border-top: 55px solid transparent;
-            margin-top: -55px;
+        h6[id] {
+            border-top: 60px solid transparent;
+            margin-top: -60px;
             -webkit-background-clip: padding-box;
             -moz-background-clip: padding;
             background-clip: padding-box;
+        }
+
+        a[href^="#"]:before {
+          display: inline-block;
+          content: "";
+          height: 70px;
+          margin: -70px 0 0;
         }
               
         .iframeUl iframe {
@@ -78,6 +84,11 @@
                 margin-left: 15px;
                 margin-right: 15px;
             }
+        }
+        
+        #body-container {
+            /* allow for the footer getting taller */
+            margin-bottom: 125px;
         }
 
         footer {
@@ -189,7 +200,6 @@
 
 <div class="container" role="main" id="body-container">
     {{ content }}
-    
 </div>
 <footer class="clearfix">
     <div class="container">
@@ -217,6 +227,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="/js/anchor.min.js"></script>
+<script async type="text/javascript"  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 <script>
   // only add anchors to headings with ids
   var selector = 'h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]';

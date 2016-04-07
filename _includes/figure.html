@@ -1,8 +1,8 @@
-<figure class="thumbnail">
+<figure class="figure thumbnail">
 	<a href="{{ include.src }}">
 		<img src="{{ include.src }}" alt="{{ include.caption }}">
 	</a>
   <figcaption style="margin-top: 0.3em" class="text-muted small">
-    <em>{{ include.caption }}</em>
+    <em>{{ include.caption | markdownify }}</em>
   </figcaption>
 </figure>

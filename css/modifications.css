@@ -43,3 +43,48 @@ body {
     padding-bottom: 15px;
     border-bottom: 2px solid #ddd;
 }
+
+/* Layouts */
+
+.post {
+  font-size: 133%;
+  text-align: justify;
+}
+.content p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+/* Style for includes */
+/* figure */
+
+.figure {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center
+}
+
+figure img {
+  width: 100%
+}
+
+figure figcaption {
+  text-align: left;
+}
+
+.post .figure {
+  width: 66%;
+  margin: 0 auto;
+  text-align: center
+}
+
+.post figcaption {
+  text-align: center;
+}
+
+
+
+/* Fix Kramdown TOC and Bootstrap headers */
+.markdown-toc {
+  margin-top: 0
+}
