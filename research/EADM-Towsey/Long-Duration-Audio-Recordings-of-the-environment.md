@@ -123,7 +123,7 @@ For more information on the ongoing Sturt National Park acoustics project contac
 
 {% include figure.html src="Slides/Slide17.png" caption="Slide 13." %}
 
-This slides compares three 24-hour, false-colour spectrograms of three soundscapes from different latitudes. All these recordings were obtained in the first week of July (winter) 2015. The top PNG recording is dominated by insects. The middle Brisbane recording is dominated by birds and the bottom desert recording is dominated by wind.
+This slide compares three 24-hour, false-colour spectrograms of three soundscapes from different latitudes. All these recordings were obtained in the first week of July (winter) 2015. The top PNG recording is dominated by insects. The middle Brisbane recording is dominated by birds and the bottom desert recording is dominated by wind.
 
 Recordings courtesy of:
 
