@@ -148,7 +148,7 @@ Not many people know that fish make a lot of sound as do underwater insects and 
 
 The audio shown here was provided by [Dr. Simon Linke](https://www.griffith.edu.au/environment-planning-architecture/australian-rivers-institute/members/dr-simon-linke) and [Dr. Toby Gifford](http://app.griffith.edu.au/phonebook/phone-details.php?type=B&id=1665920), of Griffith University, Brisbane, Australia. If you'd like more information on their project please contact them. 
 
-## Ocean recordings
+## Marine recordings
 
 {% include figure.html src="Slides/Slide20.png" caption="Slide 16. Audio courtesy of courtesy of Aaron Rice, Cornell Lab of Ornithology." %}
 
