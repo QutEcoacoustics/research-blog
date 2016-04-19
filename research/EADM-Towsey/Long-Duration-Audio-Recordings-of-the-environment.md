@@ -123,7 +123,7 @@ For more information on the ongoing Sturt National Park acoustics project contac
 
 {% include figure.html src="Slides/Slide17.png" caption="Slide 13." %}
 
-This slides compares three 24-hour, false-colour spectrograms of three soundscapes from different latitudes. All these recordings were obtained in the first week of July (winter) 2015. The top PNG recording is dominated by insects. The middle Brisbane recording is dominated by birds and the bottom desert recording is dominated by wind.
+This slide compares three 24-hour, false-colour spectrograms of three soundscapes from different latitudes. All these recordings were obtained in the first week of July (winter) 2015. The top PNG recording is dominated by insects. The middle Brisbane recording is dominated by birds and the bottom desert recording is dominated by wind.
 
 Recordings courtesy of:
 
@@ -291,7 +291,7 @@ We are at an exciting stage in our research. Ecoacoustics is a rapidly developin
 
 ## References
 
-[^ACI]: N. Pieretti, A. Farina, D. Morri, A new methodology to infer the singing activity of an avian community: The Acoustic Complexity Index (ACI), _Ecological Indicators_, Volume 11, Issue 3, May 2011, Pages 868-873, ISSN 1470-160X, <http://dx.doi.org/10.1016/j.ecolind.2010.11.005>.
+[^ACI]: N. Pieretti, A. Farina, D. Morri (2011). A new methodology to infer the singing activity of an avian community: The Acoustic Complexity Index (ACI), _Ecological Indicators_, Volume 11, Issue 3, May 2011, Pages 868-873, ISSN 1470-160X, <http://dx.doi.org/10.1016/j.ecolind.2010.11.005>.
 
 [^SAN]: Sankupellay, Mangalam, Towsey, Michael W., Truskinger, Anthony, & Roe, Paul (2015) Visual fingerprints of the acoustic environment: The use of acoustic indices to characterise natural habitats. In _IEEE International Symposium on Big Data Visual Analytics (BDVA 2015)_, 22-25 September 2015, Hobart, Tas, <http://dx.doi.org/10.1109/BDVA.2015.7314306>.
 
