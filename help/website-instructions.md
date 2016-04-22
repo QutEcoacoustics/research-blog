@@ -41,7 +41,7 @@ Nature is complex, and often impacted by human encroachment. Ecologists work to 
 ## 1) Sounds of Nature: Bioacoustics and Ecoacoustics
 
 
-Nature is filled with complex and variable mosaics of acoustics. Morning is filled with the calls of birds, whereas night may be dominated by bat and frog calls depending on local conditions. When fine-tuning your ear, you might 
+Nature is filled with complex and variable mosaics of acoustics. Morning is filled with the calls of birds, whereas night may be dominated by bat and frog calls. When fine-tuning your ear, you might 
 notice that a single bird has a number of calls, but even a single call can vary each time it 
 is made. This fine-scale variation may provide important information to animal listeners, but 
 it often eludes human ears and understanding. Some bird species can mimic other species, 
@@ -52,14 +52,24 @@ communicate. When scientists study calls of particular species, this is referred
 ### 1.1) Recognising sounds
 
 Computer recognition software can now automatically recognise patterns effectively in human 
-speech. This type of software works well for people because when used there is relatively little to no background noise, and people are close to the microphones so vibrations of acoustic energy are captured well. Nature is different. Wild animals are not predictable distances from microphones. Acoustic data is often also plagued with background noises, such as weather events (e.g rain, wind, or thunder) and mechanical sounds (e.g. motorcycles or airplanes), which may drown out animal calls. Most animal calls are structured differently than acoustic patterns of human vocalisations as well. All of these factors make human recognition software only limited in effectiveness to identify animal calls. To develop recognition software 
-for even a single call of an animal species from natural recordings requires an ample amount of time, 
-patience, and money, and such software has limited accuracy.
+speech. This type of software works well for people because it assumes there is relatively little to no 
+background noise and that a person is close to the microphone resulting in a loud, clear, recording. 
+Nature is different. Wild animals are generally not close to microphones. Acoustic data is often also plagued 
+with background noises, such as weather events (e.g rain, wind, or thunder) and mechanical sounds (e.g.  
+motorcycles or aeroplanes), which may drown out animal calls. Most animal calls are structured differently than 
+the acoustic patterns of human vocalisations. All of these factors make human recognition software limited in 
+effectiveness for identifying animal calls. To develop recognition software for even a single call of an 
+animal species from natural recordings requires an significant amount of time, patience, and money. Even then 
+such software can have limited accuracy.
 
 ### 1.2) Visualising acoustics
 
-Animal calls in acoustic recordings can often be deciphered more accurately by people than by computers, especially when able to simultaneously visualise recordings. Acoustic vibrations can be visualise as a spectrogram, or graph of frequency over time. Standard spectrograms are often in grey-scale with the graphs and recordings being in sync, so that the acoustic events can be seen in a graph while being heard in the recordings. Animal calls that are loud and/or close to the microphones will show up darker in the spectrogram than calls that are softer or made further away from the microphones (Figure 1).
-   
+Animal calls in acoustic recordings can often be deciphered more accurately by people than by computers, 
+especially when able to simultaneously visualise recordings. Acoustic vibrations can be visualise as a 
+spectrogram, or graph of frequency over time. Standard spectrograms are often in grey-scale with the graphs and 
+recordings being in sync, so that the acoustic events can be seen in a graph while being heard in the 
+recordings. Animal calls that are loud and/or close to the microphones will show up darker in the spectrogram 
+than calls that are softer or made further away from the microphones (Figure 1).
 
 <img src="./media/image1.png"  width="100%" />
 
