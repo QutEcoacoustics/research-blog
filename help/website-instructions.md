@@ -50,7 +50,7 @@ Computer recognition software can now automatically recognise patterns effective
 speech. This type of software works well for people because it assumes there is relatively little to no 
 background noise and that a person is close to the microphone resulting in a loud, clear, recording. 
 Nature is different. Wild animals are generally not close to microphones. Acoustic data is often also plagued 
-with background noises, such as weather events (e.g rain, wind, or thunder) and mechanical sounds (e.g.  
+with background noises, such as weather events (e.g rain, wind, or thunder) and mechanical sounds (e.g. 
 motorcycles or aeroplanes), which may drown out animal calls. Most animal calls are structured differently than 
 the acoustic patterns of human vocalisations. All of these factors make human recognition software limited in 
 effectiveness for identifying animal calls. To develop recognition software for even a single call of an 
@@ -175,7 +175,8 @@ record and learn the calls of the Eastern Bristlebirds.
 
 The Eastern Bristlebird Recovery Team has been searching for Eastern Bristlebird in Southeast Queensland for several years with very limited success. Amazingly there is a dog named Penny that has been trained to find Eastern Bristlebird by scent in New South Wales, and this year, this gorgeous springer spaniel joined the Queensland surveys (Figure 9). 
 
-<img src="./media/image9.0.JPG"  width="40%"/>  
+{% include figure.html src="./media/image9.0.JPG" caption="" style="width: 384px" %}
+
 **Figure 9. Penny the conservation detector dog trained to find the scent of Eastern Bristlebird.**
 
 During the surveys, Penny indicated picking up the scent of Eastern Bristlebird at two locations but birds were not seen by Penny's handlers, so four recorders were put at each site. Another site was thought by the team to be prime re estate, but vegetation was too think for even Penny to walk through, so four acoustic monitors were placed there as well, so a total of twelve recorders were placed in potential Eastern Bristlebird habitat (Figure 10). 
