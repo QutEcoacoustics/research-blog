@@ -30,15 +30,10 @@ Version 1.2
 Nature is complex, and often impacted by human encroachment. Ecologists work to understand ecosystem health and dynamics by employing a number of research techniques. Acoustic monitoring is one method of studying animals and habitat integrity.
 
 -   Count the number of species in an area
-
 -   Determine how many individuals of a species are in an area
-
 -   Find secretive, camouflaged, and/or threatened species
-
 -   Discover vocalisations and movement behaviours of species
-
 -   Evaluate changes in animal acoustics after an environmental disturbance
-
 -   Reveal acoustic patterns of a habitat over days, months, and years.
 
 
@@ -175,7 +170,7 @@ record and learn the calls of the Eastern Bristlebirds.
 
 The Eastern Bristlebird Recovery Team has been searching for Eastern Bristlebird in Southeast Queensland for several years with very limited success. Amazingly there is a dog named Penny that has been trained to find Eastern Bristlebird by scent in New South Wales, and this year, this gorgeous springer spaniel joined the Queensland surveys (Figure 9). 
 
-<img src="./media/image9.0.JPG"  width="40%"/>
+<img src="./media/image9.0.JPG"  width="40%"/>  
 **Figure 9. Penny the conservation detector dog trained to find the scent of Eastern Bristlebird.**
 
 During the surveys, Penny indicated picking up the scent of Eastern Bristlebird at two locations but birds were not seen by Penny's handlers, so four recorders were put at each site. Another site was thought by the team to be prime re estate, but vegetation was too think for even Penny to walk through, so four acoustic monitors were placed there as well, so a total of twelve recorders were placed in potential Eastern Bristlebird habitat (Figure 10). 
@@ -278,17 +273,16 @@ the more information we can learn together!
 
 **Figure 14. A screenshot of an example “Play” page of a site.**
 
-**_I welcome all feedback no matter how big or small on these instructions and you experience using the website._**
+## Feedback
+
+_I **welcome all feedback** no matter how big or small on these instructions and you experience using the website._
 
 Things we are also interested to know include:
 
-1) Species you would be interested in learning more about.
-
-2) What ideas do you have for other information to include on Ecosounds.org ?
-
-3) Do you have any different ideas on how to display acoustic recordings?
-
-4) Are you interested in being part of citizen science research about acoustics?
+1. Species you would be interested in learning more about.
+2. What ideas do you have for other information to include on Ecosounds.org ?
+3. Do you have any different ideas on how to display acoustic recordings?
+4. Are you interested in being part of citizen science research about acoustics?
 
 Don’t be shy! Drop Jess Cappadonna a line at via the [contact us page](https://www.ecosounds.org/contact_us), [twitter](https://twitter.com/JessCappadonna), or direct email if you have it.
 
