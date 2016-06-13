@@ -10,11 +10,12 @@ If there is a problem with any of the content on the ecosounds website you can:
 - Or [contact us](http://baw.ecosounds.org/contact_us) 
 
 # Conventions & Changes
-All changes made, especially to content, should be done via pull request. All pull requests should be proofed.
+
+**All changes made, especially to content, should be done via pull request.** All pull requests should be proofed.
 
 We prefer the use of Markdown source files. 
 
-Images may be stored in the repo. Videos should be hosted on YouTube.
+Images may be stored in the repo. Videos should be hosted on YouTube. Audio can be hosted on soundcloud.
 
 Large sets of images should be stored on another provider (e.g. DropBox, ownCloud, onedrive, etc...)
 
