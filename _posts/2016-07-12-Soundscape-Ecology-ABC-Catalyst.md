@@ -26,10 +26,11 @@ Our own Dr Michael Towsey (also featured) has previously written about our work 
 [this article](http://research.ecosounds.org/research/EADM-Towsey/Long-Duration-Audio-Recordings-of-the-environment.html) - 
 check it our for a great summary of our work.
 
-Of course our very own [Jessie Cappadonna](https://twitter.com/jesscappadonna) and her PhD work
-involving citizen scientists with soundscape ecology was also featured. Jessie did a great job 
-explaining her work and how she hopes to assist conservation efforts for the eastern bristlebird.
-If you'd like to participate in Jessie's research you can contact her via twitter, our 
+Of course our very own [Jessie Cappadonna](https://twitter.com/jesscappadonna) and her PhD research was also featured, exploring
+how to engage citizen scientists with searching for Eastern Bristlebird calls from recordings. Jessie did a great job 
+explaining her work and how she hopes to assist conservation efforts of the Eastern Bristlebird Recovery Team to learn where the species still resides. 
+
+If you'd like to participate in Jessie's research you can contact her via [twitter](https://twitter.com/jesscappadonna), our 
 [contact us](https://www.ecosounds.org/contact_us) form, or through email.  
 
 
