@@ -61,7 +61,7 @@ title: Home
 					<div class="media-body">
 						<a class="unlink" href="{{ BASE_PATH }}{{ post.url }}">
 							<h3 class="media-heading">{{ post.title }}</h3>
-							<small class="text-muted">{{ post.date | date_to_string }}&nbsp;|&nbsp;{{  site.data.authors[post.author].display_name }}</small>
+							<small class="text-muted">{{ post.date | date_to_string }}&nbsp;|&nbsp;{% for author in post.author %}{{ site.data.authors[author].display_name }}{% unless forloop.last %}, {% endunless %}{% endfor %}</small>
 							<p>
 								{{ post.content | strip_html | truncatewords:40 }}
 							</p>
