@@ -3,7 +3,8 @@ layout: help
 title: "Caller ID: Search for Eastern Bristlebirds!"
 # Include lines 1-3 and 5 (front matter) at top of each file) above is YAML files
 # to be added later as pages are developed:
-# If interested be sure and learn more about [this project](project-details.html), [our lab's work](about-ecosounds.html), and the [nature of acoustics](nature-of-sound.html).
+# If interested be sure and learn more about [this project](project-details.html), [our lab's work](about-ecosounds.html), 
+# and the [nature of acoustics](nature-of-sound.html).
 ---
 <style>
   h1,h2,h3,h4,h5,h6 {
@@ -45,26 +46,37 @@ If you have registered, obtained access to the project and been provided a Googl
 {% include figure.html src="./media/ebb_350x257.jpg" caption="Eastern Bristlebird (Jessie Cappadonna)" medium="true" %}
 
 1. **Open** Chrome web browser and log into [www.ecosounds.org](https://www.ecosounds.org/).
-2.  **View** your google spreadsheet to see that you have audio from multiple locations and times of day. 
-3. **Inform** me of the order you will review links using the _Notes for Jess_ tab of your spreadsheet. This is up to you, and will help me understand preferences for future designs.
+2. **View** your google spreadsheet to see that you have audio from multiple locations and times of day. 
+3. **Inform** me of the order you will review links using the _Notes for Jess_ tab of your spreadsheet. 
+   This is up to you, and will help me understand preferences for future designs.
 4. **Play** environmental recordings by clicking a link from the _Hyperlink_ column of your spreadsheet if Chrome is your default web browser. 
     Otherwise, copy a link from the _Original links_ column and paste it into the web address bar of a Chrome tab and press enter.
     The play button is highlighted by the blue oval in Figure 1a.
 5. **Time** how long it takes you to work through 10 minutes of audio recordings following the stop time listed in your spreadsheet. 
-6. **Search** each of the ten minute segments using one of the following strategies, which all include drawing boxes around calls (a.k.a. [annotating](#annotation-hints)) and labeling (a.k.a. [tagging](#tagging-tips)) calls within the boxes:
-	- **Indicate Sounds**: When finding a good example of a particular sound that you aren't able to identify, just annotate and tag the call so that it can be located and identified by others easily. YOu could also add it to the [Solving Stumper Sounds](https://docs.google.com/spreadsheets/d/1Bi8UXihbrASNy0SP2KsAYPIqWiSPzoE2ApDruRhoXiE/edit?usp=sharing) page.
-	- **Identify Sounds**:  If you know anything about the sounds you hear or see, annotate and tag the sounds accordingly. Check out example [Eastern Bristlebird songs](#eastern-bristlebirds-are-singing!) too!
+6. **Search** each of the ten minute segments using one of the following strategies, which all include drawing boxes around 
+   calls (a.k.a. [annotating](#annotation-hints)) and labeling (a.k.a. [tagging](#tagging-tips)) calls within the boxes:
+	- **Indicate Sounds**: When finding a good example of a particular sound that you aren't able to identify, just annotate and tag 
+	  the call so that it can be located and identified by others easily. You could also add it to 
+	  the [Solving Stumper Sounds](https://docs.google.com/spreadsheets/d/1Bi8UXihbrASNy0SP2KsAYPIqWiSPzoE2ApDruRhoXiE/edit?usp=sharing) page.
+	- **Identify Sounds**:  If you know anything about the sounds you hear or see, annotate and tag the sounds accordingly. 
+	  Check out example [Eastern Bristlebird songs](#eastern-bristlebirds-are-singing!) too!
 	- **Bristlebird Blitz:**: If you are most keen to be the first to find Eastern bristlebirds in environmental recordings, you could just focus on looking for them!
-	- **Perfect Pitch:** If you are interested in considering a particular feature of the calls to potentially make a novel discovery, pitch the idea to me along with the tags you would need to use to complete the task, and I will see what I can do!
-7. **Draw** boxes around calls by clicking and dragging with your mouse on the spectrogram to create a box around the call, which can be re-sized or deleted as needed.
+	- **Perfect Pitch:** If you are interested in considering a particular feature of the calls to potentially make a novel 
+	  discovery, pitch the idea to me along with the tags you would need to use to complete the task, and I will see what I can do!
+7. **Draw** boxes around calls by clicking and dragging with your mouse on the spectrogram to create a box around the call, 
+   which can be re-sized or deleted as needed.
 8. **Label** a box when it is selected (as indicated by the box being yellow instead of green (Figure 1b)). 
    **Please note** every annotation must be given a tag so we can find the sound later! 
    See [Tagging Tips](#tagging-tips) for details, though you will primarily be using three types of tags:
 	- ___species___: You can tag a call by species common names (if can't find it [let us know](https://www.ecosounds.org/contact_us)).
-	- '**unsure**': If you think you know what made a call but are not fairly certain, you can add a species tag, and also with an unsure tag. You can search for example calls using our acoustic [Library]( https://www.ecosounds.org/library) (via Chrome) or by searching [Xeno-Canto](http://www.xeno-canto.org/), an online global avian acoustics database. 
+	- '**unsure**': If you think you know what made a call but are not fairly certain, you can add a species tag, and also with an unsure tag. 
+	  You can search for example calls using our acoustic [Library]( https://www.ecosounds.org/library) (via Chrome) or 
+	  by searching [Xeno-Canto](http://www.xeno-canto.org/), an online global avian acoustics database. 
 	- '**unknown**': when you have no idea who or what made a particular sound.
 9. **Record** your findings by filling out columns H through O on the _Audio Segments_ tab of your spreadsheet. 
-10. **Help** others with identification of sounds if you have particular expertise. You can see what others are marking as unsure or unknown in the [Solving Stumper Sounds](https://docs.google.com/spreadsheets/d/1Bi8UXihbrASNy0SP2KsAYPIqWiSPzoE2ApDruRhoXiE/edit?usp=sharing) document, which will be added to and changed regularly.
+10. **Help** others with identification of sounds if you have particular expertise. You can see what others are marking 
+    as unsure or unknown in the [Solving Stumper Sounds](https://docs.google.com/spreadsheets/d/1Bi8UXihbrASNy0SP2KsAYPIqWiSPzoE2ApDruRhoXiE/edit?usp=sharing) document, 
+    which will be added to and changed regularly.
 
 <img src="./media/image14.png"   width="100%" />
 **Figure 1.** a) The blue circle is highlighting a play button, and the red circle is highlighting an button that give you the option to "auto play" recordings 30 seconds at a time. 
