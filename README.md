@@ -19,4 +19,9 @@ Images may be stored in the repo. Videos should be hosted on YouTube. Audio can 
 
 Large sets of images should be stored on another provider (e.g. DropBox, ownCloud, onedrive, etc...)
 
+## Brand guidelines
+
+- _Ecosounds_: use when referring to our brand
+- _www.ecosounds.org_: use when referring to our website. **Never** use _ecosounds.org_, or _Ecosounds.org_.
+
  
