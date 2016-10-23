@@ -21,7 +21,7 @@ By Jessie Cappadonna
 
 Version 2.0
 
-## Contents
+## Content
 {:.no_toc}
 
 - Will be replaced with the ToC, excluding the "Contents" header
