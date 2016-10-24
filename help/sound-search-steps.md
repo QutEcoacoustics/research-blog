@@ -59,7 +59,7 @@ new Chrome tab to copy and paste a _Raw link_ into (Figure 1).
 3. **Review** 10 minutes of audio for each link, being mindful of "start" and "stop" times for each spreadsheet line, and please 
     record _how long each segment takes you_ to work through.
 
-    {% include figure.html src="./media/spreadsheet.jpg" caption="Figure 1. A Google spreadsheet screenshot highlighting a web browser address bar (red arrow), a new tab (purple arrow), and links (blue arrows)" style="width:375px" indent="    " %}
+    {% include figure.html src="./media/spreadsheet.JPG" caption="Figure 1. A Google spreadsheet screenshot highlighting a web browser address bar (red arrow), a new tab (purple arrow), and links (blue arrows)" style="width:375px" %}
 
 4. **Choose a strategy & annotate** (draw boxes around) discrete acoustic events of interest for each 
    10 minute segment (Figure 2; See [Annotation Hints](#annotation-hints) for strategy options).
