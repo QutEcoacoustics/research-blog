@@ -7,9 +7,10 @@ title: "Join the Bristlebird Search & Help Design Citizen Science!"
 # and the [nature of acoustics](nature-of-sound.html).
 ---
 <style>
-content * {
+  .content * {
     line-height: 150%;
-}
+  }
+
   h1,h2,h3,h4,h5,h6 {
     text-align: center;
   }
@@ -17,7 +18,10 @@ content * {
   .figure-audio {
     height: 400px;
   }  
-  .ebb-image { width:350px;
+
+  input[type="checkbox] {
+    margin-left: -2em;
+    margin-right: 1em;
   }
 </style>
 
@@ -33,37 +37,46 @@ Version 3
 {:toc}
 
 ## Starting Your Sound Search!
+
 ------
-{% include figure.html src="./media/ebb_350x257.jpg" caption="Eastern Bristlebird (Photo by Jessie Cappadonna)" medium="true" class="ebb-image" %}
+
+{% include figure.html src="./media/ebb_350x257.jpg" caption="Eastern Bristlebird (Photo by Jessie Cappadonna)" style="width:50%" %}
 
 To get started, you'll need an [account on Ecosounds](https://www.ecosounds.org/my_account/sign_up),
 and then [contact me](https://www.ecosounds.org/contact_us) to let me know you would like to help find Eastern bristlebirds and to
 obtain data spreadsheets. 
 
-**Never heard bristlebirds?** No problem! Check [Eastern Bristlebird Serenades](#eastern-bristlebird-serenades!) to hear example calls!
+**Never heard bristlebirds?** No problem! Check [Eastern Bristlebird Serenades](#eastern-bristlebird-serenades) to hear example calls!
 
 
 **Search acoustic recordings in 8 easy steps!**
-- [ ] 1. **Log into** your [www.ecosounds.org](https://www.ecosounds.org/) account and open your Google spreadsheet via _Chrome web browser_.
-- [ ] 2. **See & Play** audio by clicking a _Hyperlink_ of interest in your spreadsheet (if Chrome is your default browser) or open a 
-new Chrome tab to copy and paste a _Raw link_ into (Figure 1).
-<img src="./media/spreadsheet.jpg" width="100%" caption="Figure 1. A Google spreadsheet screenshot highlighting a web browser address 
-bar (red arrow), a new tab (purple arrow), and links (blue arrows)"  class="half inline" %/>
-- [ ] 3. **Review** 10 minutes of audio for each link, being mindful of "start" and "stop" times for each spreadsheet line, and please 
-record _how long each segment takes you_ to work through.
-- [ ] 4. **Choose a strategy & annotate** (draw boxes around) discrete acoustic events of interest for each 10 minute segment (Figure 
-2; See [Annotation Hints](#annotation-hints) for strategy options). 
-{% include audio.html src="./media/ebb_annotations/annotations+tag.mp3" image_src="./media/ebb_annotations/annotations+tag.JPG" 
-width="100%" caption="Figure 2. A spectrogram screens highlighting discrete annotations, overlapping calls, and tag creation"  
-class="half inline" %}
-- [ ] 5. **Tag every annotation** with any information you know, using tags such as _unknown_ (you have no idea what made the sound), 
-_unsure_ (to accompany guess tags you are not certain about), species information, or something else (Figure 2; See [Tagging Tips]
-(#tagging-tips)) for more tag options).
-- [ ] 6. **Consider confirming unsure calls** by comparing with calls in the [Ecosounds Acoustic Library]
-(https://www.ecosounds.org/library) (via Chrome) or the global avian database [Xeno-Canto](http://www.xeno-canto.org/).
-- [ ] 7. **Record your discoveries**, including annotation strategies chosen & interesting findings _for each line in your Google 
+
+1. **Log into** your [www.ecosounds.org](https://www.ecosounds.org/) account and open your Google spreadsheet via _Chrome web browser_.
+
+2. **See & Play** audio by clicking a _Hyperlink_ of interest in your spreadsheet (if Chrome is your default browser) or open a 
+new Chrome tab to copy and paste a _Raw link_ into (Figure 1).  
+ 
+3. **Review** 10 minutes of audio for each link, being mindful of "start" and "stop" times for each spreadsheet line, and please 
+    record _how long each segment takes you_ to work through.
+
+    {% include figure.html src="./media/spreadsheet.jpg" caption="Figure 1. A Google spreadsheet screenshot highlighting a web browser address bar (red arrow), a new tab (purple arrow), and links (blue arrows)" style="width:375px" indent="    " %}
+
+4. **Choose a strategy & annotate** (draw boxes around) discrete acoustic events of interest for each 
+   10 minute segment (Figure 2; See [Annotation Hints](#annotation-hints) for strategy options).
+
+    {% include audio.html src="./media/ebb_annotations/annotations_tag.mp3" image_src="./media/ebb_annotations/annotations_tag.JPG" style="width:100%; height:100%;" caption="Figure 2. A spectrogram screens highlighting discrete annotations, overlapping calls, and tag creation" %}
+
+5. **Tag every annotation** with any information you know, using tags such as _unknown_ (you have no idea what made the sound), 
+_unsure_ (to accompany guess tags you are not certain about), species information, or something else (Figure 2; See [Tagging Tips](#tagging-tips)) for more tag options).
+
+
+6. **Consider confirming unsure calls** by comparing with calls in the [Ecosounds Acoustic Library](https://www.ecosounds.org/library) 
+  (via Chrome) or the global avian database [Xeno-Canto](http://www.xeno-canto.org/).
+
+7. **Record your discoveries**, including annotation strategies chosen & interesting findings _for each line in your Google 
 spreadsheet._
-- [ ] 8. **Consider challenging yourself** by checking _unknown_ & _unsure_ annotations made by others via the regularly updated 
+
+8. **Consider challenging yourself** by checking _unknown_ & _unsure_ annotations made by others via the regularly updated 
 [Unsolved Sounds](https://docs.google.com/spreadsheets/d/1Bi8UXihbrASNy0SP2KsAYPIqWiSPzoE2ApDruRhoXiE/edit?usp=sharing) page.
 
 
@@ -110,18 +123,19 @@ type 15" class="half inline" %}
 
 Here are a few frequently asked questions and pointers about creating annotations: 
 
-** How do I draw, resize, or delete an annotation?** 
+**How do I draw, resize, or delete an annotation?** 
 Draw boxes, or annotations, around calls by clicking at one corner of the call and dragging with your mouse on the spectrogram until 
 enveloping the entire call. You can also drag each edge of the box to resize it and minimize the amount of negative space around the 
 call. Annotations can also be deleted by clicking the black "X" in the top left corner of the annotation.
 
-** What are my annotation strategy options? **
+**What are my annotation strategy options?**
 When reviewing a particular 10-minute segment, a strategy may either involve annotating:
-- 1) a few good examples of each different vocalisation you find, tagging unfamiliar calls with _unknown_ and guessed species with 
+
+1. a few good examples of each different vocalisation you find, tagging unfamiliar calls with _unknown_ and guessed species with 
 _unsure_ tags,
-- 2) only a few calls for each of the species you know, or 
-- 3) any and all good Eastern bristlebird vocalisations you come across (see [Eastern Bristlebird Serenades](#eastern-bristlebird-
-serenades!) for 15 example calls)
+2. only a few calls for each of the species you know, or 
+3. any and all good Eastern bristlebird vocalisations you come across (see [Eastern Bristlebird Serenades](#eastern-bristlebird-serenades) for 15 example calls)
+
 You don't need to stick with one strategy with all of your data, just per line, so feel free to try them all out and let me know what 
 strategy you find most interesting. Also feel free to suggest a new strategy since I am trying to learn what people are interested in 
 doing with acoustics!
