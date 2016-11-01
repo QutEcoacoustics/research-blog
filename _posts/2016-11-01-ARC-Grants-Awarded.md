@@ -39,7 +39,7 @@ Professor Marcus Sheaves;
 Dr Paul McDonald; and
 Professor Gary Luck.
 
-The second grant is an (DP170104004) is a $420,500 ARC Discovery Project grant 
+The second grant (DP170104004) is a $420,500 ARC Discovery Project grant 
 titled _Earth soundscapes: A human-computer approach to environmental sound 
 analysis_. The project  aims to visualise and analyse big sound data, to detect 
 patterns of animal and bird calls at different temporal and spatial scales. 
