@@ -2,7 +2,7 @@
 layout: post
 title: "ARC Grants Awarded"
 author: paul
-post_image: /images/posts/jessie-sm4-qut-media-2016-10-31.jpg
+post_image: /images/posts/DSC_0885.jpg
 post_image_height: 450px
 ---
 
@@ -59,4 +59,4 @@ We are excited to be working with everyone involved in these two great projects!
 
 QUT Media article: [Funding boost for QUT researchers](https://www.qut.edu.au/news/news?news-id=111276)
 
-<em><small>Photo Credit: QUT Media & Jessie Cappadonna. Used with permission</small></em>
+<em><small>Photo Credit: Sturt Desert, Paul Roe</small></em>
