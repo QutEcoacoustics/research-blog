@@ -12,7 +12,7 @@ collaborators have been awarded two grants totalling $1,320,500.
 
 The first is an ARC Large Infrastructure and Equipment Funding (LIEF) grant 
 titled _Australian Acoustic Observatory: A network to monitor biodiversity_
-(LE170100033) is a $920,000 effort that aims to create a terrestrial acoustic 
+(LE170100033) is a $900,000 effort that aims to create a terrestrial acoustic 
 sensor network comprising 450 listening stations across Australia.
 Acoustic sensing transforms environmental science by recording vocal species 
 24/7, providing spatial and temporal data for ecosystem monitoring and research.
