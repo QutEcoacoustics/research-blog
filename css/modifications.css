@@ -83,6 +83,11 @@ figure figcaption {
     margin: 5px auto;
 }
 
+.figure.third {
+    width: 33%;
+    margin: 5px auto;
+}
+
 .figure.inline {
     clear: none;
     display: inline-flex;
