@@ -88,3 +88,8 @@ paul:
   image_url: "/images/paul_roe.jpg"
   research_gate: Paul_Roe
   google_scholar: 2kh3xNWlI0MJ
+phil:
+  display_name: Philip Eichinski   
+  image_url: "/images/phil2.jpg"
+  github: peichins
+  research_gate: Philip_Eichinski
