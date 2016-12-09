@@ -1,8 +1,8 @@
-<figure class="figure thumbnail" style="{{ include.style }}">
-	<a href="{{ include.src }}">
-		<img src="{{ include.src }}" alt="{{ include.caption }}" >
-	</a>
-  <figcaption style="margin-top: 0.3em" class="text-muted small">
-    <em>{{ include.caption | markdownify }}</em>
-  </figcaption>
-</figure>
+<figure class="figure thumbnail {% if include.class  %}{{ include.class }}{% endif %}" style="{{ include.style }}">
+        <a href="{% if include.href %}{{ include.href}}{% else %}{{ include.src }}{% endif %}">
+            <img src="{{ include.src }}" alt="{{ include.caption }}" >
+        </a>
+        <figcaption style="margin-top: 0.3em" class="text-muted small">
+          <em>{{ include.caption | markdownify }}</em>
+        </figcaption>
+    </figure>

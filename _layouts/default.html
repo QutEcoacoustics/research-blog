@@ -39,8 +39,11 @@
         h4[id], 
         h5[id], 
         h6[id] {
+            /* 20px is the standard margin-top that bootstrap adds to all headings */
+            /* bootstrap v4 uses .5rem instead */
             border-top: 60px solid transparent;
             margin-top: -60px;
+            margin-bottom: 0.5rem;
             -webkit-background-clip: padding-box;
             -moz-background-clip: padding;
             background-clip: padding-box;
@@ -51,6 +54,11 @@
           content: "";
           height: 70px;
           margin: -70px 0 0;
+        }
+
+        /* Early bootstrap v4 compat hack */
+        p {
+            margin-bottom: 1rem;
         }
               
         .iframeUl iframe {

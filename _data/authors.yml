@@ -76,7 +76,6 @@ jie:
   google_scholar: S6Smw4cAAAAJ
   #linked_in: michael-towsey-2371177
   github: J3xie
-  
 karlina:
   display_name: Karlina Indraswari
   image_url: "/images/karlina.jpg"
@@ -84,3 +83,20 @@ karlina:
   research_gate: 
   google_scholar: 
   #linked_in: https://www.linkedin.com/in/karlina-indraswari-b1b78736
+tshering:
+  display_name: Tshering Dema
+  image_url: "/images/TDemaSquare.jpg"
+  #twitter: ~
+  research_gate: Tshering_Dema4
+  google_scholar: 7n7sjs4AAAAJ
+  #linked_in: 
+paul:
+  display_name: Paul Roe
+  image_url: "/images/paul_roe.jpg"
+  research_gate: Paul_Roe
+  google_scholar: 2kh3xNWlI0MJ
+phil:
+  display_name: Philip Eichinski   
+  image_url: "/images/phil2.jpg"
+  github: peichins
+  research_gate: Philip_Eichinski
