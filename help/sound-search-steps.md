@@ -88,36 +88,21 @@ from aviaries at Currumbin Wildlife Sanctuary.
 **Calls of these birds vary heaps**, but if you find an entirely different call you think is Eastern bristlebird annotate and tag it, 
 and please **leave me a note in your spreadsheet with the link!**
 
-{% include audio.html src="./media/ebb_annotations/EBB_call01.mp3" image_src="./media/ebb_annotations/EBB_call01.JPG" caption="Call 
-type 1"  class="third inline" %}
-{% include audio.html src="./media/ebb_annotations/EBB_call02.mp3" image_src="./media/ebb_annotations/EBB_call02.JPG" caption="Call 
-type 2"  class="third inline" %}
-{% include audio.html src="./media/ebb_annotations/EBB_call03.mp3" image_src="./media/ebb_annotations/EBB_call03.JPG" caption="Call 
-type 3"  class="third inline" %}
-{% include audio.html src="./media/ebb_annotations/EBB_call04.mp3" image_src="./media/ebb_annotations/EBB_call04.JPG" caption="Call 
-type 4"  class="third inline" %}
-{% include audio.html src="./media/ebb_annotations/EBB_call05.mp3" image_src="./media/ebb_annotations/EBB_call05.JPG" caption="Call 
-type 5"  class="third inline" %}
-{% include audio.html src="./media/ebb_annotations/EBB_call06.mp3" image_src="./media/ebb_annotations/EBB_call06.JPG" caption="Call 
-type 6"  class="third inline" %}
-{% include audio.html src="./media/ebb_annotations/EBB_call07.mp3" image_src="./media/ebb_annotations/EBB_call07.JPG" caption="Call 
-type 7"  class="third inline" %}
-{% include audio.html src="./media/ebb_annotations/EBB_call08.mp3" image_src="./media/ebb_annotations/EBB_call08.JPG" caption="Call 
-type 8"  class="third inline" %}
-{% include audio.html src="./media/ebb_annotations/EBB_call09.mp3" image_src="./media/ebb_annotations/EBB_call09.JPG" caption="Call 
-type 9"  class="third inline" %}
-{% include audio.html src="./media/ebb_annotations/EBB_call10.mp3" image_src="./media/ebb_annotations/EBB_call10.JPG" caption="Call 
-type 10" class="third inline" %}
-{% include audio.html src="./media/ebb_annotations/EBB_call11.mp3" image_src="./media/ebb_annotations/EBB_call11.JPG" caption="Call 
-type 11" class="third inline" %}
-{% include audio.html src="./media/ebb_annotations/EBB_call12.mp3" image_src="./media/ebb_annotations/EBB_call12.JPG" caption="Call 
-type 12" class="third inline" %}
-{% include audio.html src="./media/ebb_annotations/EBB_call13.mp3" image_src="./media/ebb_annotations/EBB_call13.JPG" caption="Call 
-type 13" class="third inline" %}
-{% include audio.html src="./media/ebb_annotations/EBB_call14.mp3" image_src="./media/ebb_annotations/EBB_call14.JPG" caption="Call 
-type 14" class="third inline" %}
-{% include audio.html src="./media/ebb_annotations/EBB_call15.mp3" image_src="./media/ebb_annotations/EBB_call15.JPG" caption="Call 
-type 15" class="third inline" %}
+{% include audio.html src="./media/ebb_annotations/EBB_call01.mp3" image_src="./media/ebb_annotations/EBB_call01.JPG" caption="Call type 1"  class="third inline" %}
+{% include audio.html src="./media/ebb_annotations/EBB_call02.mp3" image_src="./media/ebb_annotations/EBB_call02.JPG" caption="Call type 2"  class="third inline" %}
+{% include audio.html src="./media/ebb_annotations/EBB_call03.mp3" image_src="./media/ebb_annotations/EBB_call03.JPG" caption="Call type 3"  class="third inline" %}
+{% include audio.html src="./media/ebb_annotations/EBB_call04.mp3" image_src="./media/ebb_annotations/EBB_call04.JPG" caption="Call type 4"  class="third inline" %}
+{% include audio.html src="./media/ebb_annotations/EBB_call05.mp3" image_src="./media/ebb_annotations/EBB_call05.JPG" caption="Call type 5"  class="third inline" %}
+{% include audio.html src="./media/ebb_annotations/EBB_call06.mp3" image_src="./media/ebb_annotations/EBB_call06.JPG" caption="Call type 6"  class="third inline" %}
+{% include audio.html src="./media/ebb_annotations/EBB_call07.mp3" image_src="./media/ebb_annotations/EBB_call07.JPG" caption="Call type 7"  class="third inline" %}
+{% include audio.html src="./media/ebb_annotations/EBB_call08.mp3" image_src="./media/ebb_annotations/EBB_call08.JPG" caption="Call type 8"  class="third inline" %}
+{% include audio.html src="./media/ebb_annotations/EBB_call09.mp3" image_src="./media/ebb_annotations/EBB_call09.JPG" caption="Call type 9"  class="third inline" %}
+{% include audio.html src="./media/ebb_annotations/EBB_call10.mp3" image_src="./media/ebb_annotations/EBB_call10.JPG" caption="Call type 10" class="third inline" %}
+{% include audio.html src="./media/ebb_annotations/EBB_call11.mp3" image_src="./media/ebb_annotations/EBB_call11.JPG" caption="Call type 11" class="third inline" %}
+{% include audio.html src="./media/ebb_annotations/EBB_call12.mp3" image_src="./media/ebb_annotations/EBB_call12.JPG" caption="Call type 12" class="third inline" %}
+{% include audio.html src="./media/ebb_annotations/EBB_call13.mp3" image_src="./media/ebb_annotations/EBB_call13.JPG" caption="Call type 13" class="third inline" %}
+{% include audio.html src="./media/ebb_annotations/EBB_call14.mp3" image_src="./media/ebb_annotations/EBB_call14.JPG" caption="Call type 14" class="third inline" %}
+{% include audio.html src="./media/ebb_annotations/EBB_call15.mp3" image_src="./media/ebb_annotations/EBB_call15.JPG" caption="Call type 15" class="third inline" %}
 
 ## Annotation Hints
 
