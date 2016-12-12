@@ -32,12 +32,17 @@ _Ruby 2.3.1 (x64)_ and _DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe_.
 
 1. Open a prompt and `cd` to the checkout directory.
 1. Then to update dependencies:
+
     ```shell
     $ bundle install
+    $ bundle update
     ```
+
 1. Then start the server:
+
     ```shell
-    $ jekyll serve --watch
+    $ bundle exec jekyll serve --watch
     ```
+
 1. In your browser, go to: `http://127.0.0.1:4000/`
 1. Use <kbd>ctrl</kbd>+<kbd>c</kbd> in your prompt to kill the server 
