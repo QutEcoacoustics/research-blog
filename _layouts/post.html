@@ -99,7 +99,8 @@ layout: default
 
 <div class="row post">
   <div class="meta col-md-3 col-md-push-9 text-center ">
-      {% assign author_names = page.author | concat:empty %}
+      {% assign empty_array = '' | split:',' %}
+      {% assign author_names = page.author | concat:empty_array %}
       {% for author_name in author_names %}
 
       <!-- Author -->
@@ -147,7 +148,7 @@ layout: default
           <p>
             {% assign linkedin_url = author.linked_in %}
             {% unless linkedin_url contains '://' %}
-            {% assign linkedin_url =  linkedin_url | prepend: "https://au.linkedin.com/in/"" %}
+            {% assign linkedin_url =  linkedin_url | prepend: "https://au.linkedin.com/in/" %}
             {% endunless %}
             <a href="{{ linkedin_url }}" style="display: inline-block;margin-top: 3px"  >
               <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View {{ author.display_name }}'s profile on LinkedIn">
