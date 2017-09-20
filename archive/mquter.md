@@ -11,7 +11,7 @@ the _QUT Ecoacoustics Research Group_.
 
 ## Website change
 
-The old website previously hosted at <sensor.mquter.qut.edu.au> was revamped,
+The old website previously hosted at <http://sensor.mquter.qut.edu.au> was revamped,
 recreated, and redesigned. 
 
 The new website is hosted at <https://www.ecosounds.org> and runs software named
