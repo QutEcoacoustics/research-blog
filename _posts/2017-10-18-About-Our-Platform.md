@@ -29,7 +29,7 @@ Ecoacoustics Research Group to support bioacoustics and ecoacoustics research.
 The workbench is tailored specifically to store large amounts of passively
 collected long-duration environmental audio recordings. Although our group and
 software orginally had a bioacoustics focus, over the years we have trended
-awway from bioacoustcis datasets towards ecoacoustics and soundscape ecology
+away from bioacoustcis datasets towards ecoacoustics and soundscape ecology
 datasets. 
 
 # Our chosen architecture
