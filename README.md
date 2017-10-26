@@ -1,4 +1,4 @@
-# ecosounds.org (QutBioacoustics.github.io)
+# researcg.ecosounds.org (QutBioacoustics/research-blog)
 
 This is the backing respository for the <http://research.ecosounds.org> website.
 
