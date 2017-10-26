@@ -1,6 +1,8 @@
 # ecosounds.org (QutBioacoustics.github.io)
 
-This is the GitHub pages backing respository for the <http://research.ecosounds.org> website.
+This is the backing respository for the <http://research.ecosounds.org> website.
+
+This repository is a Jekyll blog that is currently hosted by [Netlify](https://www.netlify.com/)
 
 # Feedback
 If there is a problem with any of the content on the ecosounds website you can:
@@ -20,9 +22,9 @@ Large sets of images should be stored on another provider (e.g. DropBox, ownClou
 
 ## Brand guidelines
 
-- _Ecosounds_: use when referring to our brand
+- _Ecosounds_: use when referring to our website
 - _www.ecosounds.org_: use when referring to our website. **Never** use _ecosounds.org_, or _Ecosounds.org_.
-
+- Use _QUT Ecoacoustics_ or _QUT Ecoacoustics Research Group_ when referring to our research group
  
 # Test locally
 
