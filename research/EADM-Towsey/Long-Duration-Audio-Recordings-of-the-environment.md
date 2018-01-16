@@ -42,7 +42,7 @@ Many of our recordings have been obtained at the Samford Ecological Research Fac
 
 ---
 
-## Spectrograms
+## Slide 2: The Standard Spectrogram
 
 {% include figure.html src="Slides/Slide3.png" caption="Slide 2." %}
 
@@ -54,7 +54,7 @@ An additional problem with acoustic recordings is that technological advances no
 
 ---
 
-## Long-duration spectrograms
+## Slide 3: Long-duration spectrograms
 
 {% include figure.html src="Slides/Slide5.png" caption="Slide 3." %}
 
