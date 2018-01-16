@@ -64,7 +64,9 @@ There are now a lot of studies [see for example the papers of Almo Farina (Italy
 
 It is possible therefore to prepare a spectrogram of a long duration recording using just the ACI index. We illustrate the method using a four-hour recording (4-8pm) obtained 10<sup>th</sup> October 2013. (See _Slide 3_). We break the four-hour recording into 240 one-minute segments. We prepare a standard spectrogram for each one-minute of recording and then calculate the ACI value for each of its 256 frequency bins. Each minute of recording therefore yields a single ACI spectrum containing 256 values. We then join the 240 spectra to make a spectrogram. As illustrated in _Slide 3_, the ACI spectrogram reveals a lot of acoustic structure. For example, the two tracks after sunset (right side of the spectrogram) are due to the chirps of two different species of cricket--note how the tracks decrease in frequency as temperature declines with the onset of night. Other dominant features in the spectrogram are due to birds.
 
-## Different indices – different views
+---
+
+## Slide 4: Different indices give different views
 
 {% include figure.html src="Slides/Slide6.png" caption="Slide 4." %}
 
@@ -74,29 +76,38 @@ CVR is short for *cover*. It simply measures the fraction of spectrogram cells i
 
 We have now introduced two new terms, *sound-space* and *acoustic event*. *Sound-space* is the abstract notion of a space with five-dimensions, one of time, one of frequency and three of physical space. It is the “space” in which acoustic events occur. An *acoustic event* is typically a single uninterrupted sound that can be attributed to the same source. The source might be single animal or a chorus of many animals (such as cicadas). A spectrogram reveals the distribution of acoustic energy in the time-frequency dimensions for a fixed point in space.
 
-## False-colour spectrograms
+---
+
+## Slide 5: Long-duration, false-colour spectrograms
 
 {% include figure.html src="Slides/Slide7.png" caption="Slide 5." %}
 
 The next step in the production of long duration spectrograms was inspired by false-colour satellite imagery in which pictures of the earth’s surface are rendered in three colours by assigning the red, green and blue (RGB) colours to sensors that respond to different parts of the electromagnetic spectrum. In this case we assign RGB to the three different spectrograms and thereby produce the long-duration, false-colour spectrogram seen on the right-hand side of this slide[^FCS]. Note how the complexity of acoustic structure in the sound-space is clearly revealed.
 
-## The utility of false-colour spectrograms
+---
 
-{% include figure.html src="Slides/Slide8.png" caption="Slide 6." %}
+## Slide 6: The utility of long-duration, false-colour spectrograms
 
 Here we see just how much extra acoustic structure can be seen in a false-colour spectrogram. We took a full 24-hour recording (starting at midnight and finishing the following midnight – this is the same recording from which the 4 hours of the previous slides were extracted) and processed them using a standard audio software tool (Audacity) and our false-colour technique. Ordinarily you would *not* ask Audacity to open a 24-hour recording but it can be done (with a lot of patience!) on a high performance computer. Audacity achieves the 3000-fold reduction by averaging over long segments of recording. However this smooths out the acoustic structure and makes most events invisible.
+
+{% include figure.html src="Slides/Slide8.png" caption="Slide 6." %}
 
 The basic structure of the forest soundscape at SERF is easily interpreted. (*Soundscape* is a new word – it refers to the collectivity of acoustic events that occur in a sound-space. It is analogous to landscape in three dimensional space.) The morning chorus is clearly visible at 4:45am. It tends towards white in colour because all indices have high values. The onset of evening is indicated by the onset of acoustic tracks due to insects. But clearly there are many other events.
 
 A colour chart is added at the top of the image to help with interpretation. For example, purple events have high values for ACI *and* CVR. Cyan events have high values for *H*(t) and CVR. This will depend on the characteristic distribution of acoustic energy in the animal calls that contribute to the event. With some experience you begin to recognise the different sounds of interest.
 
-## Different indices – different views
+---
+
+## Slide 7: The right combination of indices is important
 
 {% include figure.html src="Slides/Slide9.png" caption="Slide 7." %}
 
 Different combinations of indices give different views of the soundscape. Here we see two false-colour spectrograms of the same recording. Note that more structure is visible in the bottom spectrogram than in the top, because two of the three indices used to construct the top spectrogram are correlated. So here we have an important “trick” in making this technique work. Each of the three indices used to construct a false-colour spectrogram should be independent of each other--or at least they should not be positively correlated. In the top image the two indices AVG and CVR are highly correlated and therefore the third index (CVR) is not adding any new information to the other two. The EVN index in the second spectrogram is a measure of the *acoustic events per second* in each frequency bin.
 
-## Biophony
+---
+
+## Slide 8: Biophony
+(Biophony is a new word. It is used by soundscape ecologists to refer to sounds of biological origin - usually bird, insect, frog and mammal calls.)
 
 {% include figure.html src="Slides/Slide11.png" caption="Slide 8." %}
 
@@ -104,7 +115,10 @@ In this slide, we identify some of the birds that produced the acoustic events i
 
 You can see an interactive version of this slide [here](http://www.ecosounds.org/Zoom/1-top).
 
-## Geophony
+---
+
+## Slide 9: Geophony
+(Geophony refers to sounds of natural, but inanimate origin, - usually rain, thunder, wind, surf, etc.)
 
 {% include figure.html src="Slides/Slide12.png" caption="Slide 9." %}
 
@@ -112,14 +126,19 @@ The typical soundscape will be filled with sounds from many different source, no
 
 The sound of rain as it appears in a false-colour spectrogram can vary a lot, obviously depending on the volume of rain but also depending on local characteristics, such as leaf size, leaf litter and even the acoustic response of the recording box to the percussive effects of rain drops
 
-## Anthropophony
+---
+
+## Slide 10: Anthropophony
+(Anthropophony refers to sounds caused by humans, everything from speech and music, to machine noise emanating from planes, trains, bikes and automobiles. Machine noise is sometimes called technophony.)
 
 {% include figure.html src="Slides/Slide13.png" caption="Slide 10." %}
 
+These images show two sources of anthropophony/technophony due to planes and a helicopter. Plane noise is typically in the low frequency band and has a pyramid shape in the spectrogram. The pyramid shape is due to the fact that low frequency sounds travel further than high frequency sounds. As a plane approaches the microphone, the low frequency sounds are heard first and the high frequency sounds are heard only when the plane is closer. The reverse happens as the plane flies away. The speed and distance of the plane can be determined from the shape of the pyramid. Note the dual components of helicopter noise, a low frequency component due to the engine and a high frequency component due to the whipping of the rotors.
+
+Anthropophony is a frequent problem for ecologists wanting to record only animal calls. The above recordings also contained the sounds of a koala, stone curlew and kiwi. Here is recording of a koala bellow.
+
 {% include audio.html soundCloudTrack="257727453" soundCloudToken="s-rBYfs" caption="This recording has a Koala call in it." %}
 
-
-These images show two sources of anthropophony/technophony due to planes and a helicopter. Plane noise is typically in the low frequency band and has a pyramid shape in the spectrogram. The pyramid shape is due to the fact that low frequency sounds travel further than high frequency sounds. As a plane approaches the microphone, the low frequency sounds are heard first and the high frequency sounds are heard only when the plane is closer. The reverse happens as the plane flies away. The speed and distance of the plane can be determined from the shape of the pyramid. Note the dual components of helicopter noise, a low frequency component due to the engine and a high frequency component due to the whipping of the rotors.
 
 ## Adelbert Ranges, Papua New Guinea
 
