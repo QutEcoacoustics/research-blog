@@ -188,7 +188,7 @@ This slide compares LDFC spectrograms from four Adelbert Range locations that ar
 
 {% include figure.html src="Slides/Slide19.png" caption="Slide 15. Audio courtesy of courtesy of Simon Linke and Toby Gifford." %}
 
-Not many people know that fish make a lot of sound as do underwater insects and crustaceans. This slide shows the LDFC spectrogram of a 24-hour recording taken with a hydrophone in a pond of the Einasleigh River, dry season, northern Queensland. Note the change in sound during the day compared to the night. All the acoustic activity in this recording is due to aquatic insects and is dominant in the 1-2 kHz band. You can listen to 21 seconds of underwater recording here - all the sound is due to insects.
+Not many people know that fish make a lot of sound as do underwater insects and crustaceans. This slide shows two LDFC spectrograms of a 24-hour recording taken with a hydrophone in a pond of the Einasleigh River, northern Queensland, dry season. Note the change in sound during the day compared to the night. All the acoustic activity in this recording is due to aquatic insects and is dominant in the 1-2 kHz band. You can listen to 21 seconds of underwater recording here - all the sound is due to insects.
 
 
 {% include audio.html soundCloudTrack="257726757" soundCloudToken="s-81gFR" caption="This recording (courtesy of Simon Linke) shows acoustic activity in a pond in northern Queensland." %}
@@ -199,7 +199,7 @@ The audio shown here was provided by [Dr. Simon Linke](https://www.griffith.edu.
 
 ## Slide 16: Marine recordings
 
-This LDFC spectrogram is derived from a 24-hour hydrophone recording taken 15 km off the coast of Georgia, USA. The water is only 15 m deep and the hydrophone was positioned 2m off the ocean floor. Note in this case, that the horizontal grid-lines are 200 Hz apart with 1 kHz full scale. 
+These LDFC spectrograms are derived from a 24-hour hydrophone recording taken 15 km off the coast of Georgia, USA. The water is only 15 m deep and the hydrophone was positioned 2m off the ocean floor. Note in this case, that the horizontal grid-lines are 200 Hz apart with 1 kHz full scale. 
 
 {% include figure.html src="Slides/Slide20.png" caption="Slide 16. Audio courtesy of courtesy of Aaron Rice, Cornell Lab of Ornithology." %}
 
@@ -209,21 +209,25 @@ The dominant bio-acoustic activity in this recording is due to fish clicks at ar
 
 The audio provided is courtesy of [Aaron Rice](http://www.birds.cornell.edu/page.aspx?pid=1735&id=205), Cornell Lab of Ornithology, Cornell University, NYS, USA.
 
-## 44 days of ocean recordings
+---
+
+## Slide 17: 44 days of ocean recordings
+
+So far the longest LDFC spectrogram we have viewed is 24-hours long and this takes up the full width of a typical computer screen. In order to view recordings several months long, a different approach must be adopted. The below image represents 44 days of continuous marine recording from the same site as the previous slide. The 24-hour spectrograms have been reduced to a height of 32 pixels but they retain the full 24-hour width. Concatenating the daily spectrograms nicely reveals long-term seasonal acoustic patterns. We call the individual spectrograms, *ribbon spectrograms* and the total image a *ribbon plot*.
 
 {% include figure.html src="Slides/Slide21.png" caption="Slide 17. Audio courtesy of courtesy of Aaron Rice, Cornell Lab of Ornithology." %}
 
-So far the longest false-colour spectrogram we have viewed is 24-hours long and this takes up the full width of the typical computer screen. In order to view recordings several months long a different approach must be adopted. This image (_Slide 17_) represents 44 days of continuous marine recording from the same site as the previous slide. The 24-hour spectrograms have been reduced to height of 32 pixels but retaining the full 24-hour width. Concatenating the daily spectrograms nicely reveals long-term seasonal acoustic patterns.
+The noise from passing ships is clearly apparent. The direction, speed and proximity of each ship can be determined by the shape and extension of its pyramid shape. The second dominating component of this sound-scape is the cyan-blue acoustic events at night from day 33 onwards. These are due to the chorusing of the black drum fish. Because of their low frequency, the calls of the black drum fish carry a great distance, even 15 kilometres towards the coast.
 
-The noise from passing ships is clearly apparent. The direction, speed and proximity of each ship can be determined by the shape and extension of its pyramid shape. The second dominating component of this soundscape is the cyan-blue acoustic events at night from day 33 onwards. These are due to the chorusing of the black drum fish. Because of their low frequency, the calls of the black drum fish carry a great distance, even 15 kilometres towards the coast.
+{% include audio.html soundCloudTrack="257702038" soundCloudToken="s-vfJDI" caption="A short recording demonstrating dominant acoustic activity in a marine recording off the Georgia Coast, USA. Note the low-frequency noises of the black drum fish (*Pogonias cromis*). Extract courtesy of Cornell Lab of Ornithology" %}
 
-{% include audio.html soundCloudTrack="257702038" soundCloudToken="s-vfJDI" caption="A short recording demonstrating dominant acoustic activity in a marine recording off the Georgia Coast, USA. Note the low-frequency noises of the black drum fish (Pogonias cromis). Extract courtesy of Cornell Lab of Ornithology" %}
-
-The third dominating component of this soundscape occurs during days 9-13. The green lines are due to unidentified “knocking” sounds, something hitting or biting the hydrophone. There were no hurricanes or other meteorological events before or during days 9-13 that might explain these acoustic events. Fishing net strikes are a major problem for marine mammals in the area and may be a possible explanation. In order to get a better understanding of these events, we can add other annotations to the spectrograms as in the next slide.
+The third dominating component of this sound-scape occurs during days 9-13. The green lines are due to unidentified “knocking” sounds, something hitting or biting the hydrophone. There were no hurricanes or other meteorological events before or during days 9-13 that might explain these acoustic events. Fishing net strikes are a major problem for marine mammals in the area and may be a possible explanation. However, to get a better understanding of these events, we can add other annotations to the spectrograms as in the next slide.
 
 The audio provided is courtesy of [Aaron Rice](http://www.birds.cornell.edu/page.aspx?pid=1735&id=205), Cornell Lab of Ornithology, Cornell University, NYS, USA.
 
-## 44 days of ocean recordings--with sunrise, sunset, and tide markings
+---
+
+## Slide 18: 44 days of ocean recordings -- with sunrise, sunset, and tidal annotations
 
 {% include figure.html src="Slides/Slide22.png" caption="Slide 18. Audio courtesy of courtesy of Aaron Rice, Cornell Lab of Ornithology." %}
 
