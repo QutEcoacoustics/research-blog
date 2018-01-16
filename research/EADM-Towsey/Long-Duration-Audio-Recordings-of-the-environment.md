@@ -20,6 +20,8 @@ You can contact [Michael](http://staff.qut.edu.au/details?id=towsey) or our rese
 - Will be replaced with the ToC
 {:toc}
 
+---
+
 ## Introduction  
 
 {% include figure.html src="Slides/Slide1.png" caption="Slide 1." %}
@@ -27,6 +29,8 @@ You can contact [Michael](http://staff.qut.edu.au/details?id=towsey) or our rese
 This presentation describes work being done in the [Eco-acoustics Laboratory](http://research.ecosounds.org/) at the [Queensland University of Technology (QUT)](https://www.qut.edu.au/). An important part of our research is the visualisation, navigation, and analysis of long-duration recordings of the environment. Recordings of the environment help ecologists to monitor species diversity, endangered species, and the effects of climate change. It is fortunate that three major groups of vocal animals, birds, frogs, and insects, are also good indicators of environmental health. Acoustic recordings can therefore help in long term studies of environmental change, whether due to negative factors such as pollution, habitat loss, climate change, or due to positive factors such as conservation and restoration projects.
 
 Many of our recordings have been obtained at the Samford Ecological Research Facility (SERF) using SM2 recording boxes manufactured by Wild Life Acoustics. (See image in _Slide 1_)
+
+---
 
 ## Spectrograms
 
@@ -37,6 +41,8 @@ Many of our recordings have been obtained at the Samford Ecological Research Fac
 Ecologists have long worked with [spectrograms](https://en.wikipedia.org/wiki/Spectrogram), two dimensional representations of sound, with *time* as the x-axis and *frequency* (Hertz or kilohertz) as the y-axis. Sound amplitude is coded by the grey-scale intensity. The typical spectrogram will be a few seconds long, or as long as required to demonstrate the animal call of interest. We have used acoustic recordings to monitor the cryptic Lewins Rail on the edges of Brisbane City. The sounds at 8 kHz and above in the spectrogram are due to crickets. There are at least four other birds also calling. However, if we want to prepare a spectrogram of a 24-hour recording at similar scale to that shown in _Slide 2_, it would require a computer screen **1.2 kilometres wide**!
 
 An additional problem with acoustic recordings is that technological advances now make it possible to record days, months, or even years of audio--far in excess of what can ever be listened to. Clearly some kind of audio reduction is required. Visualisation of sound is a promising approach because, of all the human senses, the visual sense has the greatest capacity to synthesise and integrate large amounts of information.
+
+---
 
 ## Long-duration spectrograms
 
