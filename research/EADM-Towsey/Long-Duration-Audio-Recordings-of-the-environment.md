@@ -4,6 +4,16 @@ title: "Long-duration Audio-recordings of the Environment"
 subtitle: "Visualisation & Analysis"
 redirect_from: "/LDARE/"
 ---
+<style>
+ hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2;
+    border-top: 2px solid #eee;
+    height: 0.25em;
+    background-color: #555;
+ }
+</style>
 
 __by Michael Towsey, Anthony Truskinger, and Paul Roe__
 
