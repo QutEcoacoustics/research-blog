@@ -38,7 +38,7 @@ You can contact [Michael](http://staff.qut.edu.au/details?id=towsey) or our rese
 
 This presentation describes work being done in the [Eco-acoustics Laboratory](http://research.ecosounds.org/) at the [Queensland University of Technology (QUT)](https://www.qut.edu.au/). An important part of our research is the visualisation, navigation, and analysis of long-duration recordings of the environment. Recordings of the environment help ecologists to monitor species diversity, endangered species, and the effects of climate change. It is fortunate that three major groups of vocal animals, birds, frogs, and insects, are also good indicators of environmental health. Acoustic recordings can therefore help in long term studies of environmental change, whether due to negative factors such as pollution, habitat loss, climate change, or due to positive factors such as conservation and restoration projects.
 
-The above image shows a sound recording unit attached to a tree in bushland at the Samford Ecological Research Facility (SERF), on the outskirts of Brisbane City. Most of our recordings are obtained using using SM2/SM4 recording boxes manufactured by Wild Life Acoustics (as in the above image) or BAR recording boxes manufactured by Frontier Laboratories, Brisbane. 
+The above image shows a sound recording unit attached to a tree in bushland at the Samford Ecological Research Facility (SERF), on the outskirts of Brisbane City. Most of our recordings are obtained using SM2/SM4 recording boxes manufactured by Wild Life Acoustics, Massachusetts (as in the above image) or BAR recording boxes manufactured by Frontier Laboratories, Brisbane. 
 
 ---
 
@@ -96,13 +96,15 @@ The basic structure of the forest soundscape at SERF is easily interpreted. (*So
 
 A colour chart is added at the top of the image to help with interpretation. For example, purple events have high values for ACI *and* CVR. Cyan events have high values for *H*(t) and CVR. This will depend on the characteristic distribution of acoustic energy in the animal calls that contribute to the event. With some experience you begin to recognise the different sounds of interest.
 
+For convenience, we refer to these spectrograms as long-duration, false-colour spectrograms or LDFC spectrograms.
+
 ---
 
 ## Slide 7: The right combination of indices is important
 
 {% include figure.html src="Slides/Slide9.png" caption="Slide 7." %}
 
-Different combinations of indices give different views of the soundscape. Here we see two false-colour spectrograms of the same recording. Note that more structure is visible in the bottom spectrogram than in the top, because two of the three indices used to construct the top spectrogram are correlated. So here we have an important “trick” in making this technique work. Each of the three indices used to construct a false-colour spectrogram should be independent of each other--or at least they should not be positively correlated. In the top image the two indices AVG and CVR are highly correlated and therefore the third index (CVR) is not adding any new information to the other two. The EVN index in the second spectrogram is a measure of the *acoustic events per second* in each frequency bin.
+Different combinations of indices give different views of the soundscape. Here we see two LDFC spectrograms of the same recording. Note that more acoustic structure is visible in the bottom spectrogram than in the top, because two of the three indices used to construct the top spectrogram are correlated. So here we have an important “trick” in making this technique work. Each of the three indices used to construct an LDFC spectrogram should be independent of each other -- or at least have the minimum correlation possible. In the top image the two indices AVG and CVR are highly correlated and therefore the third index (CVR) is not adding any new information to the other two. The EVN index in the second spectrogram is a measure of the *acoustic events per second* in each frequency bin.
 
 ---
 
@@ -122,9 +124,9 @@ You can see an interactive version of this slide [here](http://www.ecosounds.org
 
 {% include figure.html src="Slides/Slide12.png" caption="Slide 9." %}
 
-The typical soundscape will be filled with sounds from many different source, not just from animals. Soundscape ecologists broadly categorise three or four sound sources which they label, *biophony*, *geophony*, *anthropophony* and sometimes a fourth is added, *technophony* (to distinguish musical sounds and speech from machine noise). In this slide we see the traces left in a false-colour spectrogram by various kinds of geophony. In the top-left image you will note that bird song (in green) occurs in between gusts of wind (in blue). An image like this can direct an ecologist to those parts of the recording in which birds are singing, thereby saving a lot of time.
+The typical soundscape will be filled with sounds from many different sources, not just from animals. Soundscape ecologists broadly categorise three or four sound sources which they label, *biophony*, *geophony*, *anthropophony* and sometimes a fourth is added, *technophony* (to distinguish musical sounds and speech from machine noise). In the above three LDFC spectrograms, we see traces left by various kinds of geophony. In the top-left spectrogram, note that bird song (in green) occurs in between gusts of wind (in blue). A spectrogram like this can direct an ecologist to those parts of the recording in which birds are singing, thereby saving a lot of time.
 
-The sound of rain as it appears in a false-colour spectrogram can vary a lot, obviously depending on the volume of rain but also depending on local characteristics, such as leaf size, leaf litter and even the acoustic response of the recording box to the percussive effects of rain drops
+The traces left by rain in an LDFC spectrogram can vary a lot, obviously depending on the rain intensity but also on local characteristics, such as leaf size, leaf litter and even the acoustic response of the recording box to the percussive effects of rain drops
 
 ---
 
@@ -133,20 +135,25 @@ The sound of rain as it appears in a false-colour spectrogram can vary a lot, ob
 
 {% include figure.html src="Slides/Slide13.png" caption="Slide 10." %}
 
-These images show two sources of anthropophony/technophony due to planes and a helicopter. Plane noise is typically in the low frequency band and has a pyramid shape in the spectrogram. The pyramid shape is due to the fact that low frequency sounds travel further than high frequency sounds. As a plane approaches the microphone, the low frequency sounds are heard first and the high frequency sounds are heard only when the plane is closer. The reverse happens as the plane flies away. The speed and distance of the plane can be determined from the shape of the pyramid. Note the dual components of helicopter noise, a low frequency component due to the engine and a high frequency component due to the whipping of the rotors.
+These images show two sources of anthropophony/technophony due to planes and a helicopter. Plane noise is typically in the low frequency band. It has a pyramid shape in the spectrogram, due to the fact that low frequency sounds travel further than high frequency sounds. As a plane approaches the microphone, the low frequency sounds are detected first and the high frequency sounds are heard only when the plane is closer. The reverse happens as the plane flies away. The speed and distance of the plane can be determined from the shape of the pyramid. Note the dual components of helicopter noise, a low frequency component due to the engine and a high frequency component due to the whipping of the rotors.
 
-Anthropophony is a frequent problem for ecologists wanting to record only animal calls. The above recordings also contained the sounds of a koala, stone curlew and kiwi. Here is recording of a koala bellow.
+Anthropophony is a frequent problem for ecologists wanting to record only animal calls. The above images also illustrate the sounds of a koala, stone curlew and kiwi. Here is recording of a koala bellow.
 
 {% include audio.html soundCloudTrack="257727453" soundCloudToken="s-rBYfs" caption="This recording has a Koala call in it." %}
 
+---
 
-## Adelbert Ranges, Papua New Guinea
+## Slide 11: Adelbert Ranges, Papua New Guinea
+
+This LDFC spectrogram was obtained from the Adelbert Ranges, Papua New Guinea, by *The Nature Conservancy* (TNC). TNC is a global conservation organisation who are attempting to preserve some of the natural forests of PNG. See more info  on the Adelbert Mountains project [here](http://www.nature.org/ourinitiatives/regions/asiaandthepacific/papuanewguinea/placesweprotect/adelbert-mountains.xml) and [here](http://www.nature.org/ourinitiatives/regions/asiaandthepacific/papuanewguinea/explore/papua-new-guinea-rainforest-acoustic-sampling.xml). 
 
 {% include figure.html src="Slides/Slide15.png" caption="Slide 11. Audio courtesy of Eddie Game and the Nature Conservancy" %}
 
-This false-colour spectrogram was obtained from the Adelbert Ranges, Papua New Guinea, by *The Nature Conservancy*. They are a global conservation organisation who are attempting to preserve some of the natural forests of PNG. See more info  on the Adelbert Mountains project [here](http://www.nature.org/ourinitiatives/regions/asiaandthepacific/papuanewguinea/placesweprotect/adelbert-mountains.xml) and [here](http://www.nature.org/ourinitiatives/regions/asiaandthepacific/papuanewguinea/explore/papua-new-guinea-rainforest-acoustic-sampling.xml). The local terrain for this recording is mountainous jungle. Note how the entire sound-space is filled with acoustic activity. Most of the activity is due to insects. Birds are, for the most part, restricted to the lower part of spectrum. The morning chorus is not as well-defined as in the previous recording from Australian eucalypt woodland. It is difficult to imagine how you could cram another vocal species into this sound-space! This brings us to the notion of the sound-space as a finite ecological resource. Somehow all the insects, birds and frogs at this location have to partition their acoustic activity in a way that allows them to complete their life-cycles, i.e. so that the mating pairs of each species can find each other in a cacophony of noise. 
+The local terrain for this recording is mountainous jungle. Note how the entire sound-space is filled with acoustic activity, most of it due to insects. Birds are, for the most part, restricted to the lower frequency band. The morning chorus is not as well-defined as in the previous recording from eucalypt woodland in Australia. It is difficult to imagine how you could cram another vocal species into this sound-space! This brings us to the notion of the *sound-space* as a finite ecological resource. Somehow all the insects, birds and frogs at this location have to partition their acoustic activity in a way that allows them to complete their life-cycles, i.e. so that the mating pairs of each species can find each other in a cacophony of noise. 
 
-## Sturt National Park
+---
+
+## Slide 12: Sturt National Park
 
 {% include figure.html src="Slides/Slide16.png" caption="Slide 12. Audio courtesy of Dave Watson." %}
 
