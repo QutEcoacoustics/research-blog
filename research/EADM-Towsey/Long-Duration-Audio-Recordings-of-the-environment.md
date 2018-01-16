@@ -155,46 +155,55 @@ The local terrain for this recording is mountainous jungle. Note how the entire 
 
 ## Slide 12: Sturt National Park
 
-{% include figure.html src="Slides/Slide16.png" caption="Slide 12. Audio courtesy of Dave Watson." %}
+By way of a complete contrast to the previous spectrogram, here is a 24-hour LDFC spectrogram of a semi-desert environment in the Sturt National Park, about 1200 km inland from Brisbane, Australia. (See the semi-desert landscape in bottom image.) Note the highly attenuated morning chorus around 7am, the almost complete absence of sound at night when the winter temperatures are likely to be below freezing, and the gusting winds in the middle of the day (insufficient baffles on the microphones!). There are occasional bird calls at night – see 2040h. This shows once again the utility of the *H*(t) index in picking out brief bursts of sound in long periods of silence.
 
-By way of complete contrast to the previous spectrogram, here is a 24-hour spectrogram of a semi-desert environment in the Sturt National Park, about 1200 km inland from Brisbane, Australia. Note the highly attenuated morning chorus around 7am, the almost complete absence of sound at night when the winter temperatures are likely to be below freezing, and the gusting winds in the middle of the day (insufficient baffles on the microphones!). There are occasional bird calls at night – see 2040h. This shows once again the utility of the *H*(t) index in picking out brief bursts of sound in long periods of silence.
+{% include figure.html src="Slides/Slide16.png" caption="Slide 12. Audio courtesy of Dave Watson." %}
 
 For more information on the ongoing Sturt National Park acoustics project contact [Prof. David Watson from Charles Sturt University](http://www.csu.edu.au/ses/staff/profiles/academic-staff/david-watson) ([@D0CT0R_Dave](https://twitter.com/D0CT0R_Dave)).
 
-## Cross-site comparison (varying latitudes)
+---
 
-{% include figure.html src="Slides/Slide17.png" caption="Slide 13." %}
+## Slide 13: Cross-site comparison (varying latitudes)
 
 This slide compares three 24-hour, false-colour spectrograms of three soundscapes from different latitudes. All these recordings were obtained in the first week of July (winter) 2015. The top PNG recording is dominated by insects. The middle Brisbane recording is dominated by birds and the bottom desert recording is dominated by wind.
 
+{% include figure.html src="Slides/Slide17.png" caption="Slide 13." %}
 Recordings courtesy of:
 
  - (top) Eddie Game, The Nature Conservancy
  - (middle) Yvonne Phillips, QUT Ecoacoustics Research Group
  - (bottom) David Watson, Charles Sturt University
 
-## Cross-site comparison (varying altitudes)
+---
 
-{% include figure.html src="Slides/Slide18.png" caption="Slide 14. Audio courtesy of Eddie Game and the Nature Conservancy." %}
+## Slide 14: Cross-site comparison (varying altitudes)
 
-This slide compares spectrograms from four Adelbert Range locations that are quite close but differ in altitude. Several differences are apparent, particularly in the 0-2 kHz band. At 280 metres there is a lot of background noise (red colour) in this band, whereas at 900m there is more bird activity. Spectrograms such as these can help ecologists to spot differences between recording sites and to frame interesting hypotheses.
+{% include figure.html src="Slides/Slide18.png" caption="Slide 14. The effect of altitude on sound-scapes as rendered in LDFC spectrograms. Audio courtesy of Eddie Game and the Nature Conservancy." %}
 
-## Fresh water recordings
+This slide compares LDFC spectrograms from four Adelbert Range locations that are quite close but differ in altitude. Several differences are apparent, particularly in the 0-2 kHz band. At 280 metres there is a lot of background noise (red colour) in the 0-2 kHz band, whereas at 900m there is more bird activity. Spectrograms such as these can help ecologists to spot differences between recording sites and to frame interesting hypotheses.
+
+---
+
+## Slide 15: Fresh water recordings
 
 {% include figure.html src="Slides/Slide19.png" caption="Slide 15. Audio courtesy of courtesy of Simon Linke and Toby Gifford." %}
 
-Not many people know that fish make a lot of sound as do underwater insects and crustaceans. This slide shows the false-colour spectrogram of a 24-hour recording taken with a hydrophone in a pond in northern Queensland. Note the change in sound during the day compared to the night. All the acoustic activity in this recording is due to insects and is dominant in the 1-2 kHz band. You can listen to 21 seconds of underwater recording here - all the sound is due to insects.
+Not many people know that fish make a lot of sound as do underwater insects and crustaceans. This slide shows the LDFC spectrogram of a 24-hour recording taken with a hydrophone in a pond of the Einasleigh River, dry season, northern Queensland. Note the change in sound during the day compared to the night. All the acoustic activity in this recording is due to aquatic insects and is dominant in the 1-2 kHz band. You can listen to 21 seconds of underwater recording here - all the sound is due to insects.
 
 
 {% include audio.html soundCloudTrack="257726757" soundCloudToken="s-81gFR" caption="This recording (courtesy of Simon Linke) shows acoustic activity in a pond in northern Queensland." %}
 
 The audio shown here was provided by [Dr. Simon Linke](https://www.griffith.edu.au/environment-planning-architecture/australian-rivers-institute/members/dr-simon-linke) and [Dr. Toby Gifford](http://app.griffith.edu.au/phonebook/phone-details.php?type=B&id=1665920), of Griffith University, Brisbane, Australia. If you'd like more information on their project please contact them. 
 
-## Marine recordings
+---
+
+## Slide 16: Marine recordings
+
+This LDFC spectrogram is derived from a 24-hour hydrophone recording taken 15 km off the coast of Georgia, USA. The water is only 15 m deep and the hydrophone was positioned 2m off the ocean floor. Note in this case, that the horizontal grid-lines are 200 Hz apart with 1 kHz full scale. 
 
 {% include figure.html src="Slides/Slide20.png" caption="Slide 16. Audio courtesy of courtesy of Aaron Rice, Cornell Lab of Ornithology." %}
 
-This spectrogram is derived from a 24-hour hydrophone recording taken 15 km off the coast of Georgia, USA. The water is only 15 m deep and the hydrophone was positioned 2m off the ocean floor. Note in this case, that the horizontal gridlines are 200 Hz apart with 1 kHz full scale. The red events in the bottom spectrogram are due to passing ships. Sound can travel long distances underwater and the passage of a ship can be acoustically evident for two or more hours. Note the tendency to "pyramid shape events" because low frequencies travel further than high. In the second ship from the left, you can observe interesting interference effects due to a phenomenon called [Lloyd’s Mirror](https://en.wikipedia.org/wiki/Lloyd%27s_mirror). Sound arriving at the microphone comes directly from the ship but also comes indirectly after reflection at the ocean surface. Interference effects result because the two sound paths have slightly different lengths. Each ship has a different acoustic signature that depends on its depth in the water, propulsion mechanism and noises from inside the ship due to generators and winches.
+The red events in the bottom spectrogram are due to passing ships. Sound can travel long distances underwater and the passage of a ship can be acoustically evident for two or more hours. Note the tendency to "pyramid shape events" because low frequencies travel further than high. In the second ship from the left, you can observe interesting interference effects due to a phenomenon called [Lloyd’s Mirror](https://en.wikipedia.org/wiki/Lloyd%27s_mirror). Sound arriving at the microphone comes directly from the ship but also comes indirectly after reflection at the ocean surface. Interference effects result because the two sound paths have slightly different lengths. Each ship has a different acoustic signature that depends on its depth in the water, propulsion mechanism and noises from inside the ship due to generators and winches.
 
 The dominant bio-acoustic activity in this recording is due to fish clicks at around 100 Hz. However, in many marine recordings of the deep oceans many of the sounds have yet to be identified. Earthquakes and sonar activity (due to military and to oil exploration) also contribute to the marine soundscape. *Marine noise pollution* is now recognised as a major problem and a contributing factor to whale and dolphin strandings.
 
