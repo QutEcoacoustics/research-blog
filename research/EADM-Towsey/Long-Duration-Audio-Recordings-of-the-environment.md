@@ -31,7 +31,7 @@ You can contact [Michael](http://staff.qut.edu.au/details?id=towsey) or our rese
 {:toc}
 
 ---
-# Slide 1
+
 ## Introduction  
 
 {% include figure.html src="Slides/Slide1.png" caption="Slide 1." %}
