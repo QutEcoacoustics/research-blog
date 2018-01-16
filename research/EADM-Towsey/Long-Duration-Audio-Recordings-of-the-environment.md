@@ -38,7 +38,7 @@ You can contact [Michael](http://staff.qut.edu.au/details?id=towsey) or our rese
 
 This presentation describes work being done in the [Eco-acoustics Laboratory](http://research.ecosounds.org/) at the [Queensland University of Technology (QUT)](https://www.qut.edu.au/). An important part of our research is the visualisation, navigation, and analysis of long-duration recordings of the environment. Recordings of the environment help ecologists to monitor species diversity, endangered species, and the effects of climate change. It is fortunate that three major groups of vocal animals, birds, frogs, and insects, are also good indicators of environmental health. Acoustic recordings can therefore help in long term studies of environmental change, whether due to negative factors such as pollution, habitat loss, climate change, or due to positive factors such as conservation and restoration projects.
 
-Many of our recordings have been obtained at the Samford Ecological Research Facility (SERF) using SM2 recording boxes manufactured by Wild Life Acoustics. (See image in _Slide 1_)
+The above image shows a sound recording unit attached to a tree in bushland at the Samford Ecological Research Facility (SERF), on the outskirts of Brisbane City. Most of our recordings are obtained using using SM2/SM4 recording boxes manufactured by Wild Life Acoustics (as in the above image) or BAR recording boxes manufactured by Frontier Laboratories, Brisbane. 
 
 ---
 
@@ -107,7 +107,7 @@ Different combinations of indices give different views of the soundscape. Here w
 ---
 
 ## Slide 8: Biophony
-(Biophony is a new word. It is used by soundscape ecologists to refer to sounds of biological origin - usually bird, insect, frog and mammal calls.)
+(*Biophony* is a new word. It is used by soundscape ecologists to refer to sounds of biological origin - usually bird, insect, frog and mammal calls.)
 
 {% include figure.html src="Slides/Slide11.png" caption="Slide 8." %}
 
@@ -118,7 +118,7 @@ You can see an interactive version of this slide [here](http://www.ecosounds.org
 ---
 
 ## Slide 9: Geophony
-(Geophony refers to sounds of natural, but inanimate origin, - usually rain, thunder, wind, surf, etc.)
+(*Geophony* refers to sounds of natural, but inanimate origin, - usually rain, thunder, wind, surf, etc.)
 
 {% include figure.html src="Slides/Slide12.png" caption="Slide 9." %}
 
@@ -129,7 +129,7 @@ The sound of rain as it appears in a false-colour spectrogram can vary a lot, ob
 ---
 
 ## Slide 10: Anthropophony
-(Anthropophony refers to sounds caused by humans, everything from speech and music, to machine noise emanating from planes, trains, bikes and automobiles. Machine noise is sometimes called technophony.)
+(*Anthropophony* refers to sounds caused by humans, everything from speech and music, to machine noise emanating from planes, trains, bikes and automobiles. Machine noise is sometimes called technophony.)
 
 {% include figure.html src="Slides/Slide13.png" caption="Slide 10." %}
 
