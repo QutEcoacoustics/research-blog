@@ -74,7 +74,7 @@ In like manner, we can make additional spectrograms derived from other acoustic 
 
 CVR is short for *cover*. It simply measures the fraction of spectrogram cells in a given frequency bin where the acoustic energy exceeds a threshold, typically 3 decibels (dB). These are comparatively simple indices, but the important point to note is that each index reveals different components or events in the acoustic sound-space. For example, a 30-minute cicada chorus is only seen in the CVR spectrogram starting at 6pm at 900 Hz. A strong event is shown at 4:30pm (1.8 kHz) in the *H*(t) spectrogram which is not so obvious in the other spectrograms.
 
-We have now introduced two new terms, *sound-space* and *acoustic event*. *Sound-space* is the abstract notion of a space with five-dimensions, one of time, one of frequency and three of physical space. It is the “space” in which acoustic events occur. An *acoustic event* is typically a single uninterrupted sound that can be attributed to the same source. The source might be single animal or a chorus of many animals (such as cicadas). A spectrogram reveals the distribution of acoustic energy in the time-frequency dimensions for a fixed point in space.
+We have now introduced two new terms, *sound-space* and *acoustic event*. *Sound-space* is the abstract notion of a space with five-dimensions, one of time, one of frequency and three of physical space. It is the “space” in which acoustic events occur. An *acoustic event* is typically a single uninterrupted sound that can be attributed to the same source. The source might be single animal or a chorus of many animals (such as cicadas). A spectrogram reveals the distribution of acoustic energy in the time-frequency dimensions for a fixed point in space. (See Towsey, 2017[^TOW] for an account of how we calculate many acoustic indices.)
 
 ---
 
@@ -229,9 +229,11 @@ The audio provided is courtesy of [Aaron Rice](http://www.birds.cornell.edu/page
 
 ## Slide 18: 44 days of ocean recordings -- with sunrise, sunset, and tidal annotations
 
+This is the same 44 days of false-colour spectrogram as shown in the previous slide but with sunrise, sunset, high- and low-tide times superimposed. Day length is increasing as the recording proceeds through spring.
+
 {% include figure.html src="Slides/Slide22.png" caption="Slide 18. Audio courtesy of courtesy of Aaron Rice, Cornell Lab of Ornithology." %}
 
-This is the same 44 days of false-colour spectrogram as shown in the previous slide but with sunrise, sunset, high- and low-tide times superimposed. Day length is increasing as the recording proceeds through spring. While black drum fish chorusing is dominant at night and likely to be triggered by increasing day-length, the chorusing does not appear to be constrained by daylight. However it is apparent that the knocking sounds in days 9-13 are at a maximum between high and low tides when coastal currents are at a maximum. In particular, they are at a maximum in the period between low tide and high tide. Clearly the "knocking" events are associated with something drifting in the ocean currents. The asymmetrical nature of the events (around low tide) may be due to the additive effect of the clock-wise circulation of ocean currents up the east coast of the USA. And there the mystery must remain.
+While black drum fish chorusing is dominant at night and likely to be triggered by increasing day-length, the chorusing does not appear to be constrained by daylight. However it is apparent that the "knocking" sounds in days 9-13 are at a maximum between high and low tides when coastal currents are at a maximum. In particular, they are at a maximum in the period between low tide and high tide. Clearly the "knocking" events are associated with something drifting in the ocean currents. The asymmetrical nature of the events (around low tide) may be due to the additive effect of the clock-wise circulation of ocean currents up the east coast of the USA. And there the mystery must remain.
 
 It is worth noting that these hundreds of hours of marine recording were made in order to detect the presence of the North Atlantic Right Whale (NARW), the most threatened of the whale species. The hydrophone was located in the middle of the NARW calving grounds towards the end of the calving season. The usual approach to identifying NARW calls is to write computer code specifically designed to recognise its three kinds of call. Due to the highly specific purpose of automated recognisers, they are designed *not* to detect any other acoustic events. however, LDFC spectrograms reveal a wealth of additional information about the marine sound-scape. They complement the information obtained by automated call recognisers because they reveal the acoustic environment in which the NARW live.
 
@@ -239,9 +241,11 @@ It is worth noting that these hundreds of hours of marine recording were made in
 
 ## Slide 19: Terrestrial ribbon plots
 
+In the following image, we return to a terrestrial sound-scape, in this case, illustrating 63 days of continuous recording using audio recorded in Gympie National Park, Queensland, Australia. 
+
 {% include figure.html src="Slides/Slide19_GympieRibbonPlot.png" caption="Slide 19. Audio courtesy of courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group." %}
 
-Here we are returning to terrestrial recordings, in this case, illustrating 63 days of continuous recording using audio recorded in Gympie National Park, Queensland, Australia. 
+The morning and evening choruses are clearly evident as are rain showers shown prominently in red (see ribbon for 21/05/2015). Note how easy it is to compare the structure of the sound-scape over consecutive days. The grey vertical line that appears (typically) every seventh days is when the recorder was turned off in order to change batteries.
 
 ---
 
@@ -251,7 +255,7 @@ Here we are returning to terrestrial recordings, in this case, illustrating 63 d
 
 Even with the ribbon spectrograms reduced to a height of 32 pixels (as in the previous slide), there is a limit to how many ribbons can be concatenated to illustrate many months of recording. In theory we could try reducing each ribbon to a single pixel height, but instead we derive this kind of very-long-duration acoustic image from *summary acoustic indices* rather than *spectral acoustic indices*. A *summary index* (the *acoustic* bit is assumed) is a single value representing the distribution of acoustic energy in an entire minute of recording over all frequency bands. That is, frequency information is now lost.
 
-In this image (_Slide 19_), you see a representation of four months of recording, each pixel row representing one day of recording. The left-hand side of the image is midnight, the image-centre represents midday and the right-hand side the following midnight. We call these plots *diel plots*. The time of civil-dawn and civil-dusk is superimposed. It is obvious that, unlike the previous marine sound-scape, the terrestrial sound-scape is highly constrained by daylight.
+In this image (_Slide 20_), you see a representation of four months of recording, each pixel row representing one day of recording. The left-hand side of the image is midnight, the image-centre represents midday and the right-hand side the following midnight. We call these plots *diel plots*. The time of civil-dawn and civil-dusk is superimposed. It is obvious that, unlike the previous marine sound-scape, the terrestrial sound-scape is highly constrained by daylight.
 
 To produce this image, the three summary indices assigned to red, green and blue respectively were: 1: an estimate of background noise; 2. the signal-to-noise ratio; and 3. the average number of acoustic events per second. Each of these indices was calculated from the signal wave form. that is, there was no need to make a standard spectrogram. The emerging red patches (bottom right) are due to the onset of insect chorusing as spring temperatures increase. The long horizontal lines are due to extended periods of rain. The red patches within the blue lines are due to extremely heavy rain bursts. The morning chorus is clearly aligned with civil-dawn (around 30 minutes before actual sunrise) and the bright-green specks that are most apparent around sunrise and sunset are due to loud kookaburra choruses. Just as with false-colour spectrograms, diel plots derived from different indices provide different views of the sound-scape.
 
@@ -259,28 +263,28 @@ Audio provided courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group. The
 
 ---
 
-## Slide 20: Four month diel plot -- derived from clustering of summary indices.
+## Slide 21: Thirteen months of audio represented by a diel plot -- derived from clustering of summary indices.
 
-{% include figure.html src="Slides/Slide24.png" caption="Slide 20. Audio courtesy of courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group." %}
+{% include figure.html src="Slides/Slide24.png" caption="Slide 21. Audio courtesy of courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group." %}
 
-We have produced diel plots using three different methods. A second way is cluster all the vectors of summary indices and then colour code the resulting clusters. This method is described in [X] and [Y]. The above diel plot represents 13 months of continuous audio recording from Gympie National Park. 
+We have produced diel plots using three different methods. The first way, as illustrated in the previous slide, is to assign three different summary indices to the red, green and blue channels of the image. A second way is to calculate several to many summary indices, obtain the first three principal components and assign them to the red, green and blue channels of the image respectively. A third way is to calculate several to many summary indices, cluster them and colour code the resulting clusters. This method is described in Phillips et al. 2017[^PHI]. The above diel plot (Slide 21) was derived from clustering 1.1 million vectors of 12 summary indices. It represents 13 months of continuous audio, recorded in Gympie National Park. Clustering produced 60 clusters (each cluster represents an "environmental acoustic state") but the colour coding was simplified: 1. silence clusters are represented in grey; bird cluster in green, rain clusters in dark blue; wind clusters in pale blue, insect cluster in yellow; cicada chorus clusters in orange and plane sounds in red. 
 
 Audio provided courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group. The audio was recorded from Gympie, Queensland, Australia.
 
 ---
 
-## Slide 21: The classification of soundscapes
+## Slide 22: The classification of soundscapes
 
-{% include figure.html src="Slides/Slide25.png" caption="Slide 21. Pictures courtesy of courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group." %}
+{% include figure.html src="Slides/Slide25.png" caption="Slide 22. Pictures courtesy of courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group." %}
 
 
 Apart from visualisation, acoustic indices can be used to reveal other ecological insights. For example, we can classify different locations according to their soundscapes. Consider the two locations shown in this slide (_Slide 21_). One has higher rainfall and therefore supports more dense vegetation cover. However the bird species are quite similar at the two sites. What are the consequences for the soundscape? How will the soundscapes differ despite similar bird species?
 
 ---
 
-## Slide 22: Clustering sound-scapes
+## Slide 23: Clustering soundscapes
 
-{% include figure.html src="Slides/Slide26.png" caption="Slide 22. [Sankupellay M., Towsey, M., Truskinger, A., & Roe, P. (2015)](#fn:SAN)." %}
+{% include figure.html src="Slides/Slide26.png" caption="Slide 23. [Sankupellay M., Towsey, M., Truskinger, A., & Roe, P. (2015)](#fn:SAN)." %}
 
 
 In a study reported by Sankupellay et al.[^SAN], four sites were selected at location _A_ and two sites at location _B_. Two consecutive days of recording were made at each site giving 12 days of recording in total.
@@ -293,9 +297,9 @@ A 24-hour cluster occupancy histogram was prepared for each of the 12 days (see 
 
 ---
 
-## Slide 23: Two acoustic disciplines: Bio-acoustics and Eco-acoustics
+## Slide 24: Two acoustic disciplines: Bio-acoustics and Eco-acoustics
 
-{% include figure.html src="Slides/Slide27.png" caption="Slide 23." %}
+{% include figure.html src="Slides/Slide27.png" caption="Slide 24." %}
 
 Until recently, biological interest in acoustics was restricted to the vocalising mechanisms and behaviours of individual animals or species. This science is known as *bioacoustics*. Technological limitations did not permit long recordings. However in the last few years the technological impediments to long recordings have pretty much disappeared. The effect has been to open up an entirely new science, which is variously called *eco-acoustics* or [*soundscape ecology*](https://en.wikipedia.org/wiki/Soundscape_ecology). Soundscape ecology studies the interactions between soundscapes and the underlying ecosystem processes.
 
@@ -307,11 +311,11 @@ In the remaining slides we look at four ways in which work in our lab attempts t
 
 ---
 
-## Slide 24: Bridging the divide between bioacoustics and eco-acoustics
+## Slide 25: Bridging the divide between bioacoustics and eco-acoustics
 
 ### 1.  Using sound-scape indices to help study species diversity
 
-{% include figure.html src="Slides/Slide28.png" caption="Slide 24." %}
+{% include figure.html src="Slides/Slide28.png" caption="Slide 25." %}
 
 Typically acoustic indices are calculated at one-minute resolution, too course a time resolution to be of much interest to bio-acousticians who are interested in animal calls that may last only a few seconds. However acoustic indices can pick up the occurrence of different sounds even if they cannot identify what they are. The spectrogram in _Slide 24_ is dominated by wind (blue vertical lines) but when the wind drops, birds begin to sing (yellow-green lines). So one use of acoustic indices (calculated at one-minute resolution) is to classify one-minute audio segments according to their general acoustic content. It is relatively easy to construct a five-class machine learning problem where the task is to identify minutes containing bird calls versus silence, wind, rain and insect sounds. The classifier can be used as a filter to remove recording segments that do not contain bird sounds, as shown in the next slide.
 
@@ -376,6 +380,8 @@ We are at an exciting stage in our research. Ecoacoustics is a rapidly developin
 
 ## References
 
+[^PHI]: Phillips, Y., Towsey, M., and Roe, P. (2017, 6-10 November). Visualisation of environmental audio using ribbon plots and acoustic state sequences. Paper presented at the IEEE International Symposium on Big Data Visual Analytics (BDVA), Adelaide, Australia. doi:10.1109/bdva.2017.8114628.
+
 [^ACI]: N. Pieretti, A. Farina, D. Morri (2011). A new methodology to infer the singing activity of an avian community: The Acoustic Complexity Index (ACI), _Ecological Indicators_, Volume 11, Issue 3, May 2011, Pages 868-873, ISSN 1470-160X, <http://dx.doi.org/10.1016/j.ecolind.2010.11.005>.
 
 [^SAN]: Sankupellay, Mangalam, Towsey, Michael W., Truskinger, Anthony, & Roe, Paul (2015) Visual fingerprints of the acoustic environment: The use of acoustic indices to characterise natural habitats. In _IEEE International Symposium on Big Data Visual Analytics (BDVA 2015)_, 22-25 September 2015, Hobart, Tas, <http://dx.doi.org/10.1109/BDVA.2015.7314306>.
@@ -383,5 +389,7 @@ We are at an exciting stage in our research. Ecoacoustics is a rapidly developin
 [^FCS]: Towsey, M. et al., (2014). Visualization of long-duration acoustic recordings of the environment. _Proceedings of the International Conference on Computational Science (ICCS 2014)_, Cairns, Australia, 9-12 June 2014, <http://dx.doi.org/10.1016/j.procs.2014.05.063>.
 
 [^ZOO]: Towsey, M., Truskinger, A. & Roe, P. (2015). The Navigation and Visualisation of Environmental Audio using Zooming Spectrograms. _IEEE International Conference on Data Mining, Workshop on Environmental Acoustic Data Mining_, Atlantic City, NJ, USA, 14-17 November, 2015, <http://eprints.qut.edu.au/91822/>.
+
+[^TOW]: Towsey, M. (2017) The calculation of acoustic indices derived from long-duration recordings of the natural environment. QUT ePrints, Brisbane, Australia.  <https://eprints.qut.edu.au/110634>.
 
 [^ZHA]: Zhang, L., Towsey, M., Zhang, J. & Roe, P. (2015). Computer-assisted Sampling of Acoustic Data for More Efficient Determination of Bird Species Richness. _IEEE International Conference on Data Mining workshop Environmental Acoustic Data Mining_, Atlantic City, NJ, USA, 14-17 November, 2015, <http://dx.doi.org/10.1109/ICDMW.2015.42>.
