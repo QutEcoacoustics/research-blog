@@ -245,11 +245,11 @@ In the following image, we return to a terrestrial sound-scape, in this case, il
 
 {% include figure.html src="Slides/Slide19_GympieRibbonPlot.png" caption="Slide 19. Audio courtesy of courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group." %}
 
-The morning and evening choruses are clearly evident as are rain showers shown prominently in red (see ribbon for 21/05/2015). Note how easy it is to compare the structure of the sound-scape over consecutive days. The grey vertical line that appears (typically) every seventh days is when the recorder was turned off in order to change batteries.
+The morning and evening choruses are clearly evident as are rain showers shown prominently in red (see ribbon for 21/05/2015). Note how easy it is to compare the structure of the sound-scape over consecutive days. The grey vertical line that appears (typically) every seventh days is when the recorder was turned off in order to change batteries. (Not everything is ecologically significant!)
 
 ---
 
-## Slide 20: Diel plots - illustrating months of acoustic recording
+## Slide 20: Diel plots - illustrating four months of acoustic recording
 
 {% include figure.html src="Slides/Slide23.png" caption="Slide 20. Audio courtesy of courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group." %}
 
@@ -257,7 +257,7 @@ Even with the ribbon spectrograms reduced to a height of 32 pixels (as in the pr
 
 In this image (_Slide 20_), you see a representation of four months of recording, each pixel row representing one day of recording. The left-hand side of the image is midnight, the image-centre represents midday and the right-hand side the following midnight. We call these plots *diel plots*. The time of civil-dawn and civil-dusk is superimposed. It is obvious that, unlike the previous marine sound-scape, the terrestrial sound-scape is highly constrained by daylight.
 
-To produce this image, the three summary indices assigned to red, green and blue respectively were: 1: an estimate of background noise; 2. the signal-to-noise ratio; and 3. the average number of acoustic events per second. Each of these indices was calculated from the signal wave form. that is, there was no need to make a standard spectrogram. The emerging red patches (bottom right) are due to the onset of insect chorusing as spring temperatures increase. The long horizontal lines are due to extended periods of rain. The red patches within the blue lines are due to extremely heavy rain bursts. The morning chorus is clearly aligned with civil-dawn (around 30 minutes before actual sunrise) and the bright-green specks that are most apparent around sunrise and sunset are due to loud kookaburra choruses. Just as with false-colour spectrograms, diel plots derived from different indices provide different views of the sound-scape.
+To produce this image, the three summary indices assigned to red, green and blue respectively were: 1: an estimate of background noise; 2. the signal-to-noise ratio; and 3. the average number of acoustic events per second. Each of these indices was calculated from the signal wave form. That is, there was no need to do the intermediate step of making a standard spectrogram. The emerging red patches (bottom right) are due to the onset of insect chorusing as spring temperatures increase. The long horizontal lines are due to extended periods of rain. The red patches within the blue lines are due to extremely heavy rain bursts. The morning chorus is clearly aligned with civil-dawn (around 30 minutes before actual sunrise) and the bright-green specks that are most apparent around sunrise and sunset are due to loud kookaburra choruses. Just as with false-colour spectrograms, diel plots derived from different indices provide different views of the sound-scape.
 
 Audio provided courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group. The audio was recorded in Gympie National Park, Queensland, Australia.
 
@@ -265,41 +265,47 @@ Audio provided courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group. The
 
 ## Slide 21: Thirteen months of audio represented by a diel plot -- derived from clustering of summary indices.
 
-{% include figure.html src="Slides/Slide24.png" caption="Slide 21. Audio courtesy of courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group." %}
+{% include figure.html src="Slides/Slide21Cluster_plot_GympieNP_Summary.png" caption="Slide 21. Audio courtesy of courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group." %}
 
-We have produced diel plots using three different methods. The first way, as illustrated in the previous slide, is to assign three different summary indices to the red, green and blue channels of the image. A second way is to calculate several to many summary indices, obtain the first three principal components and assign them to the red, green and blue channels of the image respectively. A third way is to calculate several to many summary indices, cluster them and colour code the resulting clusters. This method is described in Phillips et al. 2017[^PHI]. The above diel plot (Slide 21) was derived from clustering 1.1 million vectors of 12 summary indices. It represents 13 months of continuous audio, recorded in Gympie National Park. Clustering produced 60 clusters (each cluster represents an "environmental acoustic state") but the colour coding was simplified: 1. silence clusters are represented in grey; bird cluster in green, rain clusters in dark blue; wind clusters in pale blue, insect cluster in yellow; cicada chorus clusters in orange and plane sounds in red. 
+We have produced diel plots using three different methods. The first way, as illustrated in the previous slide, is to assign three different summary indices to the red, green and blue channels of the image. A second way is to calculate several to many summary indices, obtain the first three principal components and assign them to the red, green and blue channels of the image respectively. A third way (illustrated in this image) is to calculate several to many summary indices, cluster them and colour code the resulting clusters. This method is described in Phillips et al. 2017[^PHI]. The above diel plot (Slide 21) was derived from clustering 1.1 million vectors of 12 summary indices. It represents 13 months of continuous audio, recorded in Gympie National Park. Clustering produced 60 clusters (each cluster represents an "environmental acoustic state") but the colour coding was simplified: 1. silence clusters are represented in grey; bird cluster in green, rain clusters in dark blue; wind clusters in pale blue, insect cluster in yellow; cicada chorus clusters in orange and plane sounds in red. How the soundscape gradually changes through the seasons is clearly visible.
 
 Audio provided courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group. The audio was recorded from Gympie, Queensland, Australia.
 
 ---
 
-## Slide 22: The classification of soundscapes
+## Slide 22: Comparing soundscapes
 
 {% include figure.html src="Slides/Slide25.png" caption="Slide 22. Pictures courtesy of courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group." %}
 
-
-Apart from visualisation, acoustic indices can be used to reveal other ecological insights. For example, we can classify different locations according to their soundscapes. Consider the two locations shown in this slide (_Slide 21_). One has higher rainfall and therefore supports more dense vegetation cover. However the bird species are quite similar at the two sites. What are the consequences for the soundscape? How will the soundscapes differ despite similar bird species?
-
----
-
-## Slide 23: Clustering soundscapes
-
-{% include figure.html src="Slides/Slide26.png" caption="Slide 23. [Sankupellay M., Towsey, M., Truskinger, A., & Roe, P. (2015)](#fn:SAN)." %}
-
-
-In a study reported by Sankupellay et al.[^SAN], four sites were selected at location _A_ and two sites at location _B_. Two consecutive days of recording were made at each site giving 12 days of recording in total.
-
-Summary acoustic indices were calculated at one-minute resolution over all 12 days (12 × 1440 = 17,280 one-minute recording segments). The vectors of ten indices were normalised and then clustered using a 10×10 node self-organising map (SOM). The 100 nodes were further clustered to yield 27 clusters, each representing a distinct “acoustic regime”.
-
-The contents of the 27 clusters were identified by selecting the false-colour spectrum of each minute (see top image of SLIDE 22). Cluster Y contained very quiet night-time recording segments, while cluster V included the morning chorus and other segments with much bird activity.
-
-A 24-hour cluster occupancy histogram was prepared for each of the 12 days (see middle image in slide) and these cluster occupancy histograms were in turn hierarchically clustered. The resulting dendrogram (bottom right image in the slide) clearly shows that the soundscapes of consecutive days at the *same* site are *more similar* than those at *different* sites. The dendrogram also separates the two locations. To sum up, the use of acoustic indices enables the calculation of *acoustic signatures* that characterise the soundscapes at different locations.
+By utilising very-long-duration recordings, we are now in a position to make meaningful comparisons between the soundscapes of two locations. For example, consider the two locations shown in this slide (_Slide 22_). The one on the left (in Woondum National Park) has higher rainfall and smaller temperature fluctuations than the site on the right (in Gympie National Park) because it is closer to the coast. Consequently, the Woondum site supports more dense vegetation cover, yet the bird species are quite similar at the two sites. What are the consequences for the soundscape? How will the soundscapes differ despite similar bird species?
 
 ---
 
-## Slide 24: Two acoustic disciplines: Bio-acoustics and Eco-acoustics
+## Slide 23: Comparing soundscapes
 
-{% include figure.html src="Slides/Slide27.png" caption="Slide 24." %}
+{% include figure.html src="Slides/DielPlotsGympieAndWoondum.png" caption="Slide 23. Pictures courtesy of courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group." %}
+
+This slide (23) illustrates 13 months of soundscape from each of the two locations, Woondum and Gympie National Parks. Taken over the entire year, the soundscapes are similar but have subtle differences. The Gympie site has less cicada activity but more insect activity. We believe that images such as these will be very useful in monitoring the long term effects of climate change. Small but subtle changes in species diversity and ecosystem health will be more likely to be detected when very-long-duration recordings can be compared visually over consecutive years. 
+
+---
+
+## Slide 24: Acoustic signatures
+
+{% include figure.html src="Slides/Slide26.png" caption="Slide 24. [Sankupellay M., Towsey, M., Truskinger, A., & Roe, P. (2015)](#fn:SAN)." %}
+
+Apart from visualisation, acoustic indices can be used to reveal other ecological insights. For example, we can classify different locations  by deriving "acoustic signatures" from their sound-scapes. In a study reported by Sankupellay et al.[^SAN], four sites were selected at location _A_ and two sites at location _B_. Two consecutive days of recording were made at each site giving 12 days of recording in total.
+
+Summary acoustic indices were calculated at one-minute resolution over all 12 days (12 × 1440 = 17,280 one-minute recording segments). The vectors of ten indices were normalised and then clustered using a 10×10 self-organising map (SOM). The 100 nodes were further clustered to yield 27 clusters, each representing a distinct “acoustic regime”.
+
+The contents of the 27 clusters were identified by selecting the false-colour spectrum of each minute (see top image of SLIDE 24). Cluster Y contained very quiet night-time recording segments, while cluster V included the morning chorus and other segments with much bird activity.
+
+A 24-hour *cluster occupancy histogram* (having 27 bins) was prepared for each of the 12 days (see middle image in slide) and these cluster occupancy histograms were in turn hierarchically clustered. The resulting dendrogram (bottom right image in the slide) clearly shows that the soundscapes of consecutive days at the *same* site are *more similar* than those at *different* sites. The dendrogram also separates the two locations. To sum up, the use of acoustic indices enables the calculation of *acoustic signatures* that characterise the soundscapes at different locations.
+
+---
+
+## Slide 25: Two acoustic disciplines: Bio-acoustics and Eco-acoustics
+
+{% include figure.html src="Slides/Slide27.png" caption="Slide 25." %}
 
 Until recently, biological interest in acoustics was restricted to the vocalising mechanisms and behaviours of individual animals or species. This science is known as *bioacoustics*. Technological limitations did not permit long recordings. However in the last few years the technological impediments to long recordings have pretty much disappeared. The effect has been to open up an entirely new science, which is variously called *eco-acoustics* or [*soundscape ecology*](https://en.wikipedia.org/wiki/Soundscape_ecology). Soundscape ecology studies the interactions between soundscapes and the underlying ecosystem processes.
 
@@ -311,11 +317,11 @@ In the remaining slides we look at four ways in which work in our lab attempts t
 
 ---
 
-## Slide 25: Bridging the divide between bioacoustics and eco-acoustics
+## Slide 26: Bridging the divide between bioacoustics and eco-acoustics
 
 ### 1.  Using sound-scape indices to help study species diversity
 
-{% include figure.html src="Slides/Slide28.png" caption="Slide 25." %}
+{% include figure.html src="Slides/Slide28.png" caption="Slide 26." %}
 
 Typically acoustic indices are calculated at one-minute resolution, too course a time resolution to be of much interest to bio-acousticians who are interested in animal calls that may last only a few seconds. However acoustic indices can pick up the occurrence of different sounds even if they cannot identify what they are. The spectrogram in _Slide 24_ is dominated by wind (blue vertical lines) but when the wind drops, birds begin to sing (yellow-green lines). So one use of acoustic indices (calculated at one-minute resolution) is to classify one-minute audio segments according to their general acoustic content. It is relatively easy to construct a five-class machine learning problem where the task is to identify minutes containing bird calls versus silence, wind, rain and insect sounds. The classifier can be used as a filter to remove recording segments that do not contain bird sounds, as shown in the next slide.
 
@@ -327,9 +333,9 @@ This work in this slide is the research product of Liang Zhang, QUT Ecoacoustics
 
 ---
 
-### 2.  Using acoustic indices to monitor sperm whales
+### 2. Slide 27: Using acoustic indices to monitor sperm whales
 
-{% include figure.html src="Slides/Slide30.png" caption="Slide 26. Figure courtesy of Hervé Glotin" %}
+{% include figure.html src="Slides/Slide30.png" caption="Slide 27. Figure courtesy of Hervé Glotin" %}
 
 _Slide 26_ shows the Mediterranean Sea and the south coast of France. The city of Toulon is on the left. A few kilometres off the coast, the sea level suddenly drops from 200m to 2000m. The submarine cliff face is carved out by canyons in which sperm whales like to hunt. A hydrophone rig (known as BOMBYX) is placed at the top of one of these canyons. Sperm whales hunt for their prey by emitting sonar clicks and their presence can be detected by identifying clicks at a characteristic periodicity of about one second. You can listen to a short recording of sperm whale clicks here. The first four seconds of the recording are dominated by sonar clicks. When they cease, you can more easily hear the sperm whale clicks.
 
