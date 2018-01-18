@@ -233,9 +233,9 @@ This is the same 44 days of false-colour spectrogram as shown in the previous sl
 
 {% include figure.html src="Slides/Slide22.png" caption="Slide 18. Audio courtesy of courtesy of Aaron Rice, Cornell Lab of Ornithology." %}
 
-While black drum fish chorusing is dominant at night and likely to be triggered by increasing day-length, the chorusing does not appear to be constrained by daylight. However it is apparent that the "knocking" sounds in days 9-13 are at a maximum between high and low tides when coastal currents are at a maximum. In particular, they are at a maximum in the period between low tide and high tide. Clearly the "knocking" events are associated with something drifting in the ocean currents. The asymmetrical nature of the events (around low tide) may be due to the additive effect of the clock-wise circulation of ocean currents up the east coast of the USA. And there the mystery must remain.
+While the chorusing of black drum fish is dominant at night and likely to be triggered by increasing day-length, the chorusing does not appear to be constrained by daylight. With respect to the "knocking" sounds in days 9-13, they appear to be at a maximum between low tide and high tide around the new moon, possibly when coastal currents are strongest. We have not been able to identify the cause of this sound. Perhaps they are associated with something drifting in the ocean currents. Or perhaps strong tidal currents cause vibration of the cable tethering the hydrophone to the ocean floor. This is a frequent problem for those recording whale song.
 
-It is worth noting that these hundreds of hours of marine recording were made in order to detect the presence of the North Atlantic Right Whale (NARW), the most threatened of the whale species. The hydrophone was located in the middle of the NARW calving grounds towards the end of the calving season. The usual approach to identifying NARW calls is to write computer code specifically designed to recognise its three kinds of call. Due to the highly specific purpose of automated recognisers, they are designed *not* to detect any other acoustic events. however, LDFC spectrograms reveal a wealth of additional information about the marine sound-scape. They complement the information obtained by automated call recognisers because they reveal the acoustic environment in which the NARW live.
+It is worth noting that these hundreds of hours of marine recording were made in order to detect the presence of the North Atlantic Right Whale (NARW), the most threatened of the whale species. The hydrophone was located in the middle of the NARW calving grounds towards the end of the calving season. The usual approach to identifying NARW calls is to write computer programs, specifically designed to recognise the three kinds of NARW call. Due to the highly specific purpose of automated recognisers, they are specially designed *not* to detect any other acoustic events. However, LDFC spectrograms reveal a wealth of additional information about the marine soundscape. They complement the information obtained by automated call recognisers because they reveal, in much more detail, the acoustic environment in which whales live.
 
 ---
 
@@ -263,11 +263,11 @@ Audio provided courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group. The
 
 ---
 
-## Slide 21: Thirteen months of audio represented by a diel plot -- derived from clustering of summary indices.
+## Slide 21: Diel plots - illustrating thirteen months of acoustic recording
 
 {% include figure.html src="Slides/Slide21Cluster_plot_GympieNP_Summary.png" caption="Slide 21. Audio courtesy of courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group." %}
 
-We have produced diel plots using three different methods. The first way, as illustrated in the previous slide, is to assign three different summary indices to the red, green and blue channels of the image. A second way is to calculate several to many summary indices, obtain the first three principal components and assign them to the red, green and blue channels of the image respectively. A third way (illustrated in this image) is to calculate several to many summary indices, cluster them and colour code the resulting clusters. This method is described in Phillips et al. 2017[^PHI]. The above diel plot (Slide 21) was derived from clustering 1.1 million vectors of 12 summary indices. It represents 13 months of continuous audio, recorded in Gympie National Park. Clustering produced 60 clusters (each cluster represents an "environmental acoustic state") but the colour coding was simplified: 1. silence clusters are represented in grey; bird cluster in green, rain clusters in dark blue; wind clusters in pale blue, insect cluster in yellow; cicada chorus clusters in orange and plane sounds in red. How the soundscape gradually changes through the seasons is clearly visible.
+We have produced diel plots using three different methods. The first way, as illustrated in the previous slide, is to assign three different summary indices to the red, green and blue channels of the image. A second way (not shown in this tutorial) is to calculate several to many summary indices, obtain the first three principal components and assign them to the red, green and blue channels of the image respectively. A third way (illustrated in this image) is to calculate several to many summary indices, cluster them and colour code the resulting clusters. This method is described in Phillips et al. 2017[^PHI]. The above diel plot (Slide 21) was derived from clustering 1.1 million vectors of 12 summary indices. It represents 13 months of continuous audio, recorded in Gympie National Park. Clustering produced 60 clusters (each cluster represents an "environmental acoustic state") but the colour coding was simplified to seven basic sound categories or acoustic states: 1. silence clusters are represented in grey; 2. bird cluster in green; 3. rain clusters in dark blue; 4. wind clusters in pale blue; 5. insect cluster in yellow; 6. cicada chorus clusters in orange; and 7. plane sounds in red. How the soundscape gradually changes through the seasons is clearly visible.
 
 Audio provided courtesy of Yvonne Phillips, QUT Ecoacoustics Research Group. The audio was recorded from Gympie, Queensland, Australia.
 
@@ -293,11 +293,11 @@ This slide (23) illustrates 13 months of soundscape from each of the two locatio
 
 {% include figure.html src="Slides/Slide26.png" caption="Slide 24. [Sankupellay M., Towsey, M., Truskinger, A., & Roe, P. (2015)](#fn:SAN)." %}
 
-Apart from visualisation, acoustic indices can be used to reveal other ecological insights. For example, we can classify different locations  by deriving "acoustic signatures" from their sound-scapes. In a study reported by Sankupellay et al.[^SAN], four sites were selected at location _A_ and two sites at location _B_. Two consecutive days of recording were made at each site giving 12 days of recording in total.
+Apart from visualisation, acoustic indices offer other ecological insights. For example, we can classify different locations  by deriving "acoustic signatures" from their soundscapes. In one study (Sankupellay et al.[^SAN]), we selected four sites at one location and two sites at another location. Two consecutive days of recording were made at each of the six sites, giving 12 days of recording in total.
 
-Summary acoustic indices were calculated at one-minute resolution over all 12 days (12 × 1440 = 17,280 one-minute recording segments). The vectors of ten indices were normalised and then clustered using a 10×10 self-organising map (SOM). The 100 nodes were further clustered to yield 27 clusters, each representing a distinct “acoustic regime”.
+Ten summary acoustic indices were calculated at one-minute resolution over all 12 days (12 × 1440 = 17,280 one-minute recording segments). The vectors of ten indices were normalised and clustered using a 10×10 self-organising map (SOM). The 100 nodes were further clustered to yield 27 clusters, each representing a distinct “acoustic regime”.
 
-The contents of the 27 clusters were identified by selecting the false-colour spectrum of each minute (see top image of SLIDE 24). Cluster Y contained very quiet night-time recording segments, while cluster V included the morning chorus and other segments with much bird activity.
+The contents of the 27 clusters were identified by selecting the false-colour spectrum of each minute in each cluster (see top image of SLIDE 24). Cluster Y contained very quiet night-time recording segments, while cluster V included the morning chorus and other segments with much bird activity.
 
 A 24-hour *cluster occupancy histogram* (having 27 bins) was prepared for each of the 12 days (see middle image in slide) and these cluster occupancy histograms were in turn hierarchically clustered. The resulting dendrogram (bottom right image in the slide) clearly shows that the soundscapes of consecutive days at the *same* site are *more similar* than those at *different* sites. The dendrogram also separates the two locations. To sum up, the use of acoustic indices enables the calculation of *acoustic signatures* that characterise the soundscapes at different locations.
 
@@ -307,7 +307,7 @@ A 24-hour *cluster occupancy histogram* (having 27 bins) was prepared for each o
 
 {% include figure.html src="Slides/Slide27.png" caption="Slide 25." %}
 
-Until recently, biological interest in acoustics was restricted to the vocalising mechanisms and behaviours of individual animals or species. This science is known as *bioacoustics*. Technological limitations did not permit long recordings. However in the last few years the technological impediments to long recordings have pretty much disappeared. The effect has been to open up an entirely new science, which is variously called *eco-acoustics* or [*soundscape ecology*](https://en.wikipedia.org/wiki/Soundscape_ecology). Soundscape ecology studies the interactions between soundscapes and the underlying ecosystem processes.
+Until recently, biological interest in acoustics was restricted to the vocalising mechanisms and behaviours of individual animals or species. This science is known as *bioacoustics*. Technological limitations in previous years did not permit long recordings. However, in the last few years, these technological impediments have pretty much disappeared. The effect has been to open up an entirely new science, which is variously called *eco-acoustics* or [*soundscape ecology*](https://en.wikipedia.org/wiki/Soundscape_ecology). Soundscape ecology studies the interactions between soundscapes and the underlying ecosystem processes.
 
 There is a huge (orders of magnitude) difference in the scale of bioacoustics versus eco-acoustics. Bioacoustics studies acoustic phenomena that have only few seconds duration, whereas eco-acoustic patterns may be days, months, or even years in duration. Bioacoustics investigates the behaviour of individuals or single species, whereas eco-acoustics studies, as the name implies, the sounds made by ensembles of thousands of interacting species.
 
@@ -317,13 +317,13 @@ In the remaining slides we look at four ways in which work in our lab attempts t
 
 ---
 
-## Slide 26: Bridging the divide between bioacoustics and eco-acoustics
+## Bridging the divide between bioacoustics and eco-acoustics
 
-### 1.  Using sound-scape indices to help study species diversity
+### 1. Slide 26: Using sound-scape indices to help study species diversity
 
 {% include figure.html src="Slides/Slide28.png" caption="Slide 26." %}
 
-Typically acoustic indices are calculated at one-minute resolution, too course a time resolution to be of much interest to bio-acousticians who are interested in animal calls that may last only a few seconds. However acoustic indices can pick up the occurrence of different sounds even if they cannot identify what they are. The spectrogram in _Slide 24_ is dominated by wind (blue vertical lines) but when the wind drops, birds begin to sing (yellow-green lines). So one use of acoustic indices (calculated at one-minute resolution) is to classify one-minute audio segments according to their general acoustic content. It is relatively easy to construct a five-class machine learning problem where the task is to identify minutes containing bird calls versus silence, wind, rain and insect sounds. The classifier can be used as a filter to remove recording segments that do not contain bird sounds, as shown in the next slide.
+Typically acoustic indices are calculated at one-minute resolution, too coarse a time resolution to be of much interest to bio-acousticians who are interested in animal calls that may last only a few seconds. However acoustic indices can pick up the occurrence of different sounds even if they cannot identify what they are. The spectrogram in _Slide 24_ is dominated by wind (blue vertical lines) but when the wind drops, birds begin to sing (yellow-green lines). So one use of acoustic indices (calculated at one-minute resolution) is to classify one-minute audio segments according to their general acoustic content. It is relatively easy to construct a five-class machine learning problem where the task is to identify minutes containing bird calls versus silence, wind, rain and insect sounds. The classifier can be used as a filter to remove recording segments that do not contain bird sounds, as shown in the next slide.
 
 {% include figure.html src="Slides/Slide29.png" caption="Slide 25. [Zhang, L., Towsey, M., Zhang, J. & Roe, P. (2015)](#fn:ZHA)" %}
 
@@ -337,7 +337,7 @@ This work in this slide is the research product of Liang Zhang, QUT Ecoacoustics
 
 {% include figure.html src="Slides/Slide30.png" caption="Slide 27. Figure courtesy of Hervé Glotin" %}
 
-_Slide 26_ shows the Mediterranean Sea and the south coast of France. The city of Toulon is on the left. A few kilometres off the coast, the sea level suddenly drops from 200m to 2000m. The submarine cliff face is carved out by canyons in which sperm whales like to hunt. A hydrophone rig (known as BOMBYX) is placed at the top of one of these canyons. Sperm whales hunt for their prey by emitting sonar clicks and their presence can be detected by identifying clicks at a characteristic periodicity of about one second. You can listen to a short recording of sperm whale clicks here. The first four seconds of the recording are dominated by sonar clicks. When they cease, you can more easily hear the sperm whale clicks.
+_Slide 27_ shows the Mediterranean Sea and the south coast of France. The city of Toulon is on the left. A few kilometres off the coast, the sea level suddenly drops from 200m to 2000m. The submarine cliff face is carved out by canyons in which sperm whales like to hunt. A hydrophone rig (known as BOMBYX) is placed at the top of one of these canyons. Sperm whales hunt for their prey by emitting sonar clicks and their presence can be detected by identifying clicks at a characteristic periodicity of about one second. You can listen to a short recording of sperm whale clicks here. The first four seconds of the recording are dominated by sonar clicks. When they cease, you can more easily hear the sperm whale clicks.
 
 {% include audio.html soundCloudTrack="257705352" soundCloudToken="s-GFJdk" caption="This recording (courtesy of Hervé Glotin) demonstrates sonar beeps and the clicks produced by a sperm whale (Physeter macrocephalus)." %}
 
@@ -353,7 +353,7 @@ The sperm whale clicks are then revealed (centre-left image) and the dominant pe
 
 ---
 
-### 3. Using acoustic indices for animal welfare
+### 3. Slide 28: Using acoustic indices for animal welfare
 
 {% include figure.html src="Slides/Slide32.png" caption="Slide 28. Courtesy of Katherine Herborn, Alan McElligott, and Lucy Asher" %}
 
@@ -364,7 +364,7 @@ Recording courtesy of [Dr. Katherine Herborn](https://www.researchgate.net/profi
 
 ---
 
-### 4. Using acoustic indices at all time-scales
+### 4. Slide 29: Using acoustic indices at all time-scales
 
 {% include figure.html src="Slides/Slide35.png" caption="Slide 29. [Towsey, M., Truskinger, A. & Roe, P. (2015)](#fn:ZOO)" %}
 
