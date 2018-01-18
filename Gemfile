@@ -8,3 +8,7 @@ gem 'jekyll-sitemap'
 gem 'jemoji'
 gem 'kramdown'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+
+group :jekyll_plugins do
+  gem 'jekyll-redirect-from'
+end
