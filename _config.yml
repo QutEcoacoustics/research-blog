@@ -16,6 +16,7 @@ defaults:
   values:
     permalink: pretty
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, vendor]
+include: [ "_redirects" ]
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
