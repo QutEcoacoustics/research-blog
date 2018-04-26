@@ -32,6 +32,9 @@ Local testing needs a working install of `ruby` (version 2.3 or greater).
 For Windows environments the [Ruby Installer](http://rubyinstaller.org/downloads/) project is a great project; install 
 _Ruby 2.3.1 (x64)_ and _DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe_.
 
+As of 2018 you may need to install MSYS2 as well for Windows environments: 
+https://msys2.github.io/
+
 1. Open a prompt and `cd` to the checkout directory.
 1. Then to update dependencies:
 
