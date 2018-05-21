@@ -2,7 +2,8 @@
 layout: post
 title: Discovering the Secrets of Cryptic and Endangered Birds
 author: [anthony, michael]
-post_image: /images/posts/Liz_Cryptic/P1020474.JPG
+post_image: /images/posts/Liz_Cryptic/liz_generic_fcs.png
+post_image_height: 248px
 ---
 
 Over the last few years we have explored the on-ground ecological outcomes of
