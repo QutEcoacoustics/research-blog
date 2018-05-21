@@ -2,20 +2,23 @@
 layout: post
 title: Discovering the Secrets of Cryptic and Endangered Birds
 author: [anthony, michael]
-post_image: /images/posts/empty.jpg
+post_image: /images/posts/Liz_Cryptic/P1020474.JPG
 ---
 
-Over the last few years we have been lucky enough to work with Liz Znidersic
-([@LizZnidersic](https://twitter.com/LizZnidersic)), a fabulous ecologist from
-Charles Sturt University. Liz is interested in secretive wetland birds and uses
+Over the last few years we have explored the on-ground ecological outcomes of
+our work in a dynamic two-way relationship with Liz Znidersic
+([@LizZnidersic](https://twitter.com/LizZnidersic))
+from Charles Sturt University 
+([@ILWSCSU](https://twitter.com/ILWSCSU)).
+Liz is interested in secretive wetland birds and uses
 many methods to look for and monitor these birds, including passive acoustic
 recording.
 
-{% include figure.html src="/images/posts/Liz_Cryptic/us_with_liz.jpg" caption="Anthony, Liz, the TeraByte Monster (our favourite relic), and Michael at the lab" %}
+{% include figure.html src="/images/posts/Liz_Cryptic/us_with_liz.jpg" caption="Anthony, Liz, the TERROR BITE Monster (our favourite relic), and Michael at the lab" %}
 
 As part of our latest collaboration with Liz, _Long-duration, false-colour spectrograms
 for detecting species in large audio data-sets_ 
-([link](https://www.veruscript.com/journals/journal-of-ecoacoustics/visual-detection-of-vocal-species-in-large-audio-data-sets/))
+([link](https://www.veruscript.com/journals/journal-of-ecoacoustics/visual-detection-of-vocal-species-in-large-audio-data-sets/)),
 Liz created a video describing our work.  We're thrilled at the result and we'd
 like to share it with all of you:
 
@@ -30,5 +33,5 @@ like to share it with all of you:
 </figure>
 <br/>
 
-Clare Thomson did all the hard video work. You can check out their other videos
-[here](https://vimeo.com/user5159691).
+Clare Thomson ([Wildcard Media](http://wildcardmedia.com.au/homepage/)) did all the hard 
+work making the video. You can check out their other videos [here](https://vimeo.com/user5159691).
