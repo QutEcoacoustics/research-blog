@@ -125,12 +125,12 @@ This practical will guide you through:
 
 -   Downloading a copy of AnalysisPrograms.exe
 -   Opening and using a terminal
--   Calculating Acoustic Indices for your data
+-   Calculating acoustic Indices for your data
 -   Running an acoustic event recognizer on your data
 
 
 After the completion of this practical you can find more documentation and
-resources from our [Documentation](https://github.com/QutEcoacoustics/audio-analysis/tree/master/docs#qut-ecoacoustics-analysisprogramsexe-manual)
+resources from our [documentation](https://github.com/QutEcoacoustics/audio-analysis/tree/master/docs#qut-ecoacoustics-analysisprogramsexe-manual)
 
 
 **Please note**:
@@ -242,9 +242,61 @@ However, for this practical you should follow these instructions:
     1. Click the *Download Mono 5.12.0 (Stable channel)* button
     1. Download the application (a _.pkg_ file)
     1. Once downloaded, install the application
+- If the download is too slow, our helpers have copies of the package on USB drives
+they can share with you.
 -   Please note: We do not support processing MP3 on Mac OS X at the moment
-    - (This will be fixed: [#172](https://github.com/QutEcoacoustics/audio-analysis/issues/172_))
+    - (This will be fixed in [#172](https://github.com/QutEcoacoustics/audio-analysis/issues/172_))
 {:macosx}
+
+## Preparing the data
+
+### Our data
+If you have not brought any data with you, don’t worry, you can use some of ours.
+This data was generously donated for this workshop by Liz Znidersic
+([@LizZnidersic](https://twitter.com/LizZnidersic)). Liz's data is licensed under
+a [Creative Commons Attribution](https://creativecommons.org/licenses/by/3.0/au/)
+license.
+
+<!-- https://www.ecosounds.org/system/workshop/SM304256_0+1_20151114_030000+1100.wav -->
+<!-- https://s3.console.aws.amazon.com/s3/buckets/workshop7/?region=us-east-1&tab=overview -->
+
+1.  There are two options
+    - [Required] One demo file (2 GB): Go [here](https://s3-ap-southeast-2.amazonaws.com/workshop7/SM304256_0%2B1_20151114_030000%2B1100.wav) to download the file
+    - [Optional] A whole day of data (7.5GB) and pre-computed results: Go [here](https://s3-ap-southeast-2.amazonaws.com/workshop7/Workshop7Data.zip) to download the file
+2.  Extract it to `C:\Temp\Workshop`
+{:windows }
+
+1.  There are two options
+    - [Required] One demo file (2 GB): Go [here](https://s3-ap-southeast-2.amazonaws.com/workshop7/SM304256_0%2B1_20151114_030000%2B1100.wav) to download the file
+    - [Optional] A whole day of data (7.5GB) and pre-computed results: Go [here](https://s3-ap-southeast-2.amazonaws.com/workshop7/Workshop7Data.zip) to download the file
+2.  Extract it to `~/Workshop`
+{:linux}
+
+1.  There are two options
+    - [Required] One demo file (2 GB): Go [here](https://s3-ap-southeast-2.amazonaws.com/workshop7/SM304256_0%2B1_20151114_030000%2B1100.wav) to download the file
+    - [Optional] A whole day of data (7.5GB) and pre-computed results: Go [here](https://s3-ap-southeast-2.amazonaws.com/workshop7/Workshop7Data.zip) to download the file
+2.  Extract it to `~/Workshop`
+{:macosx}
+
+If you are waiting for the data to download, you can skip to the next sections
+and come back to this section when the download finishes.
+
+**Important:** If the download is too slow, our helpers have copies of the data on USB drives
+they can share with you.
+
+### Your data
+
+If you want to use your own data, then select one file to work with. We recommend
+choosing a short (1-2 hour) WAVE file. It will take approximately 5 minutes to
+process a 2-hour file.
+
+Once you have chosen a file, copy it to a place that is easy to find. We
+recommend `C:\Temp\Workshop` for Windows, or somewhere in your user folder for Linux and
+Mac OS X (e.g. `~/Workshop`)
+
+If you use your own data you'll need to substitute the filenames in the following
+commands for your own filenames.
+
 
 ## Opening a Terminal
 
@@ -275,10 +327,10 @@ To open a terminal:
     3.  Open the _Terminal_ app
 {:linux}
 
-1.  Click the Finder icon in your dock.
-2.  Click Go.
-3.  Click Utilities.
-4.  Double-click Terminal.
+1.  Click the _Finder_ icon in your dock.
+2.  Click _Go_.
+3.  Click _Utilities_.
+4.  Double-click _Terminal_.
 {:macosx}
 
 You should now see a screen with some text on it. It should look like one of these
@@ -291,7 +343,7 @@ You should now see a screen with some text on it. It should look like one of the
 The last line shown is called a _prompt_. It is asking (prompting you) for a
 command. On Windows machines the prompt will always end with a `>` 
 (right angle bracket). On Linux and Mac OS X the prompt will always end with a `$`
-(a dollar sign) symbol.
+(a dollar sign).
 
 Try typing a command in the terminal:
 
@@ -306,7 +358,7 @@ to run it again. You can edit the command before you run it again.
 
 ## Running AP.exe and getting help
 
-In your terminal type the following and press enter:
+In your terminal type the following and press <kbd>Enter</kbd>:
 
 ``` PowerShell
 C:\AP\AnalysisPrograms.exe
@@ -385,44 +437,9 @@ mono ~/AP/AnalysisPrograms.exe AnalysesAvailable
 
 Unlike our other commands, the sole purpose of this command is to list what
 AP.exe can do. That's why we didn't need a `--help` option. We call these
-sorts of commands _meta commands_.
+sorts of commands _meta commands_. The `AnalysesAvailable` command lists all the
+analyses that can be run in the `audio2csv` command.
 
-## Preparing the data
-
-### Our data
-If you have not brought any data with you, don’t worry, you can use some of ours.
-This data was generously donated for this workshop by Liz Znidersic
-([@LizZnidersic](https://twitter.com/LizZnidersic)). Liz's data is licensed under
-a [Creative Commons Attribution](https://creativecommons.org/licenses/by/3.0/au/)
-license.
-
-1.  Go here [TODO] to download the file
-2.  Extract it to `C:\Temp\Workshop`
-3.  Remember to delete it when you’re done
-{:windows }
-
-1.  Go here [TODO] to download the file
-2.  Extract it to `~/Workshop`
-3.  Remember to delete it when you’re done
-{:linux}
-
-1.  Go here [TODO] to download the file
-2.  Extract it to `~/Workshop`
-3.  Remember to delete it when you’re done
-{:macosx}
-
-### Your data
-
-If you do have your own, then select one file to work with. We recommend
-choosing a short (1-2 hour) WAVE file. It will take approximately 20 minutes to
-process a 2-hour file.
-
-Once you have chosen a file, copy it to a place that is easy to find. We
-recommend `C:\Temp\Workshop` for Windows, or somewhere in your user folder for Linux and
-Mac OS X (e.g. `~/Workshop`)
-
-If you use your own data you'll need to substitute the filenames in the following
-commands for your own filenames.
 
 ## Change directories
 
@@ -547,11 +564,59 @@ or in _Finder_ (for Mac OS X). You'll find the results in the `Workshop` folder.
 
 ### Understanding Indices Results
 
-[TODO]
+The output for the indices analysis is a series of files. You should find these
+files in the `Towsey.Acoustic` directory.
 
-The reason for the 2Maps images is because different combinations of
-indices yield different views into the recording. Sometimes one view is more useful
-than the other.
+There are, broadly speaking, four types of files in this folder:
+
+1. Images
+2. A Summary Indices CSV file
+3. Spectral Indices CSV files
+4. Metadata files
+
+The most interesting category is the images. The image we always look at first is
+the _2Maps_ image (for the demo file it should be named `SM304256_0+1_20151114_030000+1100__2Maps.png`).
+The 2Maps image shows two false-color spectrograms, each with it's own color map
+(hence "two maps"). A color map is a mapping of a spectral index to a color channel.
+
+In our example:
+- Color Map 1 maps ACI, ENT, and EVN to the Red, Green, and Blue colour channels respectively
+- Color Map 2 maps BGN, PMN, and R3D to the Red, Green, and Blue colour channels respectively
+
+Using all these different indices, in two images, is useful because the different
+combinations of indices yield different views into the recording.
+Sometimes one view is more useful than the other.
+
+![The 2maps image](./media/SM304256_0+1_20151114_030000+1100__2Maps.png)
+
+Most of the other images in this folder show either one color map, or just one
+spectral index as an image.
+
+If you're interested in analyzing your data then take note of the _Towsey.Acoustic.Indices.csv_
+file (in this demo it should be named `SM304256_0+1_20151114_030000+1100__Towsey.Acoustic.Indices.csv`).
+This file contains a variety of acoustic indices calculated for each minute of the
+data. Each row has the values for the associated minute.
+
+The spectral indices are also saved. Each spectral index is a matrix and given
+the nature of CSV must be saved to its own file. For example `SM304256_0+1_20151114_030000+1100__Towsey.Acoustic.ACI.csv`
+contains spectral ACI. Each row has the values for a minute of the data. The
+columns have the data for each frequency band.
+
+Tips:
+- All results are calculated from the start of recording. Thus if your recording
+  starts at 23 seconds past the minute, each result minute thereafter will also
+  start at 23 seconds past the minute. There are options in `audio2csv` to change
+  this behaviour.
+- You can change `IndexCalculationDuration` parameter in the `Towsey.Acoustic.yml`
+file to change the resolution at which the indices are calculated. For more
+information on changing config files, see the _Config Files_ section below.
+- Generally we expect people will need to post-process these files (e.g. in R)
+- The images have no padding on their sides. Thus, in a pinch, images from
+  consecutive files can be simply placed next to each other to simulate a single
+  continuous image.
+- We recommend you do not aggregate data files together to create a composite
+  view of a day of data. A good general principle is to not obfuscate the provenance
+  of your data.
 
 ## Running an Event Recogniser
 
@@ -592,7 +657,36 @@ or in _Finder_ (for Mac OS X). You'll find the results in the `Workshop` folder.
 
 ### Understanding Event Recogniser Results
 
-[TODO]
+Similarly to the indices analysis, you'll find the results of the recogniser in
+a sib-directory, this time named `Towsey.LewiniaPectoralis`.
+
+The output for this analysis is simpler:
+- There is an Events CSV that contains all the acoustic events detected
+- There are some "Event Indices" related files
+- And there are detection files
+    - For each minute where an event was found is:
+        - A diagnostic spectrogram that shows the events
+        - The segment, the minute of audio, where the event was found
+
+Have a look through some of the diagnostic images. There are some true and false
+positives in this data.
+
+The Events CSV can be confusing. These tips should be helpful:
+- Each row in the CSV is a separate event detection
+- `EventStartSeconds` is left edge of the detected event. It is defined as the
+  number of seconds from the start of the entire audio recording to the start of
+  the detected event
+- The `Score` column is a rough estimate of our confidence in the detection,
+  from `0.0` to `1.0`
+
+Tips:
+- You can configure (in the config files) when (or if it all) the debug spectrograms
+  and segmented WAVE files are saved. To save space, it is usually best to disable
+  this extra output when analyzing a lot of files
+- Most of our event recognisers have settings that can be tweaked. Tweaking these
+  settings will usually result in better detection results, however, changing them
+  can be cumbersome because each tweak requires the recogniser to be run again.
+  We recommend automating a parameter sweep.
 
 ---
 
@@ -601,13 +695,13 @@ or in _Finder_ (for Mac OS X). You'll find the results in the `Workshop` folder.
 This is the end of the practical today. Thanks for coming to our workshop.
 
 There are some optional additional sections below you can try out or read through if you
-have finished early.
+have finished early. Don't delete the demo data just yet though.
 
 If you're finished you may want to delete the files and data we used today.
 
 1.  To remove the demo data (and all results)
     - Delete `C:\Temp\Workshop` 
-    - Delete `Workshop7Data.zip` in your downloads folder
+    - Delete `Workshop7Data.zip` or `SM304256_0+1_20151114_030000+1100.wav` from your downloads folder
 1.  To remove AP.exe
     - Delete  `C:\Temp\AP`
     - Delete `Release.18.6.0.34.zip` 
@@ -615,7 +709,7 @@ If you're finished you may want to delete the files and data we used today.
 
 1.  To remove the demo data (and all results)
     - Delete `~/Workshop` 
-    - Delete `Workshop7Data.zip` in your downloads folder
+    - Delete `Workshop7Data.zip` or `SM304256_0+1_20151114_030000+1100.wav` from your downloads folder
 1.  To remove AP.exe
     - Delete  `~/AP`
     - Delete `Release.18.6.0.34.zip` 
@@ -623,7 +717,7 @@ If you're finished you may want to delete the files and data we used today.
 
 1.  To remove the demo data (and all results)
     - Delete `~/Workshop` 
-    - Delete `Workshop7Data.zip` in your downloads folder
+    - Delete `Workshop7Data.zip` or `SM304256_0+1_20151114_030000+1100.wav` from your downloads folder
 1.  To remove AP.exe
     - Delete  `~/AP`
     - Delete `Release.18.6.0.34.zip` 
@@ -635,7 +729,10 @@ If you're finished you may want to delete the files and data we used today.
 
 Both the examples we looked at today only processed one file. In reality you will
 want to process many files. AP.exe very specifically avoids batch processing of
-files because we don't want to make assumptions about how your data is stored.
+files because we don't want to make assumptions about how your data is stored or
+how it should be computed. This is especially important in universities that use
+PBS (Portable Batch System) compute clusters---assumptions in how data is
+processed vary a lot.
 
 The solution is to script AP.exe. You can script AP.exe with any language you like.
 This section will demo three examples of scripting AP.exe with PowerShell, R, and
@@ -654,10 +751,10 @@ from others!
 ### Scripting with PowerShell
 
 ```PowerShell
-# Select the directory containing the files
-$directory = "C:\temp\Emerald River Audio Snippets\20131227\"
+# Set the directory containing the files
+$directory = "C:\Temp\Workshop"
 # The directory to store the results
-$base_output_directory = "C:\temp\indices_output"
+$base_output_directory = "C:\Temp\Workshop\BatchIndicesOutput"
 
 # Get a list of audio files inside the directory
 # (Get-ChildItem is just like ls, or dir)
@@ -675,7 +772,7 @@ foreach($file in $files) {
     mkdir $output_directory
 
     # prepare command
-    $command = "C:\AP\AnalysisPrograms.exe audio2csv `"$file`" `".\configFiles\Towsey.Acoustic.yml`" `"$output_directory`" -n"
+    $command = "C:\AP\AnalysisPrograms.exe audio2csv `"$file`" `"Towsey.Acoustic.yml`" `"$output_directory`" -n"
     
     # finally, execute the command
     Invoke-Expression $command
@@ -685,13 +782,62 @@ foreach($file in $files) {
 ### Scripting with R
 
 ```r
+# Set the directory containing the files
+directory <- "C:\\Temp\\Workshop"
+# The directory to store the results
+base_output_directory <- "C:\\Temp\\Workshop\\BatchIndicesOutput"
 
+# Get a list of audio files inside the directory
+# (Get-ChildItem is just like ls, or dir)
+files <- list.files(directory, pattern = "*.wav", full.names = TRUE)
+
+# iterate through each file
+for(file in files) {
+  message("Processing ", file) 
+  
+  # get just the name of the file
+  file_name <- basename(file)
+  
+  # make a folder for results
+  output_directory <- normalizePath(file.path(base_output_directory, file_name))
+  dir.create(output_directory, recursive = TRUE)
+  
+  # prepare command
+  command <- sprintf('audio2csv "%s" "Towsey.Acoustic.yml" "%s" ', file, output_directory)
+  
+  # finally, execute the command
+  system2('C:\\AP\\AnalysisPrograms.exe', command)
+}
 ```
 
 ### Scripting with Bash
 
 ```Bash
+#!/usr/bin/env bash
 
+# Set the directory containing the files
+DIRECTORY=~/Workshop
+# The directory to store the results
+BASE_OUTPUT_DIRECTORY=~/Workshop/BatchIndicesOutput
+
+# Get a list of audio files inside the directory
+# The `-1` option outputs one file per line
+FILES=$(ls -1 $DIRECTORY*.wav)
+
+# iterate through each file
+for file in FILES; do
+    echo "Processing $file"
+
+    # get just the name of the file
+    filename=`basename $file`
+
+    # make a folder for results
+    output_directory="$BASE_OUTPUT_DIRECTORY/$filename"
+    mkdir -p $output_directory
+
+    # prepare and execute command
+    mono ~/AP/AnalysisPrograms.exe audio2csv "$file" "Towsey.Acoustic.yml" "$output_directory"
+done
 ```
 
 ## Tips & Tricks
@@ -738,12 +884,32 @@ For continuous recordings we recommend:
     - 06:00
     - 12:00
     - 18:00
+    
+- OR 4 x 6 hour files, scheduled at
+    - 03:00
+    - 09:00
+    - 15:00
+    - 21:00
 
 This schedule is the best format for creating long-duration false-color index spectrograms.
+The second format is particularly good for ensuring the dawn-chorus is captured
+as a whole recording.
 
 The longer the deployment, the more we prefer longer files. Every additional file
 creates overhead in processing and storage. This is especially true for Ecosounds
 which manages over 500&thinsp;000 recordings!
+
+There are drawbacks to creating longer files. The biggest is that it can be harder
+to manipulate the files manually (say in Audacity which inefficiently requires 
+an entire file to be loaded before processing can begin). It is best you 
+design your protocol around what you need:
+
+- If you intend to sample your data and analyze it manually, for small projects,
+  then shorter files are fine
+- If you're capturing months of data, go for larger files and find methods for
+  dealing with the scale. Most audio collected at scale will never be listened to
+  manually so it is important to optimize for automated processes rather than human
+  listeners.
 
 We also strongly recommend you test your schedules before your deploy. Dealing
 with data that does not start at the zeroth second of a minute can be surprisingly
@@ -770,7 +936,7 @@ AP.exe has many bugs. This is pretty normal for research software. If you find
 something that doesn't work, please let us know by filing an issue at
 <https://github.com/QutEcoacoustics/audio-analysis/issues>
 
-We're interested in new features  however we primarily develop AP.exe for our needs.
+We're interested in new features  however we primarily develop AP.exe for our own needs.
 If a new feature is requested that is
 not needed by us, where possible we'll consider implementing it. However we do
 not have the capacity to fully support AP.exe as a product.
