@@ -10,7 +10,7 @@ redirect_from: "/AP_Download/"
 Before the practical starts, we'll need some data. We'll start downloading it now
 so we are ready to go later!
 
-** Choose one** of the options below, but not both:
+**Choose one** of the options below, but not both:
 
 ## (A) One demo file (2 GB)
 
@@ -22,7 +22,7 @@ Go [here](https://s3-ap-southeast-2.amazonaws.com/workshop7/Workshop7Data.zip) t
 
 
 
-## Troubleshooting
+## Alternatives
 
 If the download is slow, let a helper know and we'll give you the data via USB
 drive instead.
