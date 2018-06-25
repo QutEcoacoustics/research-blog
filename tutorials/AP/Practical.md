@@ -165,7 +165,7 @@ find a buddy and work through the examples together.
 3.  Find the latest release (it will be at the top)
 4.  Under the *Assets* section, click on the Zip file that has *Release* in the
     name
-    -  e.g. `Release.18.6.0.34`
+    -  e.g. `Release.18.6.3.3`
 5.  The file should now be downloading. You can close the tab once the download
     has finished.
 
@@ -192,7 +192,7 @@ However, for this practical you should follow these instructions:
 1.  Make sure you have *unzip* installed
     -  `sudo apt-get install unzip`
 2.  Unzip the file to your home directory (your download folder location may be different)
-    -  `unzip ~/Downloads/Release.18.6.0.34.zip -d ~/AP`
+    -  `unzip ~/Downloads/Release.18.6.3.3.zip -d ~/AP`
 {:linux}
 
 1.  Open the folder containing the download (typically your *Downloads*
@@ -205,7 +205,7 @@ However, for this practical you should follow these instructions:
    ![The Finder Home folder](./media/finder_home.png)
 5. Paste the folder
 6. Finally rename the folder to `AP`
-    - e.g. If it was named `Release.18.6.0.34` then rename it to `AP`
+    - e.g. If it was named `Release.18.6.3.3` then rename it to `AP`
 {:macosx}
 
 ## Installing Dependencies
@@ -704,7 +704,7 @@ If you're finished you may want to delete the files and data we used today.
     - Delete `Workshop7Data.zip` or `SM304256_0+1_20151114_030000+1100.wav` from your downloads folder
 1.  To remove AP.exe
     - Delete  `C:\Temp\AP`
-    - Delete `Release.18.6.0.34.zip` 
+    - Delete `Release.18.6.3.3.zip` 
 {:windows }
 
 1.  To remove the demo data (and all results)
@@ -712,7 +712,7 @@ If you're finished you may want to delete the files and data we used today.
     - Delete `Workshop7Data.zip` or `SM304256_0+1_20151114_030000+1100.wav` from your downloads folder
 1.  To remove AP.exe
     - Delete  `~/AP`
-    - Delete `Release.18.6.0.34.zip` 
+    - Delete `Release.18.6.3.3.zip` 
 {:linux}
 
 1.  To remove the demo data (and all results)
@@ -720,7 +720,7 @@ If you're finished you may want to delete the files and data we used today.
     - Delete `Workshop7Data.zip` or `SM304256_0+1_20151114_030000+1100.wav` from your downloads folder
 1.  To remove AP.exe
     - Delete  `~/AP`
-    - Delete `Release.18.6.0.34.zip` 
+    - Delete `Release.18.6.3.3.zip` 
 {:macosx}
 
 ---
