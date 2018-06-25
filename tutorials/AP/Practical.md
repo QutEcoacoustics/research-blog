@@ -658,7 +658,7 @@ or in _Finder_ (for Mac OS X). You'll find the results in the `Workshop` folder.
 ### Understanding Event Recogniser Results
 
 Similarly to the indices analysis, you'll find the results of the recogniser in
-a sib-directory, this time named `Towsey.LewiniaPectoralis`.
+a sub-directory, this time named `Towsey.LewiniaPectoralis`.
 
 The output for this analysis is simpler:
 - There is an Events CSV that contains all the acoustic events detected
