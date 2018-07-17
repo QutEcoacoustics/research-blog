@@ -82,12 +82,12 @@ I will begin to address the question motivating this talk by describing a little
 
 {% include figure.html src="Slides/Slide6.png" caption="Slide 6." %}
 
-Ecologists have long worked with spectrograms, two dimensional representations of sound, with time as the x-axis and frequency (Hertz or kilohertz) as the y-axis. Sound amplitude is coded by the grey-scale intensity. The typical spectrogram will be a few seconds long, or as long as required to demonstrate the animal call of interest. The above 60-second spectrogram illustrates the "kek-kek" call of the cryptic Lewin's Rail. The recording was made on the outskirts of Brisbane City in 2010. The sounds at 8 kHz and above are due to crickets. There are at least four other birds calling. 
+Ecologists have long worked with spectrograms, two dimensional representations of sound, with time as the x-axis and frequency (Hertz or kilohertz) as the y-axis. Sound amplitude is coded by the grey-scale intensity. The typical spectrogram will be a few seconds long, or as long as required to demonstrate the animal call of interest. The above 30-second spectrogram illustrates the "kek-kek" call of the cryptic Lewin's Rail. The recording was made on the outskirts of Brisbane City in 2010. The sounds at 8 kHz and above are due to crickets. There are at least four other birds calling. 
 
 ---
 
 ## Slide 7: ... but the standard spectrogram does not scale!
-Unfortunately, if we want to prepare a spectrogram of a 24-hour recording at similar scale to that shown in the previous slide, we would require a computer screen 1.2 kilometers wide! ("A mile a day" in USA speak!) If instead, we squeeze a 24-hour recording into a standard audio software tool such as Audacity, we end up with a smeared-looking image, like the one below. This is because Audacity averages over the recording in order to achieve the three-orders-of-magnitude compression required to sqeeze it into the available space. (Warning: do not try this unless you know how to fix a constipated computer!) Averaging renders most of the acoustic structure invisible.
+Unfortunately, if we want to prepare a spectrogram of a 24-hour recording at similar scale to that shown in the previous slide, we would require a computer screen 1.2 kilometers wide! ("A mile a day" in USA speak!) If instead, we squeeze a 24-hour recording into a standard audio software tool such as Audacity, we end up with a smeared-looking image, like the one below. This is because Audacity averages over the recording in order to achieve the three-orders-of-magnitude compression required to squeeze it into the available space. (Warning: do not try this unless you know how to fix a constipated computer!) Averaging renders most of the acoustic structure invisible.
 
 {% include figure.html src="Slides/Slide7.png" caption="Slide 7." %} 
 
@@ -113,11 +113,13 @@ The next step in the production of long-duration spectrograms was inspired by fa
 
 Here we see how much additional acoustic structure can be seen in a false-colour spectrogram. Each of the three spectrograms is of the same 24-hour recording made in open eucalypt woodland at the [Samford Ecological Research Facility](https://www.qut.edu.au/institute-for-future-environments/facilities/samford-ecological-research-facility) on the outskirts of Brisbane city. (This is the same recording from which the four hours of the previous slide were extracted.)
 
-Each spectrogram starts at midnight and finishes the following midnight. Midday is in the centre. The top spectrogram is the one produced by Audacity. The middle spectrogram is the false-colour one produced by assigning the ACI, H(t) and CVR indices to the RGB channels respectively. The basic structure of the forest soundscape is easily interpreted. The morning chorus is clearly visible at 4:45am. It tends towards white in colour because all indices have high values. The onset of evening is indicated by the appearnace of acoustic tracks due to insects. But clearly there are many other events. The colours of acoustic events in the spectrogram depend both on the three indices used and on the characteristic distribution of acoustic energy in the animal call(s) that contribute to the event. With some experience you begin to recognise the different sounds of interest.
+Each spectrogram starts at midnight and finishes the following midnight. Midday is in the centre. The top spectrogram is the one produced by Audacity. The middle, false-colour spectrogram is produced by assigning the ACI, H(t) and CVR indices to the RGB channels respectively. The basic structure of the forest soundscape is easily interpreted. The morning chorus is clearly visible at 4:45am. It tends towards white in colour where all indices have high values. The onset of evening is indicated by the appearance of acoustic tracks due to insects. But clearly there are many other events. The colours of acoustic events in the spectrogram depend both on the three indices used and on the characteristic distribution of acoustic energy in the animal call(s) that contribute to the event. With some experience you begin to recognise the different sounds of interest.
 
 For convenience, we refer to these spectrograms as long-duration, false-colour spectrograms or LDFC spectrograms.
 
-Different combinations of indices give different views of the soundscape. Note how less acoustic structure is visible in the bottom spectrogram because two of the three indices are correlated. So here is an important point - the three indices used to construct an LDFC spectrogram should be minimally correlated. (For more detail see previous tutorials and publications.)
+Different combinations of indices give different views of the soundscape. Note how less acoustic structure is visible in the bottom spectrogram because two of the three indices (POW and EVN) are correlated. Since these indices are assigned to the green and blue channels respectively, there is a uniformity of cyan colour representing daytime acoustic activity.
+
+**Important conclusion:** the three indices used to construct an LDFC spectrogram should be minimally correlated. For more detail see previous tutorials and publications.
 
 ---
 
@@ -133,7 +135,7 @@ You can see an interactive version of this slide [here](http://www.ecosounds.org
 ## Slide 12: LDFC spectrograms of three sites at different latitudes
 {% include figure.html src="Slides/Slide12.png" caption="Slide 12." %}
 
-This slide compares three 24-hour, false-colour spectrograms of three soundscapes from different latitudes. All these recordings were obtained in the first week of July (winter) 2015. The top PNG recording is dominated by insects. It is hard to imagine stuffing more sound into this soundscape. PNG jungles are very loud. The middle recording (from Gympie National Park, about 100 kilometers north of Brisbane) is very quiet at night (because the temperatures are near freezing) and dominated by birds during the day. The bottom recording is from Sturt National Park in the far north-west corner of New South Wales, Australia. The conditions are desert-like. Not only is it very cold at night, but during the day it blows a gale (the yellow-red lines in the middle of the spectrogram). The desert morning chorus is diminutive. *Soundmarks* are very useful (actually essential) in order to orient oneself in a soundscape. They are the equivalent of *landmarks* in a landscape.
+This slide compares three 24-hour, false-colour spectrograms of three soundscapes from different latitudes. All these recordings were obtained in the first week of July (winter) 2015. The top Papua New Guinea recording is dominated by insects. It is hard to imagine squeezing more sound into this soundscape. PNG jungles are very loud. The middle recording (from Gympie National Park, about 150 kilometers north of Brisbane) is very quiet at night (because the temperatures are near freezing) and dominated by birds during the day. The bottom recording is from Sturt National Park in the far north-west corner of New South Wales, Australia. The conditions are desert-like. Not only is it very cold at night, but during the day it blows a gale (the yellow-red lines in the middle of the spectrogram). The desert morning chorus is diminutive. *Soundmarks* are very useful (actually essential) in order to orient oneself in a soundscape. They are the equivalent of *landmarks* in a landscape.
 
 ---
 
@@ -151,21 +153,23 @@ Note that an LDFC spectrogram is not an end in itself. Rather it facilitates the
 ## Slide 14: Sampled recordings
 {% include figure.html src="Slides/Slide15.png" caption="Slide 15." %}
 
-Sampled recordings do not lend themselves to useful LDFC spectrograms. In this example the recording unit was set to record 10 minutes in every hour, with a longer recording interval during the morning and evening chorus. However note that final recording result actually missed most of the morning chorus!
+Sampled recordings do not lend themselves to useful LDFC spectrograms. In this example the recording unit was set to record 10 minutes in every hour, with a longer recording interval during the morning and evening chorus. However, note that the final recordings missed most of the morning chorus!
 
 ---
 
 ## Slide 15: Sampled recordings
 {% include figure.html src="Slides/Slide16.png" caption="Slide 16." %}
 
-You might think that recording one minute in every ten is likely to result in a worse LDFC spectrogram (top image). However, we can rescue this situation and produce a reasonable LDFC spectrogram. The conclusion is that in order to produce a useful LDFC spectrogram, it is better to record one-minute in every N minutes, as opposed to N-minutes in every half-hour or hour.    
+You might think that recording one minute in every ten is likely to result in a worse LDFC spectrogram (top image). However, we can rescue this situation and produce a reasonable LDFC spectrogram by extending the one-minute spectrogram to fill in the nine-minute gaps (bottom image). 
+
+**Important conclusion:** In order to produce a useful LDFC spectrogram, it is better to record one-minute in every N minutes, as opposed to N-minutes in every half-hour or hour.    
 
 ---
 
 ## Slide 16: Freshwater recordings
 {% include figure.html src="Slides/Slide17.png" caption="Slide 17." %}
 
-This slide shows six days of continuous recording using a hydrophone immersed in a waterhole. This waterhole is part of a chain of waterholes that join up to become a raging torrent during the Australian monsoon season. There is a surprising amount of acoustic actiity in this isolated pool, mostly due to insects and fish. There is other acoustic activity however, due to movement of water through underground channels. A single day of recording has been enlarged (bottom image) to reveal more detail.
+The top spectrogram shows six days of continuous recording using a hydrophone immersed in a waterhole. This waterhole is part of a chain of waterholes that join up to become a raging torrent during the Australian monsoon season. There is a surprising amount of acoustic activity in this isolated pool, mostly due to insects and fish. There is other acoustic activity however, due to movement of water through underground channels. A single day of recording has been enlarged (bottom image) to reveal more detail.
 
 This six-day spectrogram has another purpose -- to demonstrate that LDFC spectrograms are not useful for illustrating recordings more than a day or two in length. Another visualisation technique is required.
 
@@ -399,13 +403,13 @@ These advantages come with a serious limitation – the species of interest is o
 ---
 
 ## Slide 37: Detecting bats
-Given the low resolution of the LDFC technique as originally developed we had no expectation that would prove useful for identification of echolocating micro-bats. However, we noticed the "red/orange" events in the late evening of several days in March 2016 (see the below stacked ribbon plot) and eventually identified the source as the *white-striped, free-tailed bat*.
+Given the low resolution of the LDFC technique as originally developed we had no expectation that would prove useful for identification of echolocating micro-bats. However, we noticed the "red/orange" events in the late evening of several days in March 2016 (see the below stacked ribbon plot) and eventually identified the source as the *white-striped free-tailed bat*.
 {% include figure.html src="Slides/Slide41.png" caption="Slide 41." %}
 
 ---
 
 ## Slide 38: Detecting bats
-Here is the same bat call in more detail. This bat is unusual in that the lower range of its call comes below the Nyquist of 11025 hz that we typically use for LDFC spectrograms.  
+Here is the same bat call in more detail. This bat is unusual in that the lower range of its call is below the Nyquist of 11025 hz that we typically use for LDFC spectrograms.  
 
 {% include figure.html src="Slides/Slide42.png" caption="Slide 42." %}
 
@@ -414,7 +418,7 @@ Here is the same bat call in more detail. This bat is unusual in that the lower 
 ## Slide 39: Detecting bats
 {% include figure.html src="Slides/Slide43.png" caption="Slide 43." %}
 
-In another set of night-time recordings using SM4 recording units at their maximum sampling rate of 96 kHz (Nyquist = 48 khz) we could detect all four species of bat present in those recordings. The above LDFC spectrogram shows the traces of the bat calls and what they look like in standard scale spectrograms. We were able to detect 54% of the 310 echolocation passes. This detection rate may seem low, but it is to be remembered that the majority of the passes consisted of low quality calls (see inset, bottom left). 
+In another set of night-time recordings using SM4 recording units at their maximum sampling rate of 96 kHz (Nyquist = 48 khz), we could detect all four species of bat present in those recordings. The above LDFC spectrogram shows the traces of the bat calls and what they look like in standard scale spectrograms. We were able to detect 54% of the 310 echolocation passes. This detection rate may seem low, but it is to be remembered that the majority of the passes consisted of low quality calls (see inset, bottom left). 
 
 Another new feature of this LDFC spectrogram is that the generic indices were calculated at 15 second resolution rather than 60 second resolution.
 
