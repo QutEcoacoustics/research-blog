@@ -29,8 +29,13 @@ Large sets of images should be stored on another provider (e.g. DropBox, ownClou
 # Test locally
 
 Local testing needs a working install of `ruby` (version 2.3 or greater).
-For Windows environments the [Ruby Installer](http://rubyinstaller.org/downloads/) project is a great project; install 
+- For Windows environments the [Ruby Installer](http://rubyinstaller.org/downloads/) project is a great project; install 
 _Ruby 2.3.1 (x64)_ and _DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe_.
+- Mac comes with ruby installed, but it might not be a recent version. Test the version with `ruby --version`. If it is too old, 
+use rvm to install the new version. This command will install rvm and use it to install the latest ruby `\curl -sSL https://get.rvm.io | bash -s stable --ruby`.
+For details see [How to Install Ruby on Mac OS X with RVM](http://usabilityetc.com/articles/ruby-on-mac-os-x-with-rvm/).
+
+
 
 As of 2018 you may need to install MSYS2 as well for Windows environments: 
 https://msys2.github.io/
