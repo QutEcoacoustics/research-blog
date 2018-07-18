@@ -20,12 +20,14 @@ __by Michael Towsey__
 ## Preface
 {:.no_toc}
 
-Congress](https://ecoacousticscongress.org/), a biennial event of the [International Society of
-Ecoacoustics](https://sites.google.com/site/ecoacousticssociety/). The Congress was hosted by Queensland University of
+This page is a summary of a keynote talk given by Michael Towsey to the
+[2018 Ecoacoustics Congress](https://ecoacousticscongress.org/), a biennial event of the
+[International Society of Ecoacoustics](https://sites.google.com/site/ecoacousticssociety/).
+The Congress was hosted by Queensland University of
 Technology and Griffith University, in Brisbane, Australia, 24-28 June 2018.
 
-You can contact [Michael](http://staff.qut.edu.au/details?id=towsey) or our research group by going to the [contact
-us](https://www.ecosounds.org/contact_us) page.
+You can contact [Michael](http://staff.qut.edu.au/details?id=towsey) or our research group by going to the
+[contact us](https://www.ecosounds.org/contact_us) page.
 
 ## Contents
 {:.no_toc}
