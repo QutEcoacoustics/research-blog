@@ -9,7 +9,7 @@ In the past I have needed to measure the amount of bird calling activity to see 
 general responds to changes in sunlight. So, how should the amount of bird calling activity be quantified? One way might
 be to use any number of acoustic indices that have been developed to estimate biodiversity. These indices that calculate
 acoustic properties generally are to do with the amount of acoustic activity and the variety of different kinds of
-events, so, using acoustic indices would be an option. However the relationship between the index values and the
+events, so, using acoustic indices would be an option. However, the relationship between the index values and the
 behavioural response is not clear. Ideally, we’d also like a less opaque, more direct measurement of bird calling
 activity. 
 
@@ -21,7 +21,7 @@ songs?
 What about repetitive vocalisations? Because of the huge variety in the way birds produce repetitive vocalisations, it
 is often unclear what should be included within a single annotation. Some calls are periodically repeated with clear
 pauses in between, and in those cases it might make sense to count each of those repeated vocalisations separately.
-Others are are repeated so fast that they should be counted as one continuous vocalisation that oscillates in amplitude.
+Others are repeated so fast that they should be counted as one continuous vocalisation that oscillates in amplitude.
 At what threshold are the repetitions close enough together to count it as one single vocalisation? Does it matter how
 complex each repetition is?
 
@@ -38,7 +38,7 @@ protocol, it is easy to be inconsistent, which can introduce bias into results t
 
 Let’s look at some example spectrograms. In these two 15 second clips, all the bird vocalisations have been manually
 annotated by drawing a box around them for the purpose of quantifying the amount of bird vocalising activity. The boxes
-represents the start time, end time and top and bottom frequencies. 
+represent the start time, end time and top and bottom frequencies. 
 
 {% include figure.html src="/images/posts/consistent-manual-bird-annotations/image6.jpg" caption="Two annotated audio clips with different amounts of bird vocalisations" style="width:100%" %}
 
@@ -76,10 +76,10 @@ less than one second apart and so are grouped together.
 
 {% include figure.html src="/images/posts/consistent-manual-bird-annotations/image5.jpg" caption="Two repetitive single syllable vocalisations with different repetition rate, annotated differently" style="width:100%" %}
 
-Repetitive calls where each repetition is has many syllables have a slightly different threshold than for single
+Repetitive calls with many syllables in each repetition have a slightly different threshold than for single
 syllable repetitive calls. Applying the single syllable rules to multisyllable repetitive calls seemed to result
 in groupings that didn’t intuitively feel right. Below are two are examples of multisyllable repetitive calls. The one
-on the left iis separated because the repetitions are more than 0.75 seconds from start to start, and the one on the
+on the left is separated because the repetitions are more than 0.75 seconds from start to start, and the one on the
 right is grouped because they are less than the 0.75 second threshold. 
 
 {% include figure.html src="/images/posts/consistent-manual-bird-annotations/image5.jpg" caption="Two repetitive multi-syllable vocalisations with different repetition rate, annotated differently" style="width:100%" %}
@@ -96,7 +96,7 @@ following example.
 {% include figure.html src="/images/posts/consistent-manual-bird-annotations/image3.jpg" caption="Two interpretations of the threshold rule applied to the same sequence of repetitions" style="width:100%" %}
 
 This shows the same sequence of repetitions annotated in two different ways. The space between the first and second
-repetition is longer than the threshold, so maybe it should be be split into two separate annotations, like in the left
+repetition is longer than the threshold, so maybe it should be split into two separate annotations, like in the left
 example. However, the average distance between repetitions is less than the threshold, so we could be justified in
 annotating it all as one, like on the right.  I chose to use the average distance and annotated like on the right-hand
 example. After all the threshold is arbitrary; if the second and third repetitions had occurred slightly earlier, there
