@@ -55,7 +55,7 @@ the congress or you wanted to try the practical again you can find it here:
 [Using AnalysisPrograms.exe](/tutorials/ap/practical).
 
 If you have any bug reports or feature requests for AnalysisPrograms.exe please
-see out GitHub repository: <https://github.com/QutEcoacoustics/audio-analysis/issues>
+see our GitHub repository: <https://github.com/QutEcoacoustics/audio-analysis/issues>
 
 ## Phil's Annotation Talk
 
