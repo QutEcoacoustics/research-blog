@@ -44,7 +44,7 @@ link on the project or site details pages on Ecosounds.
 
 At the congress we ran a workshop that introduced our _AnalysisPrograms.exe_ tool
 and taught participants how to use it. The practical component covered how to 
-download, set up, and run AP.exe and also covered generating acoustic indices and
+download, set up, and run AnalysisPrograms.exe and also covered generating acoustic indices and
 False-Color spectrograms. The workshop went well: we got great questions, 
 great feedback, a few bug-reports, and we were very happy with the turnout.
 
