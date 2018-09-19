@@ -1,8 +1,16 @@
 ---
 layout: content
-title: "Ecoacoustics"
-subtitle: "A newly emerged discipline or come of age?"
+title: "Ecoacoustics: A newly emerged discipline or come of age?"
+subtitle: "Ecoacoustics Congress 2018: Keynote"
 redirect_from: "/2018Congress/"
+author: michael
+page_image: /research/2018EcoacousticsCongress/Slides/Slide1.PNG
+excerpt: >
+  Michael presents his keynote from the 2018 Ecoacoustics Congress asking the 
+  question how long can we keep describing ecoacoustics as "new"? When does
+  ecoacoustics stop being "new" and "come of age"? 
+date: 2018-07-18
+tags: ["resource", "research"]
 ---
 <style>
  hr {
@@ -14,8 +22,6 @@ redirect_from: "/2018Congress/"
     background-color: #555;
  }
 </style>
-
-__by Michael Towsey__
 
 ## Preface
 {:.no_toc}

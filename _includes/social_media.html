@@ -1,32 +1,50 @@
 <style>
   .socialMedia {
-    line-height: 0.7em;
-    margin-top: -1.6em;
-    position: relative;
-    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 1em;
+    margin-bottom: -1.5em;
+    line-height: initial !important;
+    font: initial !important;
+  }
+  .socialMedia>div iframe {
+    line-height: initial !important;
+    font: initial !important;
+    line-height: unset !important;
+
+    zoom: 1;
+    transform: scale(1.0);
+
   }
   .socialMedia>div {
-    display: inline;
-    line-height: 0.7em;
+    /*height: 1em;*/
+    width: 60px;;
   }
 </style>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4&appId=376766849048992";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="socialMedia socialMedia-adjust text-right">
-  <div class="fb-share-button" 
-    data-href="{{ BASE_PATH }}{{ page.url }}" 
-    data-layout="button">Share
+<div class="socialMedia">
+  <div>
+    <div class="fb-share-button" 
+      data-href="{{ page.url | absolute_url }}" 
+      data-layout="button">Share
+    </div>
   </div>
   
   <div>
-    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-via="QUTEcosounds" data-show-count="false">
+        Tweet
+      </a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
 </div>

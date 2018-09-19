@@ -1,0 +1,12 @@
+{% assign empty_array = '' | split:',' %}
+{% assign author_names = page.author | concat:empty_array %}
+<div class="authors small">
+    <strong>by 
+    {% for author_name in author_names %}
+    {% assign author = site.data.authors[author_name] %}
+    <span>{{ author.display_name }}</span>{% if forloop.last == false %},{% endif %} 
+
+    {% endfor %}
+    </strong>
+    &nbsp;
+</div>

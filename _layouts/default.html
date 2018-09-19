@@ -122,7 +122,7 @@
 			color: inherit;
 		}
 		
-		.post-thumbnail	 {
+		.post-thumbnail, .page-thumbnail	 {
 			height: 128px;
 			width: 128px;
 			overflow: hidden;
@@ -133,6 +133,12 @@
 			height: 100%;
 			width: 100%;
 			object-fit: cover;
+			object-position: center;
+		}
+		.page-thumbnail>img {
+			height: 100%;
+			width: 100%;
+			object-fit: contain;
 			object-position: center;
 		}
     
@@ -183,16 +189,20 @@
                     </a>
                     <ul class='dropdown-menu' role='menu'>
                         <li>
-                            <a href="{{ site.url }}/">About</a>
+                            {{ site.pages['index.html'] }}
+                            <a href="{{ '/' | relative_url }}">About</a>
                         </li>
                         <li>
-                            <a href="{{ site.url }}/articles.html">Articles</a>
+                            <a href="{{ '/articles.html' | relative_url }}">Articles</a>
                         </li>
                         <li>
-                            <a href="{{ site.url }}/people/people.html">People</a>
+                            <a href="{{ '/resources.html' | relative_url }}">Resources</a>
                         </li>
                         <li>
-                            <a href="{{ site.url }}/publications/publications.html">Publications</a>
+                            <a href="{{ '/people/people.html' | relative_url }}">People</a>
+                        </li>
+                        <li>
+                            <a href="{{ '/publications/publications.html' | relative_url }}">Publications</a>
                         </li>
                     </ul>
                 </li>
@@ -236,7 +246,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="/js/anchor.min.js"></script>
-<script async type="text/javascript"  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+<script async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML' async></script>
 <script>
   // only add anchors to headings with ids
   var selector = 'h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]';

@@ -3,6 +3,15 @@ layout: content
 title: "Long-duration Audio-recordings of the Environment"
 subtitle: "Visualisation & Analysis"
 redirect_from: "/LDARE/"
+author: [michael, anthony, paul]
+page_image: /research/EADM-Towsey/Slides/Slide1.png
+excerpt: >
+    This presentation describes work being done in the Ecoacoustics laboratory 
+    at the Queensland University of Technology. An important part of our
+    research is the visualisation, navigation, and analysis of long-duration
+    recordings of the environment.
+date: 2016-04-04
+tags: ["resource", "research"]
 ---
 <style>
  hr {
@@ -14,8 +23,6 @@ redirect_from: "/LDARE/"
     background-color: #555;
  }
 </style>
-
-__by Michael Towsey, Anthony Truskinger, and Paul Roe__
 
 ## Preface
 {:.no_toc}
@@ -36,7 +43,7 @@ You can contact [Michael](http://staff.qut.edu.au/details?id=towsey) or our rese
 
 {% include figure.html src="Slides/Slide1.png" caption="Slide 1." %}
 
-This presentation describes work being done in the [Eco-acoustics Laboratory](http://research.ecosounds.org/) at the [Queensland University of Technology (QUT)](https://www.qut.edu.au/). An important part of our research is the visualisation, navigation, and analysis of long-duration recordings of the environment. Recordings of the environment help ecologists to monitor species diversity, endangered species, and the effects of climate change. It is fortunate that three major groups of vocal animals, birds, frogs, and insects, are also good indicators of environmental health. Acoustic recordings can therefore help in long term studies of environmental change, whether due to negative factors such as pollution, habitat loss, climate change, or due to positive factors such as conservation and restoration projects.
+This presentation describes work being done in the [Ecoacoustics Laboratory](http://research.ecosounds.org/) at the [Queensland University of Technology (QUT)](https://www.qut.edu.au/). An important part of our research is the visualisation, navigation, and analysis of long-duration recordings of the environment. Recordings of the environment help ecologists to monitor species diversity, endangered species, and the effects of climate change. It is fortunate that three major groups of vocal animals, birds, frogs, and insects, are also good indicators of environmental health. Acoustic recordings can therefore help in long term studies of environmental change, whether due to negative factors such as pollution, habitat loss, climate change, or due to positive factors such as conservation and restoration projects.
 
 The above image shows a sound recording unit attached to a tree in bushland at the Samford Ecological Research Facility (SERF), on the outskirts of Brisbane City. Most of our recordings are obtained using SM2/SM4 recording boxes manufactured by Wild Life Acoustics, Massachusetts (as in the above image) or BAR recording boxes manufactured by Frontier Laboratories, Brisbane. 
 

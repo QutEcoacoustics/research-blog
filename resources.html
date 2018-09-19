@@ -1,0 +1,61 @@
+---
+layout: default
+title: Ecosounds | Resources
+---
+
+<style>	
+	.pages {
+		font-size: 130%;
+	}
+
+    .media-body {
+        font-size: 80%;
+    }
+	
+</style>
+
+
+<div class="page-header">
+  <h1>Resources published by {{ site.name }}</h1>
+  <p>
+      A collection of tutorials, practicals, and lectures that we've published.
+  </p>
+</div>
+
+<div class="row">
+		<div class="col-md-12">
+			<div class="pages">  
+            {% assign resources = site.pages| sort: 'date' | reverse %}
+            {% for page in resources %}  
+                {% if page.tags contains "resource" %}
+				<ul class="media-list">
+					<div class="media-left">
+						<a href="{{ page.url | relative_url }}">
+							<div class="media-object img-thumbnail"> 
+								<div class="page-thumbnail"> 
+									<img class=""
+									src="{% if page.page_image %}{{ page.page_image | relative_url }}{% else %}/images/IMG_20130312_164234_128x128.jpg{% endif %}" alt="{{ page.title }}">
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="media-body">
+						<a class="unlink" href="{{ page.url | relative_url }}">
+                            <h3 class="media-heading">{{ page.title }}
+                                <small>
+                                    {{ page.subtitle}}
+                                </small>
+                            </h3>
+                            
+							<small class="text-muted">{{ page.date | date_to_string }}&nbsp;|&nbsp;{% for author in page.author %}{{ site.data.authors[author].display_name }}{% unless forloop.last %}, {% endunless %}{% endfor %}</small>
+							<p>
+								{{ page.excerpt | strip_html | truncatewords:100 }}
+							</p>
+						</a>
+					</div>
+                </ul>
+                {% endif %}
+			{% endfor %}  
+			</div>
+    </div>
+</div>

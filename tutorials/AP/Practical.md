@@ -3,6 +3,14 @@ layout: content
 title: "Using AnalysisPrograms.exe (Practical)"
 subtitle: "Ecoacoustics Congress 2018: Workshop 7"
 redirect_from: "/AP/"
+author: [anthony, michael]
+page_image: /tutorials/AP/media/releases.png
+excerpt: >
+  This practical will guide you through: downloading a copy of
+  AnalysisPrograms.exe, opening and using a terminal, calculating acoustic 
+  indices for your data, and running an acoustic event recognizer on your data.
+date: 2018-06-22
+tags: ["resource", "practical"]
 ---
 <style>
  hr {
@@ -112,9 +120,6 @@ document.onready = function() {
 {:macosx: .example .macosx-tab}
 *[AP.exe]: AnalysisPrograms.exe
 
-
-__Anthony Truskinger, Michael Towsey__
-
 ## Preface
 {:.no_toc}
 
@@ -127,7 +132,6 @@ This practical will guide you through:
 -   Opening and using a terminal
 -   Calculating acoustic Indices for your data
 -   Running an acoustic event recognizer on your data
-
 
 After the completion of this practical you can find more documentation and
 resources from our [documentation](https://github.com/QutEcoacoustics/audio-analysis/tree/master/docs#qut-ecoacoustics-analysisprogramsexe-manual)
