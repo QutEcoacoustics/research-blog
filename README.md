@@ -1,6 +1,6 @@
 # research.ecosounds.org (QutBioacoustics/research-blog)
 
-This is the backing respository for the <http://research.ecosounds.org> website.
+This is the backing respository for the <https://research.ecosounds.org> website.
 
 This repository is a Jekyll blog that is currently hosted by [Netlify](https://www.netlify.com/)
 
@@ -8,7 +8,7 @@ This repository is a Jekyll blog that is currently hosted by [Netlify](https://w
 If there is a problem with any of the content on the ecosounds website you can:
 
 - Submit an issue in this repo
-- Or [contact us](http://baw.ecosounds.org/contact_us) 
+- Or [contact us](https://www.ecosounds.org/contact_us) 
 
 # Conventions & Changes
 
