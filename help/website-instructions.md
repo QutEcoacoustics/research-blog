@@ -1,13 +1,11 @@
 ---
-layout: content
-title: Make Discoveries from Acoustic Recordings
+layout: help
+title: "Join #BristleWhistle and Find Bristlebird Calls!"
+author: jessie
+# If interested be sure and learn more about [this project](project-details.html), [our lab's work](about-ecosounds.html), 
+# and the [nature of acoustics](nature-of-sound.html).
 ---
 
-By Jessie Oliver
-
-Version 1.2
-
-## Contents
 {:.no_toc}
 
 - Will be replaced with the ToC, excluding the "Contents" header
@@ -284,8 +282,10 @@ Things we are also interested to know include:
 3. Do you have any different ideas on how to display acoustic recordings?
 4. Are you interested in being part of citizen science research about acoustics?
 
-Don’t be shy! Drop Jess Cappadonna a line at via the [contact us page](https://www.ecosounds.org/contact_us), [twitter](https://twitter.com/JessCappadonna), or direct email if you have it.
+Don’t be shy! Drop Jessie Oliver a line at via the [contact us page](https://www.ecosounds.org/contact_us), [twitter](https://twitter.com/JessieLOliver), or direct email if you have it.
 
 <p>
  &nbsp;
 </p>
+
+Version 1.3
