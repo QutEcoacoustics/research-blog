@@ -1,6 +1,6 @@
 ---
 layout: help
-title: "Join the Bristlebird Search & Help Design Citizen Science!"
+title: "Join #BristleWhisle to Find Bird Calls & Improve Citizen Science!"
 author: jessie
 # Include lines 1-3 and 5 (front matter) at top of each file) above is YAML files
 # to be added later as pages are developed:
@@ -26,20 +26,15 @@ author: jessie
   }
 </style>
 
-Version 3
-
-## Quick Find Links
 {:.no_toc}
-
-- Will be replaced with the ToC, excluding the "Quick Find Links" header
+- Will be replaced with the ToC
 {:toc}
-
-## Starting Your Sound Search!
 
 ------
 
 {% include figure.html src="./media/ebb_350x257.jpg" caption="Eastern Bristlebird (Photo by Jessie Oliver)" style="width:50%" %}
 
+## Starting Your Sound Search!
 To get started, you'll need an [account on Ecosounds](https://www.ecosounds.org/my_account/sign_up),
 and then [contact me](https://www.ecosounds.org/contact_us) to let me know you would like to help find Eastern bristlebirds and to
 obtain data spreadsheets. 
@@ -197,4 +192,4 @@ You can contact me, Jessie Oliver via the [contact us page](https://www.ecosound
 [twitter](https://twitter.com/JessieLOliver), or directly by email if already we've corresponded.
 
 **Thank you so much for your interest in helping to design acoustic citizen science and finding Eastern bristlebirds!**
-
+Version 3.1
