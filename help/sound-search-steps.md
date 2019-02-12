@@ -1,6 +1,6 @@
 ---
 layout: help
-title: "Join #BristleWhisle to Find Bird Calls & Improve Citizen Science!"
+title: "Join #BristleWhistle, Find Calls, & Improve Citizen Science!"
 author: jessie
 # Include lines 1-3 and 5 (front matter) at top of each file) above is YAML files
 # to be added later as pages are developed:
