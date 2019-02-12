@@ -26,7 +26,7 @@ title: "Join the Bristlebird Search & Help Design Citizen Science!"
 </style>
 
 
-By Jessie Cappadonna
+By Jessie Oliver
 
 Version 3
 
