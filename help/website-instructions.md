@@ -3,7 +3,7 @@ layout: content
 title: Make Discoveries from Acoustic Recordings
 ---
 
-By Jessie Cappadonna
+By Jessie Oliver
 
 Version 1.2
 
