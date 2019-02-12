@@ -2,6 +2,8 @@
 layout: help
 title: "Join #BristleWhistle and Find Bristlebird Calls!"
 author: jessie
+# Include lines 1-3 and 5 (front matter) at top of each file) above is YAML files
+# to be added later as pages are developed:
 # If interested be sure and learn more about [this project](project-details.html), [our lab's work](about-ecosounds.html), 
 # and the [nature of acoustics](nature-of-sound.html).
 ---
