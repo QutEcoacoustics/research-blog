@@ -26,9 +26,6 @@ author: jessie
   }
 </style>
 
-
-By Jessie Oliver
-
 Version 3
 
 ## Quick Find Links
