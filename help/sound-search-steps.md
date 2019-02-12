@@ -192,4 +192,5 @@ You can contact me, Jessie Oliver via the [contact us page](https://www.ecosound
 [twitter](https://twitter.com/JessieLOliver), or directly by email if already we've corresponded.
 
 **Thank you so much for your interest in helping to design acoustic citizen science and finding Eastern bristlebirds!**
+
 Version 3.1
