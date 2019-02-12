@@ -40,7 +40,7 @@ Version 3
 
 ------
 
-{% include figure.html src="./media/ebb_350x257.jpg" caption="Eastern Bristlebird (Photo by Jessie Cappadonna)" style="width:50%" %}
+{% include figure.html src="./media/ebb_350x257.jpg" caption="Eastern Bristlebird (Photo by Jessie Oliver)" style="width:50%" %}
 
 To get started, you'll need an [account on Ecosounds](https://www.ecosounds.org/my_account/sign_up),
 and then [contact me](https://www.ecosounds.org/contact_us) to let me know you would like to help find Eastern bristlebirds and to
@@ -195,8 +195,8 @@ leave the sifting to me!
 
 **If you have questions, feedback, or ideas for improvements drop me a line**!
 
-You can contact me, Jessie Cappadonna via the [contact us page](https://www.ecosounds.org/contact_us), 
-[twitter](https://twitter.com/JessCappadonna), or directly by email if already we've corresponded.
+You can contact me, Jessie Oliver via the [contact us page](https://www.ecosounds.org/contact_us), 
+[twitter](https://twitter.com/JessieLOliver), or directly by email if already we've corresponded.
 
 **Thank you so much for your interest in helping to design acoustic citizen science and finding Eastern bristlebirds!**
 
