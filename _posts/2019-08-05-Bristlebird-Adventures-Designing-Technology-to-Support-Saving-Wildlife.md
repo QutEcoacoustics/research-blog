@@ -10,7 +10,7 @@ Acoustic Technology by a Species Recovery
 Team](https://dl.acm.org/citation.cfm?id=3322360), demonstrates how technology design research can reveal new opportunities,
 barriers, and future needs for conservation technology. Having been presented at the
 [Designing Interactive Systems Conference](https://dis2019.com/) in June, we would like to share it with you, 
-as well as as bonus pictures, sweet serenades of bristlebirds, and more about my work with the team!
+as well as bonus pictures, sweet serenades of bristlebirds, and more about my work with the team!
 
 There is little doubt that plants, animals, and ecosystems are declining at an
 alarming rate, and conservationists are looking for technology to support their
