@@ -11,7 +11,8 @@
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ include.soundCloudTrack }}%3Fsecret_token%3D{{ include.soundCloudToken }}&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false">
         </iframe>{% else %}
         <div class="figure-audio-wrapper">
-            <audio style="width:100%" src="{{ include.src }}" alt="{{ include.caption }}" controls="controls">
+            <audio style="width:100%" src="{{ include.src }}"
+             alt="{{ include.caption }}" controls="controls" controlsList="nodownload">
                 Your browser does not support the <code>audio</code> element.
             </audio>
         </div>{% endif %}

@@ -20,7 +20,7 @@ author: jessie
     height: 400px;
   }  
 
-  input[type="checkbox] {
+  input[type="checkbox"] {
     margin-left: -2em;
     margin-right: 1em;
   }

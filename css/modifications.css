@@ -83,8 +83,13 @@ figure figcaption {
     margin: 5px auto;
 }
 
+.figure.full {
+    width: 99%;
+    margin: 5px auto;
+}
+
 .figure.third {
-    width: 33%;
+    width: 32%;
     margin: 5px auto;
 }
 
