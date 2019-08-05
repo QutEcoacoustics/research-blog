@@ -5,6 +5,12 @@ author: jessie
 post_image: /images/posts/DIS/zoestone.jpg
 post_image_height: 400px
 ---
+Our newest paper [Listening to Save Wildlife: Lessons Learnt from Use of
+Acoustic Technology by a Species Recovery
+Team](https://dl.acm.org/citation.cfm?id=3322360), demonstrates how technology design research can reveal new opportunities,
+barriers, and future needs for conservation technology. Having been presented at the
+[Designing Interactive Systems Conference](https://dis2019.com/) in June, we would like to share it with you, 
+as well as as bonus pictures, sweet serenades of bristlebirds, and more about my work with the team!
 
 There is little doubt that plants, animals, and ecosystems are declining at an
 alarming rate, and conservationists are looking for technology to support their
@@ -40,16 +46,9 @@ Are the data useful for conservation activities beyond simply finding the target
 * If so, what data analysis adaptations are needed? 
 It’s worth thinking of these types of questions well in advance.
 
-Our newest paper _[Listening to Save Wildlife: Lessons Learnt from Use of
-Acoustic Technology by a Species Recovery
-Team](https://dl.acm.org/citation.cfm?id=3322360)_, which was presented at the
-[Designing Interactive Systems Conference](https://dis2019.com/) this June,
-demonstrates how technology design research can reveal new opportunities,
-barriers, and future needs for conservation technology. Check out the paper to
-learn about the Eastern Bristlebird Recovery Team’s goals, conservation
-activities, invaluable knowledge, and interest in acoustics.
-
-The team taught me a huge amount about efforts to save bristlebirds. Visiting
+Check out the paper to learn about the Eastern Bristlebird Recovery Team’s goals, conservation
+activities, invaluable knowledge, and interest in acoustics, but even beyond that the team taught me 
+a huge amount about efforts to save bristlebirds. Visiting
 Currumbin Wildlife Sanctuary several times, I learned for myself just how tricky
 these feathered beauties are to see and photograph, even when captive! Can you
 spot them?
