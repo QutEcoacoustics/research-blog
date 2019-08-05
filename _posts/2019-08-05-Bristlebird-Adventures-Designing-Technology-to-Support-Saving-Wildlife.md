@@ -18,26 +18,27 @@ see
 [\#Tech4Wildlife](https://twitter.com/search?vertical=default&q=%23tech4wildlife&src=typd)
 and newer
 [\#Tech4Wild](https://twitter.com/search?q=%23tech4wild&src=typed_query)).
-
-{% include figure.html src="/images/posts/DIS/wildlabs_screenshot.png" caption="Wildlabs' website" class="full" %}
+{% include figure.html src="/images/posts/DIS/wildlabs_screenshot.png" caption="A [WildLabs.Net](https://www.wildlabs.net/) website screenshot" class="full" %}
 
 With the wonderfully burgeoning development of innovative conservation
 technologies has come new challenges. There is now an abundance of conservation
 technologies on the market that people can purchase, such as acoustic sensors
-and camera traps. These devices allow from massive amounts of data to be
+and camera traps. These devices allow for massive amounts of data to be
 collected at a low cost, with minimal disturbance to the animals. This is
 certainly great, but before running off to purchase these devices we need to
 have a solid plan for what the data should look like, and what happens to it once we
-have it. For example, it’s worthwhile to consider in advance, are people going
-to use any particular data and metadata standards to ensure that the data can be
-easily shared for broadscale use? What biological and technical expertise is
+have it. In advance of purchasing devices, questions such as following should be considered: 
+* Are people going to use any particular data and metadata standards to ensure that the data can be
+easily shared for broadscale use? 
+* What biological and technical expertise is
 required to analyse the data? Do the volumes of data collected require a
-particular technological infrastructure to manage? How is the data going to be
-used, analysed, and managed? Also, how can technologies to be used to support
-conservation beyond locating and quantifying sneaky species? Are the data useful
-for conservation activities beyond simply finding the target sneaky critters? If
-so, what data analysis adaptations are needed? It’s worth thinking of these
-types of questions well in advance.
+particular technological infrastructure to manage? 
+* How is the data going to be
+used, analysed, and managed? 
+* How can technologies be used to support conservation beyond locating and quantifying sneaky species? 
+Are the data useful for conservation activities beyond simply finding the target critters? 
+* If so, what data analysis adaptations are needed? 
+It’s worth thinking of these types of questions well in advance.
 
 Our newest paper _[Listening to Save Wildlife: Lessons Learnt from Use of
 Acoustic Technology by a Species Recovery
@@ -133,14 +134,12 @@ conservation more effectively.
 
 **Want more info?**
 
-If you have access to the ACM Digital Library, you can download the official
-publication [PDF HERE](https://dl.acm.org/citation.cfm?id=3322360), and
-otherwise, you can download the pre-published QUT ePrint version [PDF
-HERE](https://eprints.qut.edu.au/131198/). If you would like to follow my work,
+If you have access to the ACM Digital Library, you can download the [official
+publication](https://dl.acm.org/citation.cfm?id=3322360), and
+otherwise, you can download the [pre-published QUT ePrint version](https://eprints.qut.edu.au/131198/). If you would like to learn more about my work,
 you can find my publications on [Research
-Gate](https://www.researchgate.net/profile/Jessica_Oliver3) and feel free via
-[Twitter](https://twitter.com/JessieLOliver) if interested in following citizen
-science, wildlife, technology, and tech design happenings. Don’t hesitate to
+Gate](https://www.researchgate.net/profile/Jessica_Oliver3) and follow me on [Twitter](https://twitter.com/JessieLOliver) if interested in following citizen
+science, wildlife conservation, technology, and tech design happenings. Don’t hesitate to
 sing out if you have feedback or questions!
 
 **Acknowledgements**
