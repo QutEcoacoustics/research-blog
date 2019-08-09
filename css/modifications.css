@@ -50,6 +50,11 @@ body {
   font-size: 133%;
   text-align: justify;
 }
+
+.post h1 {
+  text-align: left;
+}
+
 .content {
   font-size: 114.2857142857143%;
   text-align: justify;

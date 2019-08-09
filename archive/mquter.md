@@ -20,7 +20,7 @@ _The Acoustic Workbench_.
 ## Old software
  
 We have an archived, non functional, copy of the code privately hosted at 
-<https://github.com/QutBioacoustics/old-mquter-general>. The code was propietry 
+<https://github.com/QutBioacoustics/old-mquter-general>. The code was proprietary 
 and probably will not be shared.
 
 We have some resources from the old site still available, like screenshots of

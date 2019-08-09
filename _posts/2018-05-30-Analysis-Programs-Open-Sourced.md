@@ -68,4 +68,4 @@ fixes in the backlog.
 We’re keen to gather feedback. If you have any issues using our software you can
 file an [issue](https://github.com/QutEcoacoustics/audio-analysis/issues) or
 contact us on Twitter (either [@atruskie](https://twitter.com/atruskie) or
-[@QUTEcosounds](https://twitter.com/qutecosounds)).
+[@QUTEcoacoustics](https://twitter.com/QUTEcoacoustics)).
