@@ -47,7 +47,7 @@ We suggest that it is still a good default for most use cases:
 
 ## What about the effect on data?
 
-For acoustic event recognition, typically only oundary effects are 
+For acoustic event recognition, typically only boundary effects are 
 affected by chunk-size choice.
 That is, if an acoustic event occurs and is clipped by
 by either the start or end of the one-minute chunk, then it is now only a "partial vocalisation".
