@@ -120,6 +120,16 @@ document.onready = function() {
 {:macosx: .example .macosx-tab}
 *[AP.exe]: AnalysisPrograms.exe
 
+<div class="alert alert-danger" role="alert">
+  <strong>This tutorial is out if date.
+    <br> 
+    Please refer to the newer version at 
+    <a href="https://ap.qut.ecoacoustics.info/tutorials/01-usingap/practical?tabs=windows">https://ap.qut.ecoacoustics.info/tutorials/01-usingap/practical</a> 
+    or to our documentation in general at 
+    <a href="https://ap.qut.ecoacoustics.info/">https://ap.qut.ecoacoustics.info/</a>
+  </strong>
+</div>
+
 ## Preface
 {:.no_toc}
 
